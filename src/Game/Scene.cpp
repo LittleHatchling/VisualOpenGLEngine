@@ -59,11 +59,10 @@ bool Scene::init()
 		glFrontFace(GL_CCW);
 		glCullFace(GL_BACK);
 
-		cubeTransform.rotate(glm::vec3(
-			glm::radians(30.0f),
-			glm::radians(40.0),
-			0.0
-		));
+		glEnable(GL_DEPTH_TEST);
+		glDepthFunc(GL_GREATER);
+		glClearDepth(0.0);
+
 
         std::cout << "Scene initialization done\n";
         return true;
@@ -77,12 +76,12 @@ bool Scene::init()
 void Scene::render(float dt)
 {
 
-
-	/*
-    * ************
-    * Place your code here!
-    * ************
-    */
+	glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
+	cubeTransform.rotate(glm::vec3(
+		0.0f,
+		dt * 1.5f,
+		dt * 0.8f
+	));
 	m_shader->use();
 	glBindVertexArray(vaoID);
 	m_shader->setUniform("transformMatrix", cubeTransform.getMatrix(), false);
