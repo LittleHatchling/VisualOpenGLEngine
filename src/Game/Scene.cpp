@@ -2,13 +2,15 @@
 #include <AssetManager.h>
 #include "Cube.h"
 #include "Framework/SceneElements/Transform.h"
+
 #include <glm/gtc/constants.hpp>
 #include <glm/gtc/matrix_transform.hpp>
+#include <cmath>
 
-Scene::Scene(OpenGLWindow * window) :
-	m_window(window)
+Scene::Scene(OpenGLWindow * window)
+    : m_window(window)
 {
-	assert(window != nullptr);
+    assert(window != nullptr);
 }
 
 Scene::~Scene()
@@ -16,148 +18,158 @@ Scene::~Scene()
 
 bool Scene::init()
 {
-	try
-	{
-		//Load shader
-		m_assets.addShaderProgram("shader", AssetManager::createShaderProgram("assets/shaders/vertex.glsl", "assets/shaders/fragment.glsl"));
-		m_shader = m_assets.getShaderProgram("shader");
+    try
+    {
+        // Shader
+        m_assets.addShaderProgram(
+            "shader",
+            AssetManager::createShaderProgram(
+                "assets/shaders/vertex.glsl",
+                "assets/shaders/fragment.glsl"
+            )
+        );
+
+        m_shader = m_assets.getShaderProgram("shader");
         m_shader->use();
 
+        // -------------------------
+        // GPU SETUP
+        // -------------------------
+        glGenBuffers(1, &vboID);
+        glBindBuffer(GL_ARRAY_BUFFER, vboID);
+        glBufferData(GL_ARRAY_BUFFER, sizeof(cubeVert), cubeVert, GL_STATIC_DRAW);
 
+        glGenVertexArrays(1, &vaoID);
+        glBindVertexArray(vaoID);
 
-		/*
-		 * ************
-		 * Place your code here!
-		 * ************
-		 */
+        glVertexAttribPointer(0, 3, GL_FLOAT, GL_FALSE, 6 * sizeof(float), (void*)0);
+        glEnableVertexAttribArray(0);
 
-		//intializing the data and sending to the GPU memory
-		glGenBuffers(1, &vboID);
-		glBindBuffer(GL_ARRAY_BUFFER, vboID);
-		glBufferData(GL_ARRAY_BUFFER, sizeof(cubeVert), cubeVert, GL_STATIC_DRAW);
+        glVertexAttribPointer(1, 3, GL_FLOAT, GL_FALSE, 6 * sizeof(float), (void*)(3 * sizeof(float)));
+        glEnableVertexAttribArray(1);
 
-		// Now we gonna create the VOA which tells the OGL how to understand that data
-		glGenVertexArrays(1, &vaoID);
-		glBindVertexArray(vaoID);
+        glGenBuffers(1, &ibo);
+        glBindBuffer(GL_ELEMENT_ARRAY_BUFFER, ibo);
+        glBufferData(GL_ELEMENT_ARRAY_BUFFER, sizeof(cubeInd), cubeInd, GL_STATIC_DRAW);
 
-		//postion attribute
-		glVertexAttribPointer(0, 3, GL_FLOAT, GL_FALSE, 6 * sizeof(float), (void*)0);
-		glEnableVertexAttribArray(0);
+        // -------------------------
+        // RENDER SETTINGS
+        // -------------------------
+        glEnable(GL_CULL_FACE);
+        glFrontFace(GL_CCW);
+        glCullFace(GL_BACK);
 
-		//color attribute
-		glVertexAttribPointer(1, 3, GL_FLOAT, GL_FALSE, 6 * sizeof(float), (void*)(3*sizeof(float)));
-		glEnableVertexAttribArray(1);
+        glEnable(GL_DEPTH_TEST);
+        glDepthFunc(GL_GREATER);
+        glClearDepth(0.0);
 
-		//ok we finally gonna try to render stuff using indices to make triangles, basically just making it ready in memory
-		//uses indices data, sends it to gpu
-		//index buffer, stores which vertices form triangles
-		glGenBuffers(1, &ibo);
-		glBindBuffer(GL_ELEMENT_ARRAY_BUFFER, ibo);
-		glBufferData(GL_ELEMENT_ARRAY_BUFFER, sizeof(cubeInd), cubeInd, GL_STATIC_DRAW);
+        // -------------------------
+        // ROBOT BASE POSE
+        // -------------------------
+        float s = 0.5f;
+        float zScale = 0.8f;
 
-		glEnable(GL_CULL_FACE);
-		glFrontFace(GL_CCW);
-		glCullFace(GL_BACK);
+        torso.scale(glm::vec3(s, s * 1.5f, s * 0.5f));
 
-		glEnable(GL_DEPTH_TEST);
-		glDepthFunc(GL_GREATER);
-		glClearDepth(0.0);
+        head.translate(glm::vec3(0.0f, 0.78f, 0.0f));
+        head.scale(glm::vec3(0.7f));
 
-		float s = 0.5f;
-		float localChildScaleZ = 0.8f;
+        leftArm.translate(glm::vec3(-0.75f, 0.1f, 0.0f));
+        leftArm.scale(glm::vec3(0.3f, 0.8f, zScale));
 
-		// Torso (root)
-		torso.scale(glm::vec3(s, s * 1.5f, s * 0.5f));
-		torso.translate(glm::vec3(0.0f, 0.0f, 0.0f));
+        rightArm.translate(glm::vec3(0.75f, 0.1f, 0.0f));
+        rightArm.scale(glm::vec3(0.4f, 0.8f, zScale));
 
-		// Head
-		head.translate(glm::vec3(0.0f, 0.78f, 0.0f));
-		head.scale(glm::vec3(0.7f));
+        leftLeg.translate(glm::vec3(-0.3f, -0.95f, 0.0f));
+        leftLeg.scale(glm::vec3(0.4f, 0.9f, zScale));
 
-		// Arms
-		leftArm.translate(glm::vec3(-0.75f, 0.09f, 0.0f));
-		leftArm.scale(glm::vec3(0.4f, 0.8f, localChildScaleZ));
-
-		rightArm.translate(glm::vec3(0.75f, 0.09f, 0.0f));
-		rightArm.scale(glm::vec3(0.4f, 0.8f, localChildScaleZ));
-
-		// Legs
-		leftLeg.translate(glm::vec3(-0.3f, -0.95f, 0.0f));
-		leftLeg.scale(glm::vec3(0.4f, 0.9f, localChildScaleZ));
-
-		rightLeg.translate(glm::vec3(0.3f, -0.95f, 0.0f));
-		rightLeg.scale(glm::vec3(0.4f, 0.9f, localChildScaleZ));
-
-
+        rightLeg.translate(glm::vec3(0.3f, -0.95f, 0.0f));
+        rightLeg.scale(glm::vec3(0.4f, 0.9f, zScale));
 
         std::cout << "Scene initialization done\n";
         return true;
-	}
-	catch (std::exception& ex)
-	{
-	    throw std::logic_error("Scene initialization failed:\n" + std::string(ex.what()) + "\n");
-	}
+    }
+    catch (std::exception& ex)
+    {
+        throw std::logic_error("Scene initialization failed:\n" + std::string(ex.what()));
+    }
 }
 
 void Scene::render(float dt)
 {
-	glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
+    glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
 
-	m_shader->use();
-	glBindVertexArray(vaoID);
+    m_shader->use();
+    glBindVertexArray(vaoID);
 
-	// ---------------------------
-	// ROOT: TORSO
-	// ---------------------------
-	glm::mat4 torsoM = torso.getMatrix();
+    float swing = sin(time * 3.0f) * 0.5f;
+    float legSwing = sin(time * 3.0f) * 0.6f;
 
-	m_shader->setUniform("transformMatrix", torsoM, false);
-	glDrawElements(GL_TRIANGLES, 36, GL_UNSIGNED_INT, 0);
+    // -------------------------
+    // ROOT
+    // -------------------------
+    Transform torsoRotation;
+    torsoRotation.setRotation(glm::angleAxis(time, glm::vec3(0.0f, 1.0f, 0.0f)));
 
-	// ---------------------------
-	// HEAD (child of torso)
-	// ---------------------------
-	glm::mat4 headM = torsoM * head.getMatrix();
+    glm::mat4 torsoM = torso.getMatrix() * torsoRotation.getMatrix();
 
-	m_shader->setUniform("transformMatrix", headM, false);
-	glDrawElements(GL_TRIANGLES, 36, GL_UNSIGNED_INT, 0);
+    m_shader->setUniform("transformMatrix", torsoM, false);
+    glDrawElements(GL_TRIANGLES, 36, GL_UNSIGNED_INT, 0);
 
-	// ---------------------------
-	// LEFT ARM (child of torso)
-	// ---------------------------
-	glm::mat4 leftArmM = torsoM * leftArm.getMatrix();
+    // -------------------------
+    // HEAD
+    // -------------------------
+    glm::mat4 headM = torsoM * head.getMatrix();
+    m_shader->setUniform("transformMatrix", headM, false);
+    glDrawElements(GL_TRIANGLES, 36, GL_UNSIGNED_INT, 0);
 
-	m_shader->setUniform("transformMatrix", leftArmM, false);
-	glDrawElements(GL_TRIANGLES, 36, GL_UNSIGNED_INT, 0);
+    // -------------------------
+    // LEFT ARM
+    // -------------------------
+    Transform leftArmAnim = leftArm;
+    leftArmAnim.rotateAroundPoint(glm::vec3(0.0f, 0.4f, 0.0f), glm::angleAxis(swing, glm::vec3(1.0f, 0.0f, 0.0f)));
 
-	// ---------------------------
-	// RIGHT ARM
-	// ---------------------------
-	glm::mat4 rightArmM = torsoM * rightArm.getMatrix();
+    glm::mat4 leftArmM = torsoM * leftArmAnim.getMatrix();
+    m_shader->setUniform("transformMatrix", leftArmM, false);
+    glDrawElements(GL_TRIANGLES, 36, GL_UNSIGNED_INT, 0);
 
-	m_shader->setUniform("transformMatrix", rightArmM, false);
-	glDrawElements(GL_TRIANGLES, 36, GL_UNSIGNED_INT, 0);
+    // -------------------------
+    // RIGHT ARM
+    // -------------------------
+    Transform rightArmAnim = rightArm;
+    rightArmAnim.rotateAroundPoint(glm::vec3(0.0f, 0.4f, 0.0f), glm::angleAxis(-swing, glm::vec3(1.0f, 0.0f, 0.0f)));
 
-	// ---------------------------
-	// LEFT LEG
-	// ---------------------------
-	glm::mat4 leftLegM = torsoM * leftLeg.getMatrix();
+    glm::mat4 rightArmM = torsoM * rightArmAnim.getMatrix();
+    m_shader->setUniform("transformMatrix", rightArmM, false);
+    glDrawElements(GL_TRIANGLES, 36, GL_UNSIGNED_INT, 0);
 
-	m_shader->setUniform("transformMatrix", leftLegM, false);
-	glDrawElements(GL_TRIANGLES, 36, GL_UNSIGNED_INT, 0);
+    // -------------------------
+    // LEFT LEG
+    // -------------------------
+    Transform leftLegAnim = leftLeg;
+    leftLegAnim.rotateAroundPoint(glm::vec3(0.0f, 0.45f, 0.0f), glm::angleAxis(-legSwing, glm::vec3(1.0f, 0.0f, 0.0f)));
 
-	// ---------------------------
-	// RIGHT LEG
-	// ---------------------------
-	glm::mat4 rightLegM = torsoM * rightLeg.getMatrix();
+    glm::mat4 leftLegM = torsoM * leftLegAnim.getMatrix();
+    m_shader->setUniform("transformMatrix", leftLegM, false);
+    glDrawElements(GL_TRIANGLES, 36, GL_UNSIGNED_INT, 0);
 
-	m_shader->setUniform("transformMatrix", rightLegM, false);
-	glDrawElements(GL_TRIANGLES, 36, GL_UNSIGNED_INT, 0);
+    // -------------------------
+    // RIGHT LEG
+    // -------------------------
+    Transform rightLegAnim = rightLeg;
+    rightLegAnim.rotateAroundPoint(glm::vec3(0.0f, 0.45f, 0.0f), glm::angleAxis(legSwing, glm::vec3(1.0f, 0.0f, 0.0f)));
+
+    glm::mat4 rightLegM = torsoM * rightLegAnim.getMatrix();
+    m_shader->setUniform("transformMatrix", rightLegM, false);
+    glDrawElements(GL_TRIANGLES, 36, GL_UNSIGNED_INT, 0);
 }
 
 void Scene::update(float dt)
 {
-	torso.rotate(glm::vec3(0.0f, dt, 0.0f));
+    time += dt;
+
+    // IMPORTANT: removed torso.rotate()
+    // because it causes long-term transform distortion in scene graphs
 }
 
 OpenGLWindow * Scene::getWindow()

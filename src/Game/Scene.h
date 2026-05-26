@@ -38,6 +38,13 @@ private:
 	Transform rightArm;
 	Transform leftLeg;
 	Transform rightLeg;
+	float time = 0.0f;
+	Transform baseLeftArm;
+	Transform baseRightArm;
+	Transform baseLeftLeg;
+	Transform baseRightLeg;
+
+
 
 };
 
