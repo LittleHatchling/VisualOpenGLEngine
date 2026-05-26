@@ -32,6 +32,12 @@ private:
 	glm::vec2 cameraPos;
 	float cameraSpeed = 0.01f;
 	Transform cubeTransform;
+	Transform torso;
+	Transform head;
+	Transform leftArm;
+	Transform rightArm;
+	Transform leftLeg;
+	Transform rightLeg;
 
 };
 

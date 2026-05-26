@@ -63,6 +63,30 @@ bool Scene::init()
 		glDepthFunc(GL_GREATER);
 		glClearDepth(0.0);
 
+		float s = 0.5f;
+
+		// Torso (root)
+		torso.scale(glm::vec3(s, s * 1.5f, s * 0.5f));
+
+		// Head
+		head.translate(glm::vec3(0.0f, 1.2f * s, 0.0f));
+		head.scale(glm::vec3(s * 0.5f));
+
+		// Arms
+		leftArm.translate(glm::vec3(-0.8f * s, 0.2f * s, 0.0f));
+		rightArm.translate(glm::vec3(0.8f * s, 0.2f * s, 0.0f));
+
+		leftArm.scale(glm::vec3(s * 0.4f, s, s * 0.4f));
+		rightArm.scale(glm::vec3(s * 0.4f, s, s * 0.4f));
+
+		// Legs
+		leftLeg.translate(glm::vec3(-0.3f * s, -1.5f * s, 0.0f));
+		rightLeg.translate(glm::vec3(0.3f * s, -1.5f * s, 0.0f));
+
+		leftLeg.scale(glm::vec3(s * 0.4f, s * 1.2f, s * 0.4f));
+		rightLeg.scale(glm::vec3(s * 0.4f, s * 1.2f, s * 0.4f));
+
+
 
         std::cout << "Scene initialization done\n";
         return true;
@@ -77,15 +101,32 @@ void Scene::render(float dt)
 {
 
 	glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
-	cubeTransform.rotate(glm::vec3(
-		0.0f,
-		dt * 1.5f,
-		dt * 0.8f
-	));
+
 	m_shader->use();
 	glBindVertexArray(vaoID);
-	m_shader->setUniform("transformMatrix", cubeTransform.getMatrix(), false);
-	glDrawElements(GL_TRIANGLES, sizeof(cubeInd) / sizeof(int), GL_UNSIGNED_INT, 0);
+
+	// -----------------------
+	// DRAW ROBOT
+	// -----------------------
+
+	m_shader->setUniform("transformMatrix", torso.getMatrix(), false);
+	glDrawElements(GL_TRIANGLES, 36, GL_UNSIGNED_INT, 0);
+
+	m_shader->setUniform("transformMatrix", head.getMatrix(), false);
+	glDrawElements(GL_TRIANGLES, 36, GL_UNSIGNED_INT, 0);
+
+	m_shader->setUniform("transformMatrix", leftArm.getMatrix(), false);
+	glDrawElements(GL_TRIANGLES, 36, GL_UNSIGNED_INT, 0);
+
+	m_shader->setUniform("transformMatrix", rightArm.getMatrix(), false);
+	glDrawElements(GL_TRIANGLES, 36, GL_UNSIGNED_INT, 0);
+
+	m_shader->setUniform("transformMatrix", leftLeg.getMatrix(), false);
+	glDrawElements(GL_TRIANGLES, 36, GL_UNSIGNED_INT, 0);
+
+	m_shader->setUniform("transformMatrix", rightLeg.getMatrix(), false);
+	glDrawElements(GL_TRIANGLES, 36, GL_UNSIGNED_INT, 0);
+
 
 
 
