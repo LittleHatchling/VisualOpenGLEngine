@@ -64,27 +64,29 @@ bool Scene::init()
 		glClearDepth(0.0);
 
 		float s = 0.5f;
+		float localChildScaleZ = 0.8f;
 
 		// Torso (root)
 		torso.scale(glm::vec3(s, s * 1.5f, s * 0.5f));
+		torso.translate(glm::vec3(0.0f, 0.0f, 0.0f));
 
 		// Head
-		head.translate(glm::vec3(0.0f, 1.2f * s, 0.0f));
-		head.scale(glm::vec3(s * 0.5f));
+		head.translate(glm::vec3(0.0f, 0.78f, 0.0f));
+		head.scale(glm::vec3(0.7f));
 
 		// Arms
-		leftArm.translate(glm::vec3(-0.8f * s, 0.2f * s, 0.0f));
-		rightArm.translate(glm::vec3(0.8f * s, 0.2f * s, 0.0f));
+		leftArm.translate(glm::vec3(-0.75f, 0.09f, 0.0f));
+		leftArm.scale(glm::vec3(0.4f, 0.8f, localChildScaleZ));
 
-		leftArm.scale(glm::vec3(s * 0.4f, s, s * 0.4f));
-		rightArm.scale(glm::vec3(s * 0.4f, s, s * 0.4f));
+		rightArm.translate(glm::vec3(0.75f, 0.09f, 0.0f));
+		rightArm.scale(glm::vec3(0.4f, 0.8f, localChildScaleZ));
 
 		// Legs
-		leftLeg.translate(glm::vec3(-0.3f * s, -1.5f * s, 0.0f));
-		rightLeg.translate(glm::vec3(0.3f * s, -1.5f * s, 0.0f));
+		leftLeg.translate(glm::vec3(-0.3f, -0.95f, 0.0f));
+		leftLeg.scale(glm::vec3(0.4f, 0.9f, localChildScaleZ));
 
-		leftLeg.scale(glm::vec3(s * 0.4f, s * 1.2f, s * 0.4f));
-		rightLeg.scale(glm::vec3(s * 0.4f, s * 1.2f, s * 0.4f));
+		rightLeg.translate(glm::vec3(0.3f, -0.95f, 0.0f));
+		rightLeg.scale(glm::vec3(0.4f, 0.9f, localChildScaleZ));
 
 
 
