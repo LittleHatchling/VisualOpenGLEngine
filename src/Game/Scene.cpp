@@ -99,42 +99,63 @@ bool Scene::init()
 
 void Scene::render(float dt)
 {
-
 	glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
 
 	m_shader->use();
 	glBindVertexArray(vaoID);
 
-	// -----------------------
-	// DRAW ROBOT
-	// -----------------------
+	// ---------------------------
+	// ROOT: TORSO
+	// ---------------------------
+	glm::mat4 torsoM = torso.getMatrix();
 
-	m_shader->setUniform("transformMatrix", torso.getMatrix(), false);
+	m_shader->setUniform("transformMatrix", torsoM, false);
 	glDrawElements(GL_TRIANGLES, 36, GL_UNSIGNED_INT, 0);
 
-	m_shader->setUniform("transformMatrix", head.getMatrix(), false);
+	// ---------------------------
+	// HEAD (child of torso)
+	// ---------------------------
+	glm::mat4 headM = torsoM * head.getMatrix();
+
+	m_shader->setUniform("transformMatrix", headM, false);
 	glDrawElements(GL_TRIANGLES, 36, GL_UNSIGNED_INT, 0);
 
-	m_shader->setUniform("transformMatrix", leftArm.getMatrix(), false);
+	// ---------------------------
+	// LEFT ARM (child of torso)
+	// ---------------------------
+	glm::mat4 leftArmM = torsoM * leftArm.getMatrix();
+
+	m_shader->setUniform("transformMatrix", leftArmM, false);
 	glDrawElements(GL_TRIANGLES, 36, GL_UNSIGNED_INT, 0);
 
-	m_shader->setUniform("transformMatrix", rightArm.getMatrix(), false);
+	// ---------------------------
+	// RIGHT ARM
+	// ---------------------------
+	glm::mat4 rightArmM = torsoM * rightArm.getMatrix();
+
+	m_shader->setUniform("transformMatrix", rightArmM, false);
 	glDrawElements(GL_TRIANGLES, 36, GL_UNSIGNED_INT, 0);
 
-	m_shader->setUniform("transformMatrix", leftLeg.getMatrix(), false);
+	// ---------------------------
+	// LEFT LEG
+	// ---------------------------
+	glm::mat4 leftLegM = torsoM * leftLeg.getMatrix();
+
+	m_shader->setUniform("transformMatrix", leftLegM, false);
 	glDrawElements(GL_TRIANGLES, 36, GL_UNSIGNED_INT, 0);
 
-	m_shader->setUniform("transformMatrix", rightLeg.getMatrix(), false);
+	// ---------------------------
+	// RIGHT LEG
+	// ---------------------------
+	glm::mat4 rightLegM = torsoM * rightLeg.getMatrix();
+
+	m_shader->setUniform("transformMatrix", rightLegM, false);
 	glDrawElements(GL_TRIANGLES, 36, GL_UNSIGNED_INT, 0);
-
-
-
-
 }
 
 void Scene::update(float dt)
 {
-
+	torso.rotate(glm::vec3(0.0f, dt, 0.0f));
 }
 
 OpenGLWindow * Scene::getWindow()
