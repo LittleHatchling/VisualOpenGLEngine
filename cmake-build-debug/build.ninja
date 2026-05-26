@@ -39,7 +39,7 @@ include CMakeFiles/rules.ninja
 #############################################
 # Logical path to working directory; prefix for absolute paths.
 
-cmake_ninja_workdir = C$:/Users/testy/Desktop/UNI-Stuff/Visual$ computing/OpenGL_Praktikum_Linux_MacOS_fix_cmake_3.5/OpenGL_Praktikum/cmake-build-debug/
+cmake_ninja_workdir = C$:/Users/testy/Desktop/UNI-Stuff/Visual$ computing/GIt$ Version/VisualOpenGLEngine/cmake-build-debug/
 # =============================================================================
 # Object build statements for EXECUTABLE target OpenGL_Praktikum
 
@@ -49,83 +49,83 @@ cmake_ninja_workdir = C$:/Users/testy/Desktop/UNI-Stuff/Visual$ computing/OpenGL
 
 build cmake_object_order_depends_target_OpenGL_Praktikum: phony || cmake_object_order_depends_target_glew_s cmake_object_order_depends_target_glfw cmake_object_order_depends_target_stb
 
-build CMakeFiles/OpenGL_Praktikum.dir/src/main.cpp.obj: CXX_COMPILER__OpenGL_Praktikum_unscanned_Debug C$:/Users/testy/Desktop/UNI-Stuff/Visual$ computing/OpenGL_Praktikum_Linux_MacOS_fix_cmake_3.5/OpenGL_Praktikum/src/main.cpp || cmake_object_order_depends_target_OpenGL_Praktikum
+build CMakeFiles/OpenGL_Praktikum.dir/src/main.cpp.obj: CXX_COMPILER__OpenGL_Praktikum_unscanned_Debug C$:/Users/testy/Desktop/UNI-Stuff/Visual$ computing/GIt$ Version/VisualOpenGLEngine/src/main.cpp || cmake_object_order_depends_target_OpenGL_Praktikum
   DEFINES = -DGLEW_STATIC
   DEP_FILE = CMakeFiles\OpenGL_Praktikum.dir\src\main.cpp.obj.d
   FLAGS = -g -std=gnu++11 -fdiagnostics-color=always
-  INCLUDES = -I"C:/Users/testy/Desktop/UNI-Stuff/Visual computing/OpenGL_Praktikum_Linux_MacOS_fix_cmake_3.5/OpenGL_Praktikum/src" -I"C:/Users/testy/Desktop/UNI-Stuff/Visual computing/OpenGL_Praktikum_Linux_MacOS_fix_cmake_3.5/OpenGL_Praktikum/src/Framework/Assets" -I"C:/Users/testy/Desktop/UNI-Stuff/Visual computing/OpenGL_Praktikum_Linux_MacOS_fix_cmake_3.5/OpenGL_Praktikum/src/Framework/SceneElements" -I"C:/Users/testy/Desktop/UNI-Stuff/Visual computing/OpenGL_Praktikum_Linux_MacOS_fix_cmake_3.5/OpenGL_Praktikum/src/Game" -I"C:/Users/testy/Desktop/UNI-Stuff/Visual computing/OpenGL_Praktikum_Linux_MacOS_fix_cmake_3.5/OpenGL_Praktikum/framework" -I"C:/Users/testy/Desktop/UNI-Stuff/Visual computing/OpenGL_Praktikum_Linux_MacOS_fix_cmake_3.5/OpenGL_Praktikum/libs/glfw-3.2.1/include" -I"C:/Users/testy/Desktop/UNI-Stuff/Visual computing/OpenGL_Praktikum_Linux_MacOS_fix_cmake_3.5/OpenGL_Praktikum/libs/glew-2.1.0/include" -I"C:/Users/testy/Desktop/UNI-Stuff/Visual computing/OpenGL_Praktikum_Linux_MacOS_fix_cmake_3.5/OpenGL_Praktikum/libs/glew-2.1.0/include/GL" -I"C:/Users/testy/Desktop/UNI-Stuff/Visual computing/OpenGL_Praktikum_Linux_MacOS_fix_cmake_3.5/OpenGL_Praktikum/libs/glm-master" -I"C:/Users/testy/Desktop/UNI-Stuff/Visual computing/OpenGL_Praktikum_Linux_MacOS_fix_cmake_3.5/OpenGL_Praktikum/libs/stb"
+  INCLUDES = -I"C:/Users/testy/Desktop/UNI-Stuff/Visual computing/GIt Version/VisualOpenGLEngine/src" -I"C:/Users/testy/Desktop/UNI-Stuff/Visual computing/GIt Version/VisualOpenGLEngine/src/Framework/Assets" -I"C:/Users/testy/Desktop/UNI-Stuff/Visual computing/GIt Version/VisualOpenGLEngine/src/Framework/SceneElements" -I"C:/Users/testy/Desktop/UNI-Stuff/Visual computing/GIt Version/VisualOpenGLEngine/src/Game" -I"C:/Users/testy/Desktop/UNI-Stuff/Visual computing/GIt Version/VisualOpenGLEngine/framework" -I"C:/Users/testy/Desktop/UNI-Stuff/Visual computing/GIt Version/VisualOpenGLEngine/libs/glfw-3.2.1/include" -I"C:/Users/testy/Desktop/UNI-Stuff/Visual computing/GIt Version/VisualOpenGLEngine/libs/glew-2.1.0/include" -I"C:/Users/testy/Desktop/UNI-Stuff/Visual computing/GIt Version/VisualOpenGLEngine/libs/glew-2.1.0/include/GL" -I"C:/Users/testy/Desktop/UNI-Stuff/Visual computing/GIt Version/VisualOpenGLEngine/libs/glm-master" -I"C:/Users/testy/Desktop/UNI-Stuff/Visual computing/GIt Version/VisualOpenGLEngine/libs/stb"
   OBJECT_DIR = CMakeFiles\OpenGL_Praktikum.dir
   OBJECT_FILE_DIR = CMakeFiles\OpenGL_Praktikum.dir\src
 
-build CMakeFiles/OpenGL_Praktikum.dir/src/Framework/Assets/AssetManager.cpp.obj: CXX_COMPILER__OpenGL_Praktikum_unscanned_Debug C$:/Users/testy/Desktop/UNI-Stuff/Visual$ computing/OpenGL_Praktikum_Linux_MacOS_fix_cmake_3.5/OpenGL_Praktikum/src/Framework/Assets/AssetManager.cpp || cmake_object_order_depends_target_OpenGL_Praktikum
+build CMakeFiles/OpenGL_Praktikum.dir/src/Framework/Assets/AssetManager.cpp.obj: CXX_COMPILER__OpenGL_Praktikum_unscanned_Debug C$:/Users/testy/Desktop/UNI-Stuff/Visual$ computing/GIt$ Version/VisualOpenGLEngine/src/Framework/Assets/AssetManager.cpp || cmake_object_order_depends_target_OpenGL_Praktikum
   DEFINES = -DGLEW_STATIC
   DEP_FILE = CMakeFiles\OpenGL_Praktikum.dir\src\Framework\Assets\AssetManager.cpp.obj.d
   FLAGS = -g -std=gnu++11 -fdiagnostics-color=always
-  INCLUDES = -I"C:/Users/testy/Desktop/UNI-Stuff/Visual computing/OpenGL_Praktikum_Linux_MacOS_fix_cmake_3.5/OpenGL_Praktikum/src" -I"C:/Users/testy/Desktop/UNI-Stuff/Visual computing/OpenGL_Praktikum_Linux_MacOS_fix_cmake_3.5/OpenGL_Praktikum/src/Framework/Assets" -I"C:/Users/testy/Desktop/UNI-Stuff/Visual computing/OpenGL_Praktikum_Linux_MacOS_fix_cmake_3.5/OpenGL_Praktikum/src/Framework/SceneElements" -I"C:/Users/testy/Desktop/UNI-Stuff/Visual computing/OpenGL_Praktikum_Linux_MacOS_fix_cmake_3.5/OpenGL_Praktikum/src/Game" -I"C:/Users/testy/Desktop/UNI-Stuff/Visual computing/OpenGL_Praktikum_Linux_MacOS_fix_cmake_3.5/OpenGL_Praktikum/framework" -I"C:/Users/testy/Desktop/UNI-Stuff/Visual computing/OpenGL_Praktikum_Linux_MacOS_fix_cmake_3.5/OpenGL_Praktikum/libs/glfw-3.2.1/include" -I"C:/Users/testy/Desktop/UNI-Stuff/Visual computing/OpenGL_Praktikum_Linux_MacOS_fix_cmake_3.5/OpenGL_Praktikum/libs/glew-2.1.0/include" -I"C:/Users/testy/Desktop/UNI-Stuff/Visual computing/OpenGL_Praktikum_Linux_MacOS_fix_cmake_3.5/OpenGL_Praktikum/libs/glew-2.1.0/include/GL" -I"C:/Users/testy/Desktop/UNI-Stuff/Visual computing/OpenGL_Praktikum_Linux_MacOS_fix_cmake_3.5/OpenGL_Praktikum/libs/glm-master" -I"C:/Users/testy/Desktop/UNI-Stuff/Visual computing/OpenGL_Praktikum_Linux_MacOS_fix_cmake_3.5/OpenGL_Praktikum/libs/stb"
+  INCLUDES = -I"C:/Users/testy/Desktop/UNI-Stuff/Visual computing/GIt Version/VisualOpenGLEngine/src" -I"C:/Users/testy/Desktop/UNI-Stuff/Visual computing/GIt Version/VisualOpenGLEngine/src/Framework/Assets" -I"C:/Users/testy/Desktop/UNI-Stuff/Visual computing/GIt Version/VisualOpenGLEngine/src/Framework/SceneElements" -I"C:/Users/testy/Desktop/UNI-Stuff/Visual computing/GIt Version/VisualOpenGLEngine/src/Game" -I"C:/Users/testy/Desktop/UNI-Stuff/Visual computing/GIt Version/VisualOpenGLEngine/framework" -I"C:/Users/testy/Desktop/UNI-Stuff/Visual computing/GIt Version/VisualOpenGLEngine/libs/glfw-3.2.1/include" -I"C:/Users/testy/Desktop/UNI-Stuff/Visual computing/GIt Version/VisualOpenGLEngine/libs/glew-2.1.0/include" -I"C:/Users/testy/Desktop/UNI-Stuff/Visual computing/GIt Version/VisualOpenGLEngine/libs/glew-2.1.0/include/GL" -I"C:/Users/testy/Desktop/UNI-Stuff/Visual computing/GIt Version/VisualOpenGLEngine/libs/glm-master" -I"C:/Users/testy/Desktop/UNI-Stuff/Visual computing/GIt Version/VisualOpenGLEngine/libs/stb"
   OBJECT_DIR = CMakeFiles\OpenGL_Praktikum.dir
   OBJECT_FILE_DIR = CMakeFiles\OpenGL_Praktikum.dir\src\Framework\Assets
 
-build CMakeFiles/OpenGL_Praktikum.dir/src/Framework/Assets/ShaderProgram.cpp.obj: CXX_COMPILER__OpenGL_Praktikum_unscanned_Debug C$:/Users/testy/Desktop/UNI-Stuff/Visual$ computing/OpenGL_Praktikum_Linux_MacOS_fix_cmake_3.5/OpenGL_Praktikum/src/Framework/Assets/ShaderProgram.cpp || cmake_object_order_depends_target_OpenGL_Praktikum
+build CMakeFiles/OpenGL_Praktikum.dir/src/Framework/Assets/ShaderProgram.cpp.obj: CXX_COMPILER__OpenGL_Praktikum_unscanned_Debug C$:/Users/testy/Desktop/UNI-Stuff/Visual$ computing/GIt$ Version/VisualOpenGLEngine/src/Framework/Assets/ShaderProgram.cpp || cmake_object_order_depends_target_OpenGL_Praktikum
   DEFINES = -DGLEW_STATIC
   DEP_FILE = CMakeFiles\OpenGL_Praktikum.dir\src\Framework\Assets\ShaderProgram.cpp.obj.d
   FLAGS = -g -std=gnu++11 -fdiagnostics-color=always
-  INCLUDES = -I"C:/Users/testy/Desktop/UNI-Stuff/Visual computing/OpenGL_Praktikum_Linux_MacOS_fix_cmake_3.5/OpenGL_Praktikum/src" -I"C:/Users/testy/Desktop/UNI-Stuff/Visual computing/OpenGL_Praktikum_Linux_MacOS_fix_cmake_3.5/OpenGL_Praktikum/src/Framework/Assets" -I"C:/Users/testy/Desktop/UNI-Stuff/Visual computing/OpenGL_Praktikum_Linux_MacOS_fix_cmake_3.5/OpenGL_Praktikum/src/Framework/SceneElements" -I"C:/Users/testy/Desktop/UNI-Stuff/Visual computing/OpenGL_Praktikum_Linux_MacOS_fix_cmake_3.5/OpenGL_Praktikum/src/Game" -I"C:/Users/testy/Desktop/UNI-Stuff/Visual computing/OpenGL_Praktikum_Linux_MacOS_fix_cmake_3.5/OpenGL_Praktikum/framework" -I"C:/Users/testy/Desktop/UNI-Stuff/Visual computing/OpenGL_Praktikum_Linux_MacOS_fix_cmake_3.5/OpenGL_Praktikum/libs/glfw-3.2.1/include" -I"C:/Users/testy/Desktop/UNI-Stuff/Visual computing/OpenGL_Praktikum_Linux_MacOS_fix_cmake_3.5/OpenGL_Praktikum/libs/glew-2.1.0/include" -I"C:/Users/testy/Desktop/UNI-Stuff/Visual computing/OpenGL_Praktikum_Linux_MacOS_fix_cmake_3.5/OpenGL_Praktikum/libs/glew-2.1.0/include/GL" -I"C:/Users/testy/Desktop/UNI-Stuff/Visual computing/OpenGL_Praktikum_Linux_MacOS_fix_cmake_3.5/OpenGL_Praktikum/libs/glm-master" -I"C:/Users/testy/Desktop/UNI-Stuff/Visual computing/OpenGL_Praktikum_Linux_MacOS_fix_cmake_3.5/OpenGL_Praktikum/libs/stb"
+  INCLUDES = -I"C:/Users/testy/Desktop/UNI-Stuff/Visual computing/GIt Version/VisualOpenGLEngine/src" -I"C:/Users/testy/Desktop/UNI-Stuff/Visual computing/GIt Version/VisualOpenGLEngine/src/Framework/Assets" -I"C:/Users/testy/Desktop/UNI-Stuff/Visual computing/GIt Version/VisualOpenGLEngine/src/Framework/SceneElements" -I"C:/Users/testy/Desktop/UNI-Stuff/Visual computing/GIt Version/VisualOpenGLEngine/src/Game" -I"C:/Users/testy/Desktop/UNI-Stuff/Visual computing/GIt Version/VisualOpenGLEngine/framework" -I"C:/Users/testy/Desktop/UNI-Stuff/Visual computing/GIt Version/VisualOpenGLEngine/libs/glfw-3.2.1/include" -I"C:/Users/testy/Desktop/UNI-Stuff/Visual computing/GIt Version/VisualOpenGLEngine/libs/glew-2.1.0/include" -I"C:/Users/testy/Desktop/UNI-Stuff/Visual computing/GIt Version/VisualOpenGLEngine/libs/glew-2.1.0/include/GL" -I"C:/Users/testy/Desktop/UNI-Stuff/Visual computing/GIt Version/VisualOpenGLEngine/libs/glm-master" -I"C:/Users/testy/Desktop/UNI-Stuff/Visual computing/GIt Version/VisualOpenGLEngine/libs/stb"
   OBJECT_DIR = CMakeFiles\OpenGL_Praktikum.dir
   OBJECT_FILE_DIR = CMakeFiles\OpenGL_Praktikum.dir\src\Framework\Assets
 
-build CMakeFiles/OpenGL_Praktikum.dir/src/Framework/SceneElements/Transform.cpp.obj: CXX_COMPILER__OpenGL_Praktikum_unscanned_Debug C$:/Users/testy/Desktop/UNI-Stuff/Visual$ computing/OpenGL_Praktikum_Linux_MacOS_fix_cmake_3.5/OpenGL_Praktikum/src/Framework/SceneElements/Transform.cpp || cmake_object_order_depends_target_OpenGL_Praktikum
+build CMakeFiles/OpenGL_Praktikum.dir/src/Framework/SceneElements/Transform.cpp.obj: CXX_COMPILER__OpenGL_Praktikum_unscanned_Debug C$:/Users/testy/Desktop/UNI-Stuff/Visual$ computing/GIt$ Version/VisualOpenGLEngine/src/Framework/SceneElements/Transform.cpp || cmake_object_order_depends_target_OpenGL_Praktikum
   DEFINES = -DGLEW_STATIC
   DEP_FILE = CMakeFiles\OpenGL_Praktikum.dir\src\Framework\SceneElements\Transform.cpp.obj.d
   FLAGS = -g -std=gnu++11 -fdiagnostics-color=always
-  INCLUDES = -I"C:/Users/testy/Desktop/UNI-Stuff/Visual computing/OpenGL_Praktikum_Linux_MacOS_fix_cmake_3.5/OpenGL_Praktikum/src" -I"C:/Users/testy/Desktop/UNI-Stuff/Visual computing/OpenGL_Praktikum_Linux_MacOS_fix_cmake_3.5/OpenGL_Praktikum/src/Framework/Assets" -I"C:/Users/testy/Desktop/UNI-Stuff/Visual computing/OpenGL_Praktikum_Linux_MacOS_fix_cmake_3.5/OpenGL_Praktikum/src/Framework/SceneElements" -I"C:/Users/testy/Desktop/UNI-Stuff/Visual computing/OpenGL_Praktikum_Linux_MacOS_fix_cmake_3.5/OpenGL_Praktikum/src/Game" -I"C:/Users/testy/Desktop/UNI-Stuff/Visual computing/OpenGL_Praktikum_Linux_MacOS_fix_cmake_3.5/OpenGL_Praktikum/framework" -I"C:/Users/testy/Desktop/UNI-Stuff/Visual computing/OpenGL_Praktikum_Linux_MacOS_fix_cmake_3.5/OpenGL_Praktikum/libs/glfw-3.2.1/include" -I"C:/Users/testy/Desktop/UNI-Stuff/Visual computing/OpenGL_Praktikum_Linux_MacOS_fix_cmake_3.5/OpenGL_Praktikum/libs/glew-2.1.0/include" -I"C:/Users/testy/Desktop/UNI-Stuff/Visual computing/OpenGL_Praktikum_Linux_MacOS_fix_cmake_3.5/OpenGL_Praktikum/libs/glew-2.1.0/include/GL" -I"C:/Users/testy/Desktop/UNI-Stuff/Visual computing/OpenGL_Praktikum_Linux_MacOS_fix_cmake_3.5/OpenGL_Praktikum/libs/glm-master" -I"C:/Users/testy/Desktop/UNI-Stuff/Visual computing/OpenGL_Praktikum_Linux_MacOS_fix_cmake_3.5/OpenGL_Praktikum/libs/stb"
+  INCLUDES = -I"C:/Users/testy/Desktop/UNI-Stuff/Visual computing/GIt Version/VisualOpenGLEngine/src" -I"C:/Users/testy/Desktop/UNI-Stuff/Visual computing/GIt Version/VisualOpenGLEngine/src/Framework/Assets" -I"C:/Users/testy/Desktop/UNI-Stuff/Visual computing/GIt Version/VisualOpenGLEngine/src/Framework/SceneElements" -I"C:/Users/testy/Desktop/UNI-Stuff/Visual computing/GIt Version/VisualOpenGLEngine/src/Game" -I"C:/Users/testy/Desktop/UNI-Stuff/Visual computing/GIt Version/VisualOpenGLEngine/framework" -I"C:/Users/testy/Desktop/UNI-Stuff/Visual computing/GIt Version/VisualOpenGLEngine/libs/glfw-3.2.1/include" -I"C:/Users/testy/Desktop/UNI-Stuff/Visual computing/GIt Version/VisualOpenGLEngine/libs/glew-2.1.0/include" -I"C:/Users/testy/Desktop/UNI-Stuff/Visual computing/GIt Version/VisualOpenGLEngine/libs/glew-2.1.0/include/GL" -I"C:/Users/testy/Desktop/UNI-Stuff/Visual computing/GIt Version/VisualOpenGLEngine/libs/glm-master" -I"C:/Users/testy/Desktop/UNI-Stuff/Visual computing/GIt Version/VisualOpenGLEngine/libs/stb"
   OBJECT_DIR = CMakeFiles\OpenGL_Praktikum.dir
   OBJECT_FILE_DIR = CMakeFiles\OpenGL_Praktikum.dir\src\Framework\SceneElements
 
-build CMakeFiles/OpenGL_Praktikum.dir/src/Game/Window.cpp.obj: CXX_COMPILER__OpenGL_Praktikum_unscanned_Debug C$:/Users/testy/Desktop/UNI-Stuff/Visual$ computing/OpenGL_Praktikum_Linux_MacOS_fix_cmake_3.5/OpenGL_Praktikum/src/Game/Window.cpp || cmake_object_order_depends_target_OpenGL_Praktikum
+build CMakeFiles/OpenGL_Praktikum.dir/src/Game/Window.cpp.obj: CXX_COMPILER__OpenGL_Praktikum_unscanned_Debug C$:/Users/testy/Desktop/UNI-Stuff/Visual$ computing/GIt$ Version/VisualOpenGLEngine/src/Game/Window.cpp || cmake_object_order_depends_target_OpenGL_Praktikum
   DEFINES = -DGLEW_STATIC
   DEP_FILE = CMakeFiles\OpenGL_Praktikum.dir\src\Game\Window.cpp.obj.d
   FLAGS = -g -std=gnu++11 -fdiagnostics-color=always
-  INCLUDES = -I"C:/Users/testy/Desktop/UNI-Stuff/Visual computing/OpenGL_Praktikum_Linux_MacOS_fix_cmake_3.5/OpenGL_Praktikum/src" -I"C:/Users/testy/Desktop/UNI-Stuff/Visual computing/OpenGL_Praktikum_Linux_MacOS_fix_cmake_3.5/OpenGL_Praktikum/src/Framework/Assets" -I"C:/Users/testy/Desktop/UNI-Stuff/Visual computing/OpenGL_Praktikum_Linux_MacOS_fix_cmake_3.5/OpenGL_Praktikum/src/Framework/SceneElements" -I"C:/Users/testy/Desktop/UNI-Stuff/Visual computing/OpenGL_Praktikum_Linux_MacOS_fix_cmake_3.5/OpenGL_Praktikum/src/Game" -I"C:/Users/testy/Desktop/UNI-Stuff/Visual computing/OpenGL_Praktikum_Linux_MacOS_fix_cmake_3.5/OpenGL_Praktikum/framework" -I"C:/Users/testy/Desktop/UNI-Stuff/Visual computing/OpenGL_Praktikum_Linux_MacOS_fix_cmake_3.5/OpenGL_Praktikum/libs/glfw-3.2.1/include" -I"C:/Users/testy/Desktop/UNI-Stuff/Visual computing/OpenGL_Praktikum_Linux_MacOS_fix_cmake_3.5/OpenGL_Praktikum/libs/glew-2.1.0/include" -I"C:/Users/testy/Desktop/UNI-Stuff/Visual computing/OpenGL_Praktikum_Linux_MacOS_fix_cmake_3.5/OpenGL_Praktikum/libs/glew-2.1.0/include/GL" -I"C:/Users/testy/Desktop/UNI-Stuff/Visual computing/OpenGL_Praktikum_Linux_MacOS_fix_cmake_3.5/OpenGL_Praktikum/libs/glm-master" -I"C:/Users/testy/Desktop/UNI-Stuff/Visual computing/OpenGL_Praktikum_Linux_MacOS_fix_cmake_3.5/OpenGL_Praktikum/libs/stb"
+  INCLUDES = -I"C:/Users/testy/Desktop/UNI-Stuff/Visual computing/GIt Version/VisualOpenGLEngine/src" -I"C:/Users/testy/Desktop/UNI-Stuff/Visual computing/GIt Version/VisualOpenGLEngine/src/Framework/Assets" -I"C:/Users/testy/Desktop/UNI-Stuff/Visual computing/GIt Version/VisualOpenGLEngine/src/Framework/SceneElements" -I"C:/Users/testy/Desktop/UNI-Stuff/Visual computing/GIt Version/VisualOpenGLEngine/src/Game" -I"C:/Users/testy/Desktop/UNI-Stuff/Visual computing/GIt Version/VisualOpenGLEngine/framework" -I"C:/Users/testy/Desktop/UNI-Stuff/Visual computing/GIt Version/VisualOpenGLEngine/libs/glfw-3.2.1/include" -I"C:/Users/testy/Desktop/UNI-Stuff/Visual computing/GIt Version/VisualOpenGLEngine/libs/glew-2.1.0/include" -I"C:/Users/testy/Desktop/UNI-Stuff/Visual computing/GIt Version/VisualOpenGLEngine/libs/glew-2.1.0/include/GL" -I"C:/Users/testy/Desktop/UNI-Stuff/Visual computing/GIt Version/VisualOpenGLEngine/libs/glm-master" -I"C:/Users/testy/Desktop/UNI-Stuff/Visual computing/GIt Version/VisualOpenGLEngine/libs/stb"
   OBJECT_DIR = CMakeFiles\OpenGL_Praktikum.dir
   OBJECT_FILE_DIR = CMakeFiles\OpenGL_Praktikum.dir\src\Game
 
-build CMakeFiles/OpenGL_Praktikum.dir/src/Game/Scene.cpp.obj: CXX_COMPILER__OpenGL_Praktikum_unscanned_Debug C$:/Users/testy/Desktop/UNI-Stuff/Visual$ computing/OpenGL_Praktikum_Linux_MacOS_fix_cmake_3.5/OpenGL_Praktikum/src/Game/Scene.cpp || cmake_object_order_depends_target_OpenGL_Praktikum
+build CMakeFiles/OpenGL_Praktikum.dir/src/Game/Scene.cpp.obj: CXX_COMPILER__OpenGL_Praktikum_unscanned_Debug C$:/Users/testy/Desktop/UNI-Stuff/Visual$ computing/GIt$ Version/VisualOpenGLEngine/src/Game/Scene.cpp || cmake_object_order_depends_target_OpenGL_Praktikum
   DEFINES = -DGLEW_STATIC
   DEP_FILE = CMakeFiles\OpenGL_Praktikum.dir\src\Game\Scene.cpp.obj.d
   FLAGS = -g -std=gnu++11 -fdiagnostics-color=always
-  INCLUDES = -I"C:/Users/testy/Desktop/UNI-Stuff/Visual computing/OpenGL_Praktikum_Linux_MacOS_fix_cmake_3.5/OpenGL_Praktikum/src" -I"C:/Users/testy/Desktop/UNI-Stuff/Visual computing/OpenGL_Praktikum_Linux_MacOS_fix_cmake_3.5/OpenGL_Praktikum/src/Framework/Assets" -I"C:/Users/testy/Desktop/UNI-Stuff/Visual computing/OpenGL_Praktikum_Linux_MacOS_fix_cmake_3.5/OpenGL_Praktikum/src/Framework/SceneElements" -I"C:/Users/testy/Desktop/UNI-Stuff/Visual computing/OpenGL_Praktikum_Linux_MacOS_fix_cmake_3.5/OpenGL_Praktikum/src/Game" -I"C:/Users/testy/Desktop/UNI-Stuff/Visual computing/OpenGL_Praktikum_Linux_MacOS_fix_cmake_3.5/OpenGL_Praktikum/framework" -I"C:/Users/testy/Desktop/UNI-Stuff/Visual computing/OpenGL_Praktikum_Linux_MacOS_fix_cmake_3.5/OpenGL_Praktikum/libs/glfw-3.2.1/include" -I"C:/Users/testy/Desktop/UNI-Stuff/Visual computing/OpenGL_Praktikum_Linux_MacOS_fix_cmake_3.5/OpenGL_Praktikum/libs/glew-2.1.0/include" -I"C:/Users/testy/Desktop/UNI-Stuff/Visual computing/OpenGL_Praktikum_Linux_MacOS_fix_cmake_3.5/OpenGL_Praktikum/libs/glew-2.1.0/include/GL" -I"C:/Users/testy/Desktop/UNI-Stuff/Visual computing/OpenGL_Praktikum_Linux_MacOS_fix_cmake_3.5/OpenGL_Praktikum/libs/glm-master" -I"C:/Users/testy/Desktop/UNI-Stuff/Visual computing/OpenGL_Praktikum_Linux_MacOS_fix_cmake_3.5/OpenGL_Praktikum/libs/stb"
+  INCLUDES = -I"C:/Users/testy/Desktop/UNI-Stuff/Visual computing/GIt Version/VisualOpenGLEngine/src" -I"C:/Users/testy/Desktop/UNI-Stuff/Visual computing/GIt Version/VisualOpenGLEngine/src/Framework/Assets" -I"C:/Users/testy/Desktop/UNI-Stuff/Visual computing/GIt Version/VisualOpenGLEngine/src/Framework/SceneElements" -I"C:/Users/testy/Desktop/UNI-Stuff/Visual computing/GIt Version/VisualOpenGLEngine/src/Game" -I"C:/Users/testy/Desktop/UNI-Stuff/Visual computing/GIt Version/VisualOpenGLEngine/framework" -I"C:/Users/testy/Desktop/UNI-Stuff/Visual computing/GIt Version/VisualOpenGLEngine/libs/glfw-3.2.1/include" -I"C:/Users/testy/Desktop/UNI-Stuff/Visual computing/GIt Version/VisualOpenGLEngine/libs/glew-2.1.0/include" -I"C:/Users/testy/Desktop/UNI-Stuff/Visual computing/GIt Version/VisualOpenGLEngine/libs/glew-2.1.0/include/GL" -I"C:/Users/testy/Desktop/UNI-Stuff/Visual computing/GIt Version/VisualOpenGLEngine/libs/glm-master" -I"C:/Users/testy/Desktop/UNI-Stuff/Visual computing/GIt Version/VisualOpenGLEngine/libs/stb"
   OBJECT_DIR = CMakeFiles\OpenGL_Praktikum.dir
   OBJECT_FILE_DIR = CMakeFiles\OpenGL_Praktikum.dir\src\Game
 
-build CMakeFiles/OpenGL_Praktikum.dir/framework/OpenGLWindow.cpp.obj: CXX_COMPILER__OpenGL_Praktikum_unscanned_Debug C$:/Users/testy/Desktop/UNI-Stuff/Visual$ computing/OpenGL_Praktikum_Linux_MacOS_fix_cmake_3.5/OpenGL_Praktikum/framework/OpenGLWindow.cpp || cmake_object_order_depends_target_OpenGL_Praktikum
+build CMakeFiles/OpenGL_Praktikum.dir/framework/OpenGLWindow.cpp.obj: CXX_COMPILER__OpenGL_Praktikum_unscanned_Debug C$:/Users/testy/Desktop/UNI-Stuff/Visual$ computing/GIt$ Version/VisualOpenGLEngine/framework/OpenGLWindow.cpp || cmake_object_order_depends_target_OpenGL_Praktikum
   DEFINES = -DGLEW_STATIC
   DEP_FILE = CMakeFiles\OpenGL_Praktikum.dir\framework\OpenGLWindow.cpp.obj.d
   FLAGS = -g -std=gnu++11 -fdiagnostics-color=always
-  INCLUDES = -I"C:/Users/testy/Desktop/UNI-Stuff/Visual computing/OpenGL_Praktikum_Linux_MacOS_fix_cmake_3.5/OpenGL_Praktikum/src" -I"C:/Users/testy/Desktop/UNI-Stuff/Visual computing/OpenGL_Praktikum_Linux_MacOS_fix_cmake_3.5/OpenGL_Praktikum/src/Framework/Assets" -I"C:/Users/testy/Desktop/UNI-Stuff/Visual computing/OpenGL_Praktikum_Linux_MacOS_fix_cmake_3.5/OpenGL_Praktikum/src/Framework/SceneElements" -I"C:/Users/testy/Desktop/UNI-Stuff/Visual computing/OpenGL_Praktikum_Linux_MacOS_fix_cmake_3.5/OpenGL_Praktikum/src/Game" -I"C:/Users/testy/Desktop/UNI-Stuff/Visual computing/OpenGL_Praktikum_Linux_MacOS_fix_cmake_3.5/OpenGL_Praktikum/framework" -I"C:/Users/testy/Desktop/UNI-Stuff/Visual computing/OpenGL_Praktikum_Linux_MacOS_fix_cmake_3.5/OpenGL_Praktikum/libs/glfw-3.2.1/include" -I"C:/Users/testy/Desktop/UNI-Stuff/Visual computing/OpenGL_Praktikum_Linux_MacOS_fix_cmake_3.5/OpenGL_Praktikum/libs/glew-2.1.0/include" -I"C:/Users/testy/Desktop/UNI-Stuff/Visual computing/OpenGL_Praktikum_Linux_MacOS_fix_cmake_3.5/OpenGL_Praktikum/libs/glew-2.1.0/include/GL" -I"C:/Users/testy/Desktop/UNI-Stuff/Visual computing/OpenGL_Praktikum_Linux_MacOS_fix_cmake_3.5/OpenGL_Praktikum/libs/glm-master" -I"C:/Users/testy/Desktop/UNI-Stuff/Visual computing/OpenGL_Praktikum_Linux_MacOS_fix_cmake_3.5/OpenGL_Praktikum/libs/stb"
+  INCLUDES = -I"C:/Users/testy/Desktop/UNI-Stuff/Visual computing/GIt Version/VisualOpenGLEngine/src" -I"C:/Users/testy/Desktop/UNI-Stuff/Visual computing/GIt Version/VisualOpenGLEngine/src/Framework/Assets" -I"C:/Users/testy/Desktop/UNI-Stuff/Visual computing/GIt Version/VisualOpenGLEngine/src/Framework/SceneElements" -I"C:/Users/testy/Desktop/UNI-Stuff/Visual computing/GIt Version/VisualOpenGLEngine/src/Game" -I"C:/Users/testy/Desktop/UNI-Stuff/Visual computing/GIt Version/VisualOpenGLEngine/framework" -I"C:/Users/testy/Desktop/UNI-Stuff/Visual computing/GIt Version/VisualOpenGLEngine/libs/glfw-3.2.1/include" -I"C:/Users/testy/Desktop/UNI-Stuff/Visual computing/GIt Version/VisualOpenGLEngine/libs/glew-2.1.0/include" -I"C:/Users/testy/Desktop/UNI-Stuff/Visual computing/GIt Version/VisualOpenGLEngine/libs/glew-2.1.0/include/GL" -I"C:/Users/testy/Desktop/UNI-Stuff/Visual computing/GIt Version/VisualOpenGLEngine/libs/glm-master" -I"C:/Users/testy/Desktop/UNI-Stuff/Visual computing/GIt Version/VisualOpenGLEngine/libs/stb"
   OBJECT_DIR = CMakeFiles\OpenGL_Praktikum.dir
   OBJECT_FILE_DIR = CMakeFiles\OpenGL_Praktikum.dir\framework
 
-build CMakeFiles/OpenGL_Praktikum.dir/framework/glerror.cpp.obj: CXX_COMPILER__OpenGL_Praktikum_unscanned_Debug C$:/Users/testy/Desktop/UNI-Stuff/Visual$ computing/OpenGL_Praktikum_Linux_MacOS_fix_cmake_3.5/OpenGL_Praktikum/framework/glerror.cpp || cmake_object_order_depends_target_OpenGL_Praktikum
+build CMakeFiles/OpenGL_Praktikum.dir/framework/glerror.cpp.obj: CXX_COMPILER__OpenGL_Praktikum_unscanned_Debug C$:/Users/testy/Desktop/UNI-Stuff/Visual$ computing/GIt$ Version/VisualOpenGLEngine/framework/glerror.cpp || cmake_object_order_depends_target_OpenGL_Praktikum
   DEFINES = -DGLEW_STATIC
   DEP_FILE = CMakeFiles\OpenGL_Praktikum.dir\framework\glerror.cpp.obj.d
   FLAGS = -g -std=gnu++11 -fdiagnostics-color=always
-  INCLUDES = -I"C:/Users/testy/Desktop/UNI-Stuff/Visual computing/OpenGL_Praktikum_Linux_MacOS_fix_cmake_3.5/OpenGL_Praktikum/src" -I"C:/Users/testy/Desktop/UNI-Stuff/Visual computing/OpenGL_Praktikum_Linux_MacOS_fix_cmake_3.5/OpenGL_Praktikum/src/Framework/Assets" -I"C:/Users/testy/Desktop/UNI-Stuff/Visual computing/OpenGL_Praktikum_Linux_MacOS_fix_cmake_3.5/OpenGL_Praktikum/src/Framework/SceneElements" -I"C:/Users/testy/Desktop/UNI-Stuff/Visual computing/OpenGL_Praktikum_Linux_MacOS_fix_cmake_3.5/OpenGL_Praktikum/src/Game" -I"C:/Users/testy/Desktop/UNI-Stuff/Visual computing/OpenGL_Praktikum_Linux_MacOS_fix_cmake_3.5/OpenGL_Praktikum/framework" -I"C:/Users/testy/Desktop/UNI-Stuff/Visual computing/OpenGL_Praktikum_Linux_MacOS_fix_cmake_3.5/OpenGL_Praktikum/libs/glfw-3.2.1/include" -I"C:/Users/testy/Desktop/UNI-Stuff/Visual computing/OpenGL_Praktikum_Linux_MacOS_fix_cmake_3.5/OpenGL_Praktikum/libs/glew-2.1.0/include" -I"C:/Users/testy/Desktop/UNI-Stuff/Visual computing/OpenGL_Praktikum_Linux_MacOS_fix_cmake_3.5/OpenGL_Praktikum/libs/glew-2.1.0/include/GL" -I"C:/Users/testy/Desktop/UNI-Stuff/Visual computing/OpenGL_Praktikum_Linux_MacOS_fix_cmake_3.5/OpenGL_Praktikum/libs/glm-master" -I"C:/Users/testy/Desktop/UNI-Stuff/Visual computing/OpenGL_Praktikum_Linux_MacOS_fix_cmake_3.5/OpenGL_Praktikum/libs/stb"
+  INCLUDES = -I"C:/Users/testy/Desktop/UNI-Stuff/Visual computing/GIt Version/VisualOpenGLEngine/src" -I"C:/Users/testy/Desktop/UNI-Stuff/Visual computing/GIt Version/VisualOpenGLEngine/src/Framework/Assets" -I"C:/Users/testy/Desktop/UNI-Stuff/Visual computing/GIt Version/VisualOpenGLEngine/src/Framework/SceneElements" -I"C:/Users/testy/Desktop/UNI-Stuff/Visual computing/GIt Version/VisualOpenGLEngine/src/Game" -I"C:/Users/testy/Desktop/UNI-Stuff/Visual computing/GIt Version/VisualOpenGLEngine/framework" -I"C:/Users/testy/Desktop/UNI-Stuff/Visual computing/GIt Version/VisualOpenGLEngine/libs/glfw-3.2.1/include" -I"C:/Users/testy/Desktop/UNI-Stuff/Visual computing/GIt Version/VisualOpenGLEngine/libs/glew-2.1.0/include" -I"C:/Users/testy/Desktop/UNI-Stuff/Visual computing/GIt Version/VisualOpenGLEngine/libs/glew-2.1.0/include/GL" -I"C:/Users/testy/Desktop/UNI-Stuff/Visual computing/GIt Version/VisualOpenGLEngine/libs/glm-master" -I"C:/Users/testy/Desktop/UNI-Stuff/Visual computing/GIt Version/VisualOpenGLEngine/libs/stb"
   OBJECT_DIR = CMakeFiles\OpenGL_Praktikum.dir
   OBJECT_FILE_DIR = CMakeFiles\OpenGL_Praktikum.dir\framework
 
-build CMakeFiles/OpenGL_Praktikum.dir/framework/Input.cpp.obj: CXX_COMPILER__OpenGL_Praktikum_unscanned_Debug C$:/Users/testy/Desktop/UNI-Stuff/Visual$ computing/OpenGL_Praktikum_Linux_MacOS_fix_cmake_3.5/OpenGL_Praktikum/framework/Input.cpp || cmake_object_order_depends_target_OpenGL_Praktikum
+build CMakeFiles/OpenGL_Praktikum.dir/framework/Input.cpp.obj: CXX_COMPILER__OpenGL_Praktikum_unscanned_Debug C$:/Users/testy/Desktop/UNI-Stuff/Visual$ computing/GIt$ Version/VisualOpenGLEngine/framework/Input.cpp || cmake_object_order_depends_target_OpenGL_Praktikum
   DEFINES = -DGLEW_STATIC
   DEP_FILE = CMakeFiles\OpenGL_Praktikum.dir\framework\Input.cpp.obj.d
   FLAGS = -g -std=gnu++11 -fdiagnostics-color=always
-  INCLUDES = -I"C:/Users/testy/Desktop/UNI-Stuff/Visual computing/OpenGL_Praktikum_Linux_MacOS_fix_cmake_3.5/OpenGL_Praktikum/src" -I"C:/Users/testy/Desktop/UNI-Stuff/Visual computing/OpenGL_Praktikum_Linux_MacOS_fix_cmake_3.5/OpenGL_Praktikum/src/Framework/Assets" -I"C:/Users/testy/Desktop/UNI-Stuff/Visual computing/OpenGL_Praktikum_Linux_MacOS_fix_cmake_3.5/OpenGL_Praktikum/src/Framework/SceneElements" -I"C:/Users/testy/Desktop/UNI-Stuff/Visual computing/OpenGL_Praktikum_Linux_MacOS_fix_cmake_3.5/OpenGL_Praktikum/src/Game" -I"C:/Users/testy/Desktop/UNI-Stuff/Visual computing/OpenGL_Praktikum_Linux_MacOS_fix_cmake_3.5/OpenGL_Praktikum/framework" -I"C:/Users/testy/Desktop/UNI-Stuff/Visual computing/OpenGL_Praktikum_Linux_MacOS_fix_cmake_3.5/OpenGL_Praktikum/libs/glfw-3.2.1/include" -I"C:/Users/testy/Desktop/UNI-Stuff/Visual computing/OpenGL_Praktikum_Linux_MacOS_fix_cmake_3.5/OpenGL_Praktikum/libs/glew-2.1.0/include" -I"C:/Users/testy/Desktop/UNI-Stuff/Visual computing/OpenGL_Praktikum_Linux_MacOS_fix_cmake_3.5/OpenGL_Praktikum/libs/glew-2.1.0/include/GL" -I"C:/Users/testy/Desktop/UNI-Stuff/Visual computing/OpenGL_Praktikum_Linux_MacOS_fix_cmake_3.5/OpenGL_Praktikum/libs/glm-master" -I"C:/Users/testy/Desktop/UNI-Stuff/Visual computing/OpenGL_Praktikum_Linux_MacOS_fix_cmake_3.5/OpenGL_Praktikum/libs/stb"
+  INCLUDES = -I"C:/Users/testy/Desktop/UNI-Stuff/Visual computing/GIt Version/VisualOpenGLEngine/src" -I"C:/Users/testy/Desktop/UNI-Stuff/Visual computing/GIt Version/VisualOpenGLEngine/src/Framework/Assets" -I"C:/Users/testy/Desktop/UNI-Stuff/Visual computing/GIt Version/VisualOpenGLEngine/src/Framework/SceneElements" -I"C:/Users/testy/Desktop/UNI-Stuff/Visual computing/GIt Version/VisualOpenGLEngine/src/Game" -I"C:/Users/testy/Desktop/UNI-Stuff/Visual computing/GIt Version/VisualOpenGLEngine/framework" -I"C:/Users/testy/Desktop/UNI-Stuff/Visual computing/GIt Version/VisualOpenGLEngine/libs/glfw-3.2.1/include" -I"C:/Users/testy/Desktop/UNI-Stuff/Visual computing/GIt Version/VisualOpenGLEngine/libs/glew-2.1.0/include" -I"C:/Users/testy/Desktop/UNI-Stuff/Visual computing/GIt Version/VisualOpenGLEngine/libs/glew-2.1.0/include/GL" -I"C:/Users/testy/Desktop/UNI-Stuff/Visual computing/GIt Version/VisualOpenGLEngine/libs/glm-master" -I"C:/Users/testy/Desktop/UNI-Stuff/Visual computing/GIt Version/VisualOpenGLEngine/libs/stb"
   OBJECT_DIR = CMakeFiles\OpenGL_Praktikum.dir
   OBJECT_FILE_DIR = CMakeFiles\OpenGL_Praktikum.dir\framework
 
-build CMakeFiles/OpenGL_Praktikum.dir/framework/OBJLoader.cpp.obj: CXX_COMPILER__OpenGL_Praktikum_unscanned_Debug C$:/Users/testy/Desktop/UNI-Stuff/Visual$ computing/OpenGL_Praktikum_Linux_MacOS_fix_cmake_3.5/OpenGL_Praktikum/framework/OBJLoader.cpp || cmake_object_order_depends_target_OpenGL_Praktikum
+build CMakeFiles/OpenGL_Praktikum.dir/framework/OBJLoader.cpp.obj: CXX_COMPILER__OpenGL_Praktikum_unscanned_Debug C$:/Users/testy/Desktop/UNI-Stuff/Visual$ computing/GIt$ Version/VisualOpenGLEngine/framework/OBJLoader.cpp || cmake_object_order_depends_target_OpenGL_Praktikum
   DEFINES = -DGLEW_STATIC
   DEP_FILE = CMakeFiles\OpenGL_Praktikum.dir\framework\OBJLoader.cpp.obj.d
   FLAGS = -g -std=gnu++11 -fdiagnostics-color=always
-  INCLUDES = -I"C:/Users/testy/Desktop/UNI-Stuff/Visual computing/OpenGL_Praktikum_Linux_MacOS_fix_cmake_3.5/OpenGL_Praktikum/src" -I"C:/Users/testy/Desktop/UNI-Stuff/Visual computing/OpenGL_Praktikum_Linux_MacOS_fix_cmake_3.5/OpenGL_Praktikum/src/Framework/Assets" -I"C:/Users/testy/Desktop/UNI-Stuff/Visual computing/OpenGL_Praktikum_Linux_MacOS_fix_cmake_3.5/OpenGL_Praktikum/src/Framework/SceneElements" -I"C:/Users/testy/Desktop/UNI-Stuff/Visual computing/OpenGL_Praktikum_Linux_MacOS_fix_cmake_3.5/OpenGL_Praktikum/src/Game" -I"C:/Users/testy/Desktop/UNI-Stuff/Visual computing/OpenGL_Praktikum_Linux_MacOS_fix_cmake_3.5/OpenGL_Praktikum/framework" -I"C:/Users/testy/Desktop/UNI-Stuff/Visual computing/OpenGL_Praktikum_Linux_MacOS_fix_cmake_3.5/OpenGL_Praktikum/libs/glfw-3.2.1/include" -I"C:/Users/testy/Desktop/UNI-Stuff/Visual computing/OpenGL_Praktikum_Linux_MacOS_fix_cmake_3.5/OpenGL_Praktikum/libs/glew-2.1.0/include" -I"C:/Users/testy/Desktop/UNI-Stuff/Visual computing/OpenGL_Praktikum_Linux_MacOS_fix_cmake_3.5/OpenGL_Praktikum/libs/glew-2.1.0/include/GL" -I"C:/Users/testy/Desktop/UNI-Stuff/Visual computing/OpenGL_Praktikum_Linux_MacOS_fix_cmake_3.5/OpenGL_Praktikum/libs/glm-master" -I"C:/Users/testy/Desktop/UNI-Stuff/Visual computing/OpenGL_Praktikum_Linux_MacOS_fix_cmake_3.5/OpenGL_Praktikum/libs/stb"
+  INCLUDES = -I"C:/Users/testy/Desktop/UNI-Stuff/Visual computing/GIt Version/VisualOpenGLEngine/src" -I"C:/Users/testy/Desktop/UNI-Stuff/Visual computing/GIt Version/VisualOpenGLEngine/src/Framework/Assets" -I"C:/Users/testy/Desktop/UNI-Stuff/Visual computing/GIt Version/VisualOpenGLEngine/src/Framework/SceneElements" -I"C:/Users/testy/Desktop/UNI-Stuff/Visual computing/GIt Version/VisualOpenGLEngine/src/Game" -I"C:/Users/testy/Desktop/UNI-Stuff/Visual computing/GIt Version/VisualOpenGLEngine/framework" -I"C:/Users/testy/Desktop/UNI-Stuff/Visual computing/GIt Version/VisualOpenGLEngine/libs/glfw-3.2.1/include" -I"C:/Users/testy/Desktop/UNI-Stuff/Visual computing/GIt Version/VisualOpenGLEngine/libs/glew-2.1.0/include" -I"C:/Users/testy/Desktop/UNI-Stuff/Visual computing/GIt Version/VisualOpenGLEngine/libs/glew-2.1.0/include/GL" -I"C:/Users/testy/Desktop/UNI-Stuff/Visual computing/GIt Version/VisualOpenGLEngine/libs/glm-master" -I"C:/Users/testy/Desktop/UNI-Stuff/Visual computing/GIt Version/VisualOpenGLEngine/libs/stb"
   OBJECT_DIR = CMakeFiles\OpenGL_Praktikum.dir
   OBJECT_FILE_DIR = CMakeFiles\OpenGL_Praktikum.dir\framework
 
@@ -152,7 +152,7 @@ build OpenGL_Praktikum.exe: CXX_EXECUTABLE_LINKER__OpenGL_Praktikum_Debug CMakeF
 # Utility command for edit_cache
 
 build CMakeFiles/edit_cache.util: CUSTOM_COMMAND
-  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D "C:\Users\testy\Desktop\UNI-Stuff\Visual computing\OpenGL_Praktikum_Linux_MacOS_fix_cmake_3.5\OpenGL_Praktikum\cmake-build-debug" && "C:\Users\testy\Desktop\UNI-Stuff\OOAD\CLion 2024.2.2\bin\cmake\win\x64\bin\cmake.exe" -E echo "No interactive CMake dialog available.""
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D "C:\Users\testy\Desktop\UNI-Stuff\Visual computing\GIt Version\VisualOpenGLEngine\cmake-build-debug" && "C:\Users\testy\Desktop\UNI-Stuff\OOAD\CLion 2024.2.2\bin\cmake\win\x64\bin\cmake.exe" -E echo "No interactive CMake dialog available.""
   DESC = No interactive CMake dialog available...
   restat = 1
 
@@ -163,7 +163,7 @@ build edit_cache: phony CMakeFiles/edit_cache.util
 # Utility command for rebuild_cache
 
 build CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D "C:\Users\testy\Desktop\UNI-Stuff\Visual computing\OpenGL_Praktikum_Linux_MacOS_fix_cmake_3.5\OpenGL_Praktikum\cmake-build-debug" && "C:\Users\testy\Desktop\UNI-Stuff\OOAD\CLion 2024.2.2\bin\cmake\win\x64\bin\cmake.exe" --regenerate-during-build -S"C:\Users\testy\Desktop\UNI-Stuff\Visual computing\OpenGL_Praktikum_Linux_MacOS_fix_cmake_3.5\OpenGL_Praktikum" -B"C:\Users\testy\Desktop\UNI-Stuff\Visual computing\OpenGL_Praktikum_Linux_MacOS_fix_cmake_3.5\OpenGL_Praktikum\cmake-build-debug""
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D "C:\Users\testy\Desktop\UNI-Stuff\Visual computing\GIt Version\VisualOpenGLEngine\cmake-build-debug" && "C:\Users\testy\Desktop\UNI-Stuff\OOAD\CLion 2024.2.2\bin\cmake\win\x64\bin\cmake.exe" --regenerate-during-build -S"C:\Users\testy\Desktop\UNI-Stuff\Visual computing\GIt Version\VisualOpenGLEngine" -B"C:\Users\testy\Desktop\UNI-Stuff\Visual computing\GIt Version\VisualOpenGLEngine\cmake-build-debug""
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
@@ -181,7 +181,7 @@ build list_install_components: phony
 # Utility command for install
 
 build CMakeFiles/install.util: CUSTOM_COMMAND all
-  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D "C:\Users\testy\Desktop\UNI-Stuff\Visual computing\OpenGL_Praktikum_Linux_MacOS_fix_cmake_3.5\OpenGL_Praktikum\cmake-build-debug" && "C:\Users\testy\Desktop\UNI-Stuff\OOAD\CLion 2024.2.2\bin\cmake\win\x64\bin\cmake.exe" -P cmake_install.cmake"
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D "C:\Users\testy\Desktop\UNI-Stuff\Visual computing\GIt Version\VisualOpenGLEngine\cmake-build-debug" && "C:\Users\testy\Desktop\UNI-Stuff\OOAD\CLion 2024.2.2\bin\cmake\win\x64\bin\cmake.exe" -P cmake_install.cmake"
   DESC = Install the project...
   pool = console
   restat = 1
@@ -193,7 +193,7 @@ build install: phony CMakeFiles/install.util
 # Utility command for install/local
 
 build CMakeFiles/install/local.util: CUSTOM_COMMAND all
-  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D "C:\Users\testy\Desktop\UNI-Stuff\Visual computing\OpenGL_Praktikum_Linux_MacOS_fix_cmake_3.5\OpenGL_Praktikum\cmake-build-debug" && "C:\Users\testy\Desktop\UNI-Stuff\OOAD\CLion 2024.2.2\bin\cmake\win\x64\bin\cmake.exe" -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake"
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D "C:\Users\testy\Desktop\UNI-Stuff\Visual computing\GIt Version\VisualOpenGLEngine\cmake-build-debug" && "C:\Users\testy\Desktop\UNI-Stuff\OOAD\CLion 2024.2.2\bin\cmake\win\x64\bin\cmake.exe" -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake"
   DESC = Installing only the local directory...
   pool = console
   restat = 1
@@ -205,7 +205,7 @@ build install/local: phony CMakeFiles/install/local.util
 # Utility command for install/strip
 
 build CMakeFiles/install/strip.util: CUSTOM_COMMAND all
-  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D "C:\Users\testy\Desktop\UNI-Stuff\Visual computing\OpenGL_Praktikum_Linux_MacOS_fix_cmake_3.5\OpenGL_Praktikum\cmake-build-debug" && "C:\Users\testy\Desktop\UNI-Stuff\OOAD\CLion 2024.2.2\bin\cmake\win\x64\bin\cmake.exe" -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake"
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D "C:\Users\testy\Desktop\UNI-Stuff\Visual computing\GIt Version\VisualOpenGLEngine\cmake-build-debug" && "C:\Users\testy\Desktop\UNI-Stuff\OOAD\CLion 2024.2.2\bin\cmake\win\x64\bin\cmake.exe" -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake"
   DESC = Installing the project stripped...
   pool = console
   restat = 1
@@ -214,7 +214,7 @@ build install/strip: phony CMakeFiles/install/strip.util
 
 # =============================================================================
 # Write statements declared in CMakeLists.txt:
-# C:/Users/testy/Desktop/UNI-Stuff/Visual computing/OpenGL_Praktikum_Linux_MacOS_fix_cmake_3.5/OpenGL_Praktikum/CMakeLists.txt
+# C:/Users/testy/Desktop/UNI-Stuff/Visual computing/GIt Version/VisualOpenGLEngine/CMakeLists.txt
 # =============================================================================
 
 
@@ -222,7 +222,7 @@ build install/strip: phony CMakeFiles/install/strip.util
 # Utility command for edit_cache
 
 build libs/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
-  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D "C:\Users\testy\Desktop\UNI-Stuff\Visual computing\OpenGL_Praktikum_Linux_MacOS_fix_cmake_3.5\OpenGL_Praktikum\cmake-build-debug\libs" && "C:\Users\testy\Desktop\UNI-Stuff\OOAD\CLion 2024.2.2\bin\cmake\win\x64\bin\cmake.exe" -E echo "No interactive CMake dialog available.""
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D "C:\Users\testy\Desktop\UNI-Stuff\Visual computing\GIt Version\VisualOpenGLEngine\cmake-build-debug\libs" && "C:\Users\testy\Desktop\UNI-Stuff\OOAD\CLion 2024.2.2\bin\cmake\win\x64\bin\cmake.exe" -E echo "No interactive CMake dialog available.""
   DESC = No interactive CMake dialog available...
   restat = 1
 
@@ -233,7 +233,7 @@ build libs/edit_cache: phony libs/CMakeFiles/edit_cache.util
 # Utility command for rebuild_cache
 
 build libs/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D "C:\Users\testy\Desktop\UNI-Stuff\Visual computing\OpenGL_Praktikum_Linux_MacOS_fix_cmake_3.5\OpenGL_Praktikum\cmake-build-debug\libs" && "C:\Users\testy\Desktop\UNI-Stuff\OOAD\CLion 2024.2.2\bin\cmake\win\x64\bin\cmake.exe" --regenerate-during-build -S"C:\Users\testy\Desktop\UNI-Stuff\Visual computing\OpenGL_Praktikum_Linux_MacOS_fix_cmake_3.5\OpenGL_Praktikum" -B"C:\Users\testy\Desktop\UNI-Stuff\Visual computing\OpenGL_Praktikum_Linux_MacOS_fix_cmake_3.5\OpenGL_Praktikum\cmake-build-debug""
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D "C:\Users\testy\Desktop\UNI-Stuff\Visual computing\GIt Version\VisualOpenGLEngine\cmake-build-debug\libs" && "C:\Users\testy\Desktop\UNI-Stuff\OOAD\CLion 2024.2.2\bin\cmake\win\x64\bin\cmake.exe" --regenerate-during-build -S"C:\Users\testy\Desktop\UNI-Stuff\Visual computing\GIt Version\VisualOpenGLEngine" -B"C:\Users\testy\Desktop\UNI-Stuff\Visual computing\GIt Version\VisualOpenGLEngine\cmake-build-debug""
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
@@ -251,7 +251,7 @@ build libs/list_install_components: phony
 # Utility command for install
 
 build libs/CMakeFiles/install.util: CUSTOM_COMMAND libs/all
-  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D "C:\Users\testy\Desktop\UNI-Stuff\Visual computing\OpenGL_Praktikum_Linux_MacOS_fix_cmake_3.5\OpenGL_Praktikum\cmake-build-debug\libs" && "C:\Users\testy\Desktop\UNI-Stuff\OOAD\CLion 2024.2.2\bin\cmake\win\x64\bin\cmake.exe" -P cmake_install.cmake"
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D "C:\Users\testy\Desktop\UNI-Stuff\Visual computing\GIt Version\VisualOpenGLEngine\cmake-build-debug\libs" && "C:\Users\testy\Desktop\UNI-Stuff\OOAD\CLion 2024.2.2\bin\cmake\win\x64\bin\cmake.exe" -P cmake_install.cmake"
   DESC = Install the project...
   pool = console
   restat = 1
@@ -263,7 +263,7 @@ build libs/install: phony libs/CMakeFiles/install.util
 # Utility command for install/local
 
 build libs/CMakeFiles/install/local.util: CUSTOM_COMMAND libs/all
-  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D "C:\Users\testy\Desktop\UNI-Stuff\Visual computing\OpenGL_Praktikum_Linux_MacOS_fix_cmake_3.5\OpenGL_Praktikum\cmake-build-debug\libs" && "C:\Users\testy\Desktop\UNI-Stuff\OOAD\CLion 2024.2.2\bin\cmake\win\x64\bin\cmake.exe" -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake"
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D "C:\Users\testy\Desktop\UNI-Stuff\Visual computing\GIt Version\VisualOpenGLEngine\cmake-build-debug\libs" && "C:\Users\testy\Desktop\UNI-Stuff\OOAD\CLion 2024.2.2\bin\cmake\win\x64\bin\cmake.exe" -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake"
   DESC = Installing only the local directory...
   pool = console
   restat = 1
@@ -275,7 +275,7 @@ build libs/install/local: phony libs/CMakeFiles/install/local.util
 # Utility command for install/strip
 
 build libs/CMakeFiles/install/strip.util: CUSTOM_COMMAND libs/all
-  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D "C:\Users\testy\Desktop\UNI-Stuff\Visual computing\OpenGL_Praktikum_Linux_MacOS_fix_cmake_3.5\OpenGL_Praktikum\cmake-build-debug\libs" && "C:\Users\testy\Desktop\UNI-Stuff\OOAD\CLion 2024.2.2\bin\cmake\win\x64\bin\cmake.exe" -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake"
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D "C:\Users\testy\Desktop\UNI-Stuff\Visual computing\GIt Version\VisualOpenGLEngine\cmake-build-debug\libs" && "C:\Users\testy\Desktop\UNI-Stuff\OOAD\CLion 2024.2.2\bin\cmake\win\x64\bin\cmake.exe" -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake"
   DESC = Installing the project stripped...
   pool = console
   restat = 1
@@ -284,7 +284,7 @@ build libs/install/strip: phony libs/CMakeFiles/install/strip.util
 
 # =============================================================================
 # Write statements declared in CMakeLists.txt:
-# C:/Users/testy/Desktop/UNI-Stuff/Visual computing/OpenGL_Praktikum_Linux_MacOS_fix_cmake_3.5/OpenGL_Praktikum/libs/CMakeLists.txt
+# C:/Users/testy/Desktop/UNI-Stuff/Visual computing/GIt Version/VisualOpenGLEngine/libs/CMakeLists.txt
 # =============================================================================
 
 
@@ -298,7 +298,7 @@ build libs/glm-master/uninstall: phony libs/glm-master/CMakeFiles/uninstall
 # Utility command for edit_cache
 
 build libs/glm-master/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
-  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D "C:\Users\testy\Desktop\UNI-Stuff\Visual computing\OpenGL_Praktikum_Linux_MacOS_fix_cmake_3.5\OpenGL_Praktikum\cmake-build-debug\libs\glm-master" && "C:\Users\testy\Desktop\UNI-Stuff\OOAD\CLion 2024.2.2\bin\cmake\win\x64\bin\cmake.exe" -E echo "No interactive CMake dialog available.""
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D "C:\Users\testy\Desktop\UNI-Stuff\Visual computing\GIt Version\VisualOpenGLEngine\cmake-build-debug\libs\glm-master" && "C:\Users\testy\Desktop\UNI-Stuff\OOAD\CLion 2024.2.2\bin\cmake\win\x64\bin\cmake.exe" -E echo "No interactive CMake dialog available.""
   DESC = No interactive CMake dialog available...
   restat = 1
 
@@ -309,7 +309,7 @@ build libs/glm-master/edit_cache: phony libs/glm-master/CMakeFiles/edit_cache.ut
 # Utility command for rebuild_cache
 
 build libs/glm-master/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D "C:\Users\testy\Desktop\UNI-Stuff\Visual computing\OpenGL_Praktikum_Linux_MacOS_fix_cmake_3.5\OpenGL_Praktikum\cmake-build-debug\libs\glm-master" && "C:\Users\testy\Desktop\UNI-Stuff\OOAD\CLion 2024.2.2\bin\cmake\win\x64\bin\cmake.exe" --regenerate-during-build -S"C:\Users\testy\Desktop\UNI-Stuff\Visual computing\OpenGL_Praktikum_Linux_MacOS_fix_cmake_3.5\OpenGL_Praktikum" -B"C:\Users\testy\Desktop\UNI-Stuff\Visual computing\OpenGL_Praktikum_Linux_MacOS_fix_cmake_3.5\OpenGL_Praktikum\cmake-build-debug""
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D "C:\Users\testy\Desktop\UNI-Stuff\Visual computing\GIt Version\VisualOpenGLEngine\cmake-build-debug\libs\glm-master" && "C:\Users\testy\Desktop\UNI-Stuff\OOAD\CLion 2024.2.2\bin\cmake\win\x64\bin\cmake.exe" --regenerate-during-build -S"C:\Users\testy\Desktop\UNI-Stuff\Visual computing\GIt Version\VisualOpenGLEngine" -B"C:\Users\testy\Desktop\UNI-Stuff\Visual computing\GIt Version\VisualOpenGLEngine\cmake-build-debug""
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
@@ -327,7 +327,7 @@ build libs/glm-master/list_install_components: phony
 # Utility command for install
 
 build libs/glm-master/CMakeFiles/install.util: CUSTOM_COMMAND libs/glm-master/all
-  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D "C:\Users\testy\Desktop\UNI-Stuff\Visual computing\OpenGL_Praktikum_Linux_MacOS_fix_cmake_3.5\OpenGL_Praktikum\cmake-build-debug\libs\glm-master" && "C:\Users\testy\Desktop\UNI-Stuff\OOAD\CLion 2024.2.2\bin\cmake\win\x64\bin\cmake.exe" -P cmake_install.cmake"
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D "C:\Users\testy\Desktop\UNI-Stuff\Visual computing\GIt Version\VisualOpenGLEngine\cmake-build-debug\libs\glm-master" && "C:\Users\testy\Desktop\UNI-Stuff\OOAD\CLion 2024.2.2\bin\cmake\win\x64\bin\cmake.exe" -P cmake_install.cmake"
   DESC = Install the project...
   pool = console
   restat = 1
@@ -339,7 +339,7 @@ build libs/glm-master/install: phony libs/glm-master/CMakeFiles/install.util
 # Utility command for install/local
 
 build libs/glm-master/CMakeFiles/install/local.util: CUSTOM_COMMAND libs/glm-master/all
-  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D "C:\Users\testy\Desktop\UNI-Stuff\Visual computing\OpenGL_Praktikum_Linux_MacOS_fix_cmake_3.5\OpenGL_Praktikum\cmake-build-debug\libs\glm-master" && "C:\Users\testy\Desktop\UNI-Stuff\OOAD\CLion 2024.2.2\bin\cmake\win\x64\bin\cmake.exe" -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake"
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D "C:\Users\testy\Desktop\UNI-Stuff\Visual computing\GIt Version\VisualOpenGLEngine\cmake-build-debug\libs\glm-master" && "C:\Users\testy\Desktop\UNI-Stuff\OOAD\CLion 2024.2.2\bin\cmake\win\x64\bin\cmake.exe" -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake"
   DESC = Installing only the local directory...
   pool = console
   restat = 1
@@ -351,7 +351,7 @@ build libs/glm-master/install/local: phony libs/glm-master/CMakeFiles/install/lo
 # Utility command for install/strip
 
 build libs/glm-master/CMakeFiles/install/strip.util: CUSTOM_COMMAND libs/glm-master/all
-  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D "C:\Users\testy\Desktop\UNI-Stuff\Visual computing\OpenGL_Praktikum_Linux_MacOS_fix_cmake_3.5\OpenGL_Praktikum\cmake-build-debug\libs\glm-master" && "C:\Users\testy\Desktop\UNI-Stuff\OOAD\CLion 2024.2.2\bin\cmake\win\x64\bin\cmake.exe" -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake"
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D "C:\Users\testy\Desktop\UNI-Stuff\Visual computing\GIt Version\VisualOpenGLEngine\cmake-build-debug\libs\glm-master" && "C:\Users\testy\Desktop\UNI-Stuff\OOAD\CLion 2024.2.2\bin\cmake\win\x64\bin\cmake.exe" -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake"
   DESC = Installing the project stripped...
   pool = console
   restat = 1
@@ -363,11 +363,11 @@ build libs/glm-master/install/strip: phony libs/glm-master/CMakeFiles/install/st
 # Custom command for libs\glm-master\CMakeFiles\uninstall
 
 build libs/glm-master/CMakeFiles/uninstall | ${cmake_ninja_workdir}libs/glm-master/CMakeFiles/uninstall: CUSTOM_COMMAND
-  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D "C:\Users\testy\Desktop\UNI-Stuff\Visual computing\OpenGL_Praktikum_Linux_MacOS_fix_cmake_3.5\OpenGL_Praktikum\cmake-build-debug\libs\glm-master" && "C:\Users\testy\Desktop\UNI-Stuff\OOAD\CLion 2024.2.2\bin\cmake\win\x64\bin\cmake.exe" -P "C:/Users/testy/Desktop/UNI-Stuff/Visual computing/OpenGL_Praktikum_Linux_MacOS_fix_cmake_3.5/OpenGL_Praktikum/cmake-build-debug/libs/glm-master/cmake_uninstall.cmake""
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D "C:\Users\testy\Desktop\UNI-Stuff\Visual computing\GIt Version\VisualOpenGLEngine\cmake-build-debug\libs\glm-master" && "C:\Users\testy\Desktop\UNI-Stuff\OOAD\CLion 2024.2.2\bin\cmake\win\x64\bin\cmake.exe" -P "C:/Users/testy/Desktop/UNI-Stuff/Visual computing/GIt Version/VisualOpenGLEngine/cmake-build-debug/libs/glm-master/cmake_uninstall.cmake""
 
 # =============================================================================
 # Write statements declared in CMakeLists.txt:
-# C:/Users/testy/Desktop/UNI-Stuff/Visual computing/OpenGL_Praktikum_Linux_MacOS_fix_cmake_3.5/OpenGL_Praktikum/libs/glm-master/CMakeLists.txt
+# C:/Users/testy/Desktop/UNI-Stuff/Visual computing/GIt Version/VisualOpenGLEngine/libs/glm-master/CMakeLists.txt
 # =============================================================================
 
 # =============================================================================
@@ -379,17 +379,17 @@ build libs/glm-master/CMakeFiles/uninstall | ${cmake_ninja_workdir}libs/glm-mast
 
 build cmake_object_order_depends_target_glm_dummy: phony || .
 
-build libs/glm-master/glm/CMakeFiles/glm_dummy.dir/detail/dummy.cpp.obj: CXX_COMPILER__glm_dummy_unscanned_Debug C$:/Users/testy/Desktop/UNI-Stuff/Visual$ computing/OpenGL_Praktikum_Linux_MacOS_fix_cmake_3.5/OpenGL_Praktikum/libs/glm-master/glm/detail/dummy.cpp || cmake_object_order_depends_target_glm_dummy
+build libs/glm-master/glm/CMakeFiles/glm_dummy.dir/detail/dummy.cpp.obj: CXX_COMPILER__glm_dummy_unscanned_Debug C$:/Users/testy/Desktop/UNI-Stuff/Visual$ computing/GIt$ Version/VisualOpenGLEngine/libs/glm-master/glm/detail/dummy.cpp || cmake_object_order_depends_target_glm_dummy
   DEP_FILE = libs\glm-master\glm\CMakeFiles\glm_dummy.dir\detail\dummy.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always -O2 -Wno-long-long
-  INCLUDES = -I"C:/Users/testy/Desktop/UNI-Stuff/Visual computing/OpenGL_Praktikum_Linux_MacOS_fix_cmake_3.5/OpenGL_Praktikum/libs/glm-master" -I"C:/Users/testy/Desktop/UNI-Stuff/Visual computing/OpenGL_Praktikum_Linux_MacOS_fix_cmake_3.5/OpenGL_Praktikum/libs/glm-master/glm/.."
+  INCLUDES = -I"C:/Users/testy/Desktop/UNI-Stuff/Visual computing/GIt Version/VisualOpenGLEngine/libs/glm-master" -I"C:/Users/testy/Desktop/UNI-Stuff/Visual computing/GIt Version/VisualOpenGLEngine/libs/glm-master/glm/.."
   OBJECT_DIR = libs\glm-master\glm\CMakeFiles\glm_dummy.dir
   OBJECT_FILE_DIR = libs\glm-master\glm\CMakeFiles\glm_dummy.dir\detail
 
-build libs/glm-master/glm/CMakeFiles/glm_dummy.dir/detail/glm.cpp.obj: CXX_COMPILER__glm_dummy_unscanned_Debug C$:/Users/testy/Desktop/UNI-Stuff/Visual$ computing/OpenGL_Praktikum_Linux_MacOS_fix_cmake_3.5/OpenGL_Praktikum/libs/glm-master/glm/detail/glm.cpp || cmake_object_order_depends_target_glm_dummy
+build libs/glm-master/glm/CMakeFiles/glm_dummy.dir/detail/glm.cpp.obj: CXX_COMPILER__glm_dummy_unscanned_Debug C$:/Users/testy/Desktop/UNI-Stuff/Visual$ computing/GIt$ Version/VisualOpenGLEngine/libs/glm-master/glm/detail/glm.cpp || cmake_object_order_depends_target_glm_dummy
   DEP_FILE = libs\glm-master\glm\CMakeFiles\glm_dummy.dir\detail\glm.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always -O2 -Wno-long-long
-  INCLUDES = -I"C:/Users/testy/Desktop/UNI-Stuff/Visual computing/OpenGL_Praktikum_Linux_MacOS_fix_cmake_3.5/OpenGL_Praktikum/libs/glm-master" -I"C:/Users/testy/Desktop/UNI-Stuff/Visual computing/OpenGL_Praktikum_Linux_MacOS_fix_cmake_3.5/OpenGL_Praktikum/libs/glm-master/glm/.."
+  INCLUDES = -I"C:/Users/testy/Desktop/UNI-Stuff/Visual computing/GIt Version/VisualOpenGLEngine/libs/glm-master" -I"C:/Users/testy/Desktop/UNI-Stuff/Visual computing/GIt Version/VisualOpenGLEngine/libs/glm-master/glm/.."
   OBJECT_DIR = libs\glm-master\glm\CMakeFiles\glm_dummy.dir
   OBJECT_FILE_DIR = libs\glm-master\glm\CMakeFiles\glm_dummy.dir\detail
 
@@ -416,7 +416,7 @@ build libs/glm-master/glm/glm_dummy.exe: CXX_EXECUTABLE_LINKER__glm_dummy_Debug 
 # Utility command for edit_cache
 
 build libs/glm-master/glm/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
-  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D "C:\Users\testy\Desktop\UNI-Stuff\Visual computing\OpenGL_Praktikum_Linux_MacOS_fix_cmake_3.5\OpenGL_Praktikum\cmake-build-debug\libs\glm-master\glm" && "C:\Users\testy\Desktop\UNI-Stuff\OOAD\CLion 2024.2.2\bin\cmake\win\x64\bin\cmake.exe" -E echo "No interactive CMake dialog available.""
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D "C:\Users\testy\Desktop\UNI-Stuff\Visual computing\GIt Version\VisualOpenGLEngine\cmake-build-debug\libs\glm-master\glm" && "C:\Users\testy\Desktop\UNI-Stuff\OOAD\CLion 2024.2.2\bin\cmake\win\x64\bin\cmake.exe" -E echo "No interactive CMake dialog available.""
   DESC = No interactive CMake dialog available...
   restat = 1
 
@@ -427,7 +427,7 @@ build libs/glm-master/glm/edit_cache: phony libs/glm-master/glm/CMakeFiles/edit_
 # Utility command for rebuild_cache
 
 build libs/glm-master/glm/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D "C:\Users\testy\Desktop\UNI-Stuff\Visual computing\OpenGL_Praktikum_Linux_MacOS_fix_cmake_3.5\OpenGL_Praktikum\cmake-build-debug\libs\glm-master\glm" && "C:\Users\testy\Desktop\UNI-Stuff\OOAD\CLion 2024.2.2\bin\cmake\win\x64\bin\cmake.exe" --regenerate-during-build -S"C:\Users\testy\Desktop\UNI-Stuff\Visual computing\OpenGL_Praktikum_Linux_MacOS_fix_cmake_3.5\OpenGL_Praktikum" -B"C:\Users\testy\Desktop\UNI-Stuff\Visual computing\OpenGL_Praktikum_Linux_MacOS_fix_cmake_3.5\OpenGL_Praktikum\cmake-build-debug""
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D "C:\Users\testy\Desktop\UNI-Stuff\Visual computing\GIt Version\VisualOpenGLEngine\cmake-build-debug\libs\glm-master\glm" && "C:\Users\testy\Desktop\UNI-Stuff\OOAD\CLion 2024.2.2\bin\cmake\win\x64\bin\cmake.exe" --regenerate-during-build -S"C:\Users\testy\Desktop\UNI-Stuff\Visual computing\GIt Version\VisualOpenGLEngine" -B"C:\Users\testy\Desktop\UNI-Stuff\Visual computing\GIt Version\VisualOpenGLEngine\cmake-build-debug""
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
@@ -445,7 +445,7 @@ build libs/glm-master/glm/list_install_components: phony
 # Utility command for install
 
 build libs/glm-master/glm/CMakeFiles/install.util: CUSTOM_COMMAND libs/glm-master/glm/all
-  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D "C:\Users\testy\Desktop\UNI-Stuff\Visual computing\OpenGL_Praktikum_Linux_MacOS_fix_cmake_3.5\OpenGL_Praktikum\cmake-build-debug\libs\glm-master\glm" && "C:\Users\testy\Desktop\UNI-Stuff\OOAD\CLion 2024.2.2\bin\cmake\win\x64\bin\cmake.exe" -P cmake_install.cmake"
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D "C:\Users\testy\Desktop\UNI-Stuff\Visual computing\GIt Version\VisualOpenGLEngine\cmake-build-debug\libs\glm-master\glm" && "C:\Users\testy\Desktop\UNI-Stuff\OOAD\CLion 2024.2.2\bin\cmake\win\x64\bin\cmake.exe" -P cmake_install.cmake"
   DESC = Install the project...
   pool = console
   restat = 1
@@ -457,7 +457,7 @@ build libs/glm-master/glm/install: phony libs/glm-master/glm/CMakeFiles/install.
 # Utility command for install/local
 
 build libs/glm-master/glm/CMakeFiles/install/local.util: CUSTOM_COMMAND libs/glm-master/glm/all
-  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D "C:\Users\testy\Desktop\UNI-Stuff\Visual computing\OpenGL_Praktikum_Linux_MacOS_fix_cmake_3.5\OpenGL_Praktikum\cmake-build-debug\libs\glm-master\glm" && "C:\Users\testy\Desktop\UNI-Stuff\OOAD\CLion 2024.2.2\bin\cmake\win\x64\bin\cmake.exe" -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake"
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D "C:\Users\testy\Desktop\UNI-Stuff\Visual computing\GIt Version\VisualOpenGLEngine\cmake-build-debug\libs\glm-master\glm" && "C:\Users\testy\Desktop\UNI-Stuff\OOAD\CLion 2024.2.2\bin\cmake\win\x64\bin\cmake.exe" -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake"
   DESC = Installing only the local directory...
   pool = console
   restat = 1
@@ -469,7 +469,7 @@ build libs/glm-master/glm/install/local: phony libs/glm-master/glm/CMakeFiles/in
 # Utility command for install/strip
 
 build libs/glm-master/glm/CMakeFiles/install/strip.util: CUSTOM_COMMAND libs/glm-master/glm/all
-  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D "C:\Users\testy\Desktop\UNI-Stuff\Visual computing\OpenGL_Praktikum_Linux_MacOS_fix_cmake_3.5\OpenGL_Praktikum\cmake-build-debug\libs\glm-master\glm" && "C:\Users\testy\Desktop\UNI-Stuff\OOAD\CLion 2024.2.2\bin\cmake\win\x64\bin\cmake.exe" -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake"
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D "C:\Users\testy\Desktop\UNI-Stuff\Visual computing\GIt Version\VisualOpenGLEngine\cmake-build-debug\libs\glm-master\glm" && "C:\Users\testy\Desktop\UNI-Stuff\OOAD\CLion 2024.2.2\bin\cmake\win\x64\bin\cmake.exe" -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake"
   DESC = Installing the project stripped...
   pool = console
   restat = 1
@@ -478,7 +478,7 @@ build libs/glm-master/glm/install/strip: phony libs/glm-master/glm/CMakeFiles/in
 
 # =============================================================================
 # Write statements declared in CMakeLists.txt:
-# C:/Users/testy/Desktop/UNI-Stuff/Visual computing/OpenGL_Praktikum_Linux_MacOS_fix_cmake_3.5/OpenGL_Praktikum/libs/glm-master/CMakeLists.txt
+# C:/Users/testy/Desktop/UNI-Stuff/Visual computing/GIt Version/VisualOpenGLEngine/libs/glm-master/CMakeLists.txt
 # =============================================================================
 
 
@@ -486,7 +486,7 @@ build libs/glm-master/glm/install/strip: phony libs/glm-master/glm/CMakeFiles/in
 # Utility command for edit_cache
 
 build libs/glm-master/test/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
-  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D "C:\Users\testy\Desktop\UNI-Stuff\Visual computing\OpenGL_Praktikum_Linux_MacOS_fix_cmake_3.5\OpenGL_Praktikum\cmake-build-debug\libs\glm-master\test" && "C:\Users\testy\Desktop\UNI-Stuff\OOAD\CLion 2024.2.2\bin\cmake\win\x64\bin\cmake.exe" -E echo "No interactive CMake dialog available.""
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D "C:\Users\testy\Desktop\UNI-Stuff\Visual computing\GIt Version\VisualOpenGLEngine\cmake-build-debug\libs\glm-master\test" && "C:\Users\testy\Desktop\UNI-Stuff\OOAD\CLion 2024.2.2\bin\cmake\win\x64\bin\cmake.exe" -E echo "No interactive CMake dialog available.""
   DESC = No interactive CMake dialog available...
   restat = 1
 
@@ -497,7 +497,7 @@ build libs/glm-master/test/edit_cache: phony libs/glm-master/test/CMakeFiles/edi
 # Utility command for rebuild_cache
 
 build libs/glm-master/test/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D "C:\Users\testy\Desktop\UNI-Stuff\Visual computing\OpenGL_Praktikum_Linux_MacOS_fix_cmake_3.5\OpenGL_Praktikum\cmake-build-debug\libs\glm-master\test" && "C:\Users\testy\Desktop\UNI-Stuff\OOAD\CLion 2024.2.2\bin\cmake\win\x64\bin\cmake.exe" --regenerate-during-build -S"C:\Users\testy\Desktop\UNI-Stuff\Visual computing\OpenGL_Praktikum_Linux_MacOS_fix_cmake_3.5\OpenGL_Praktikum" -B"C:\Users\testy\Desktop\UNI-Stuff\Visual computing\OpenGL_Praktikum_Linux_MacOS_fix_cmake_3.5\OpenGL_Praktikum\cmake-build-debug""
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D "C:\Users\testy\Desktop\UNI-Stuff\Visual computing\GIt Version\VisualOpenGLEngine\cmake-build-debug\libs\glm-master\test" && "C:\Users\testy\Desktop\UNI-Stuff\OOAD\CLion 2024.2.2\bin\cmake\win\x64\bin\cmake.exe" --regenerate-during-build -S"C:\Users\testy\Desktop\UNI-Stuff\Visual computing\GIt Version\VisualOpenGLEngine" -B"C:\Users\testy\Desktop\UNI-Stuff\Visual computing\GIt Version\VisualOpenGLEngine\cmake-build-debug""
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
@@ -515,7 +515,7 @@ build libs/glm-master/test/list_install_components: phony
 # Utility command for install
 
 build libs/glm-master/test/CMakeFiles/install.util: CUSTOM_COMMAND libs/glm-master/test/all
-  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D "C:\Users\testy\Desktop\UNI-Stuff\Visual computing\OpenGL_Praktikum_Linux_MacOS_fix_cmake_3.5\OpenGL_Praktikum\cmake-build-debug\libs\glm-master\test" && "C:\Users\testy\Desktop\UNI-Stuff\OOAD\CLion 2024.2.2\bin\cmake\win\x64\bin\cmake.exe" -P cmake_install.cmake"
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D "C:\Users\testy\Desktop\UNI-Stuff\Visual computing\GIt Version\VisualOpenGLEngine\cmake-build-debug\libs\glm-master\test" && "C:\Users\testy\Desktop\UNI-Stuff\OOAD\CLion 2024.2.2\bin\cmake\win\x64\bin\cmake.exe" -P cmake_install.cmake"
   DESC = Install the project...
   pool = console
   restat = 1
@@ -527,7 +527,7 @@ build libs/glm-master/test/install: phony libs/glm-master/test/CMakeFiles/instal
 # Utility command for install/local
 
 build libs/glm-master/test/CMakeFiles/install/local.util: CUSTOM_COMMAND libs/glm-master/test/all
-  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D "C:\Users\testy\Desktop\UNI-Stuff\Visual computing\OpenGL_Praktikum_Linux_MacOS_fix_cmake_3.5\OpenGL_Praktikum\cmake-build-debug\libs\glm-master\test" && "C:\Users\testy\Desktop\UNI-Stuff\OOAD\CLion 2024.2.2\bin\cmake\win\x64\bin\cmake.exe" -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake"
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D "C:\Users\testy\Desktop\UNI-Stuff\Visual computing\GIt Version\VisualOpenGLEngine\cmake-build-debug\libs\glm-master\test" && "C:\Users\testy\Desktop\UNI-Stuff\OOAD\CLion 2024.2.2\bin\cmake\win\x64\bin\cmake.exe" -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake"
   DESC = Installing only the local directory...
   pool = console
   restat = 1
@@ -539,7 +539,7 @@ build libs/glm-master/test/install/local: phony libs/glm-master/test/CMakeFiles/
 # Utility command for install/strip
 
 build libs/glm-master/test/CMakeFiles/install/strip.util: CUSTOM_COMMAND libs/glm-master/test/all
-  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D "C:\Users\testy\Desktop\UNI-Stuff\Visual computing\OpenGL_Praktikum_Linux_MacOS_fix_cmake_3.5\OpenGL_Praktikum\cmake-build-debug\libs\glm-master\test" && "C:\Users\testy\Desktop\UNI-Stuff\OOAD\CLion 2024.2.2\bin\cmake\win\x64\bin\cmake.exe" -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake"
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D "C:\Users\testy\Desktop\UNI-Stuff\Visual computing\GIt Version\VisualOpenGLEngine\cmake-build-debug\libs\glm-master\test" && "C:\Users\testy\Desktop\UNI-Stuff\OOAD\CLion 2024.2.2\bin\cmake\win\x64\bin\cmake.exe" -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake"
   DESC = Installing the project stripped...
   pool = console
   restat = 1
@@ -548,7 +548,7 @@ build libs/glm-master/test/install/strip: phony libs/glm-master/test/CMakeFiles/
 
 # =============================================================================
 # Write statements declared in CMakeLists.txt:
-# C:/Users/testy/Desktop/UNI-Stuff/Visual computing/OpenGL_Praktikum_Linux_MacOS_fix_cmake_3.5/OpenGL_Praktikum/libs/glm-master/test/CMakeLists.txt
+# C:/Users/testy/Desktop/UNI-Stuff/Visual computing/GIt Version/VisualOpenGLEngine/libs/glm-master/test/CMakeLists.txt
 # =============================================================================
 
 
@@ -556,7 +556,7 @@ build libs/glm-master/test/install/strip: phony libs/glm-master/test/CMakeFiles/
 # Utility command for edit_cache
 
 build libs/glm-master/test/bug/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
-  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D "C:\Users\testy\Desktop\UNI-Stuff\Visual computing\OpenGL_Praktikum_Linux_MacOS_fix_cmake_3.5\OpenGL_Praktikum\cmake-build-debug\libs\glm-master\test\bug" && "C:\Users\testy\Desktop\UNI-Stuff\OOAD\CLion 2024.2.2\bin\cmake\win\x64\bin\cmake.exe" -E echo "No interactive CMake dialog available.""
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D "C:\Users\testy\Desktop\UNI-Stuff\Visual computing\GIt Version\VisualOpenGLEngine\cmake-build-debug\libs\glm-master\test\bug" && "C:\Users\testy\Desktop\UNI-Stuff\OOAD\CLion 2024.2.2\bin\cmake\win\x64\bin\cmake.exe" -E echo "No interactive CMake dialog available.""
   DESC = No interactive CMake dialog available...
   restat = 1
 
@@ -567,7 +567,7 @@ build libs/glm-master/test/bug/edit_cache: phony libs/glm-master/test/bug/CMakeF
 # Utility command for rebuild_cache
 
 build libs/glm-master/test/bug/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D "C:\Users\testy\Desktop\UNI-Stuff\Visual computing\OpenGL_Praktikum_Linux_MacOS_fix_cmake_3.5\OpenGL_Praktikum\cmake-build-debug\libs\glm-master\test\bug" && "C:\Users\testy\Desktop\UNI-Stuff\OOAD\CLion 2024.2.2\bin\cmake\win\x64\bin\cmake.exe" --regenerate-during-build -S"C:\Users\testy\Desktop\UNI-Stuff\Visual computing\OpenGL_Praktikum_Linux_MacOS_fix_cmake_3.5\OpenGL_Praktikum" -B"C:\Users\testy\Desktop\UNI-Stuff\Visual computing\OpenGL_Praktikum_Linux_MacOS_fix_cmake_3.5\OpenGL_Praktikum\cmake-build-debug""
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D "C:\Users\testy\Desktop\UNI-Stuff\Visual computing\GIt Version\VisualOpenGLEngine\cmake-build-debug\libs\glm-master\test\bug" && "C:\Users\testy\Desktop\UNI-Stuff\OOAD\CLion 2024.2.2\bin\cmake\win\x64\bin\cmake.exe" --regenerate-during-build -S"C:\Users\testy\Desktop\UNI-Stuff\Visual computing\GIt Version\VisualOpenGLEngine" -B"C:\Users\testy\Desktop\UNI-Stuff\Visual computing\GIt Version\VisualOpenGLEngine\cmake-build-debug""
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
@@ -585,7 +585,7 @@ build libs/glm-master/test/bug/list_install_components: phony
 # Utility command for install
 
 build libs/glm-master/test/bug/CMakeFiles/install.util: CUSTOM_COMMAND libs/glm-master/test/bug/all
-  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D "C:\Users\testy\Desktop\UNI-Stuff\Visual computing\OpenGL_Praktikum_Linux_MacOS_fix_cmake_3.5\OpenGL_Praktikum\cmake-build-debug\libs\glm-master\test\bug" && "C:\Users\testy\Desktop\UNI-Stuff\OOAD\CLion 2024.2.2\bin\cmake\win\x64\bin\cmake.exe" -P cmake_install.cmake"
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D "C:\Users\testy\Desktop\UNI-Stuff\Visual computing\GIt Version\VisualOpenGLEngine\cmake-build-debug\libs\glm-master\test\bug" && "C:\Users\testy\Desktop\UNI-Stuff\OOAD\CLion 2024.2.2\bin\cmake\win\x64\bin\cmake.exe" -P cmake_install.cmake"
   DESC = Install the project...
   pool = console
   restat = 1
@@ -597,7 +597,7 @@ build libs/glm-master/test/bug/install: phony libs/glm-master/test/bug/CMakeFile
 # Utility command for install/local
 
 build libs/glm-master/test/bug/CMakeFiles/install/local.util: CUSTOM_COMMAND libs/glm-master/test/bug/all
-  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D "C:\Users\testy\Desktop\UNI-Stuff\Visual computing\OpenGL_Praktikum_Linux_MacOS_fix_cmake_3.5\OpenGL_Praktikum\cmake-build-debug\libs\glm-master\test\bug" && "C:\Users\testy\Desktop\UNI-Stuff\OOAD\CLion 2024.2.2\bin\cmake\win\x64\bin\cmake.exe" -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake"
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D "C:\Users\testy\Desktop\UNI-Stuff\Visual computing\GIt Version\VisualOpenGLEngine\cmake-build-debug\libs\glm-master\test\bug" && "C:\Users\testy\Desktop\UNI-Stuff\OOAD\CLion 2024.2.2\bin\cmake\win\x64\bin\cmake.exe" -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake"
   DESC = Installing only the local directory...
   pool = console
   restat = 1
@@ -609,7 +609,7 @@ build libs/glm-master/test/bug/install/local: phony libs/glm-master/test/bug/CMa
 # Utility command for install/strip
 
 build libs/glm-master/test/bug/CMakeFiles/install/strip.util: CUSTOM_COMMAND libs/glm-master/test/bug/all
-  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D "C:\Users\testy\Desktop\UNI-Stuff\Visual computing\OpenGL_Praktikum_Linux_MacOS_fix_cmake_3.5\OpenGL_Praktikum\cmake-build-debug\libs\glm-master\test\bug" && "C:\Users\testy\Desktop\UNI-Stuff\OOAD\CLion 2024.2.2\bin\cmake\win\x64\bin\cmake.exe" -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake"
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D "C:\Users\testy\Desktop\UNI-Stuff\Visual computing\GIt Version\VisualOpenGLEngine\cmake-build-debug\libs\glm-master\test\bug" && "C:\Users\testy\Desktop\UNI-Stuff\OOAD\CLion 2024.2.2\bin\cmake\win\x64\bin\cmake.exe" -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake"
   DESC = Installing the project stripped...
   pool = console
   restat = 1
@@ -618,7 +618,7 @@ build libs/glm-master/test/bug/install/strip: phony libs/glm-master/test/bug/CMa
 
 # =============================================================================
 # Write statements declared in CMakeLists.txt:
-# C:/Users/testy/Desktop/UNI-Stuff/Visual computing/OpenGL_Praktikum_Linux_MacOS_fix_cmake_3.5/OpenGL_Praktikum/libs/glm-master/test/CMakeLists.txt
+# C:/Users/testy/Desktop/UNI-Stuff/Visual computing/GIt Version/VisualOpenGLEngine/libs/glm-master/test/CMakeLists.txt
 # =============================================================================
 
 
@@ -626,7 +626,7 @@ build libs/glm-master/test/bug/install/strip: phony libs/glm-master/test/bug/CMa
 # Utility command for edit_cache
 
 build libs/glm-master/test/core/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
-  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D "C:\Users\testy\Desktop\UNI-Stuff\Visual computing\OpenGL_Praktikum_Linux_MacOS_fix_cmake_3.5\OpenGL_Praktikum\cmake-build-debug\libs\glm-master\test\core" && "C:\Users\testy\Desktop\UNI-Stuff\OOAD\CLion 2024.2.2\bin\cmake\win\x64\bin\cmake.exe" -E echo "No interactive CMake dialog available.""
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D "C:\Users\testy\Desktop\UNI-Stuff\Visual computing\GIt Version\VisualOpenGLEngine\cmake-build-debug\libs\glm-master\test\core" && "C:\Users\testy\Desktop\UNI-Stuff\OOAD\CLion 2024.2.2\bin\cmake\win\x64\bin\cmake.exe" -E echo "No interactive CMake dialog available.""
   DESC = No interactive CMake dialog available...
   restat = 1
 
@@ -637,7 +637,7 @@ build libs/glm-master/test/core/edit_cache: phony libs/glm-master/test/core/CMak
 # Utility command for rebuild_cache
 
 build libs/glm-master/test/core/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D "C:\Users\testy\Desktop\UNI-Stuff\Visual computing\OpenGL_Praktikum_Linux_MacOS_fix_cmake_3.5\OpenGL_Praktikum\cmake-build-debug\libs\glm-master\test\core" && "C:\Users\testy\Desktop\UNI-Stuff\OOAD\CLion 2024.2.2\bin\cmake\win\x64\bin\cmake.exe" --regenerate-during-build -S"C:\Users\testy\Desktop\UNI-Stuff\Visual computing\OpenGL_Praktikum_Linux_MacOS_fix_cmake_3.5\OpenGL_Praktikum" -B"C:\Users\testy\Desktop\UNI-Stuff\Visual computing\OpenGL_Praktikum_Linux_MacOS_fix_cmake_3.5\OpenGL_Praktikum\cmake-build-debug""
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D "C:\Users\testy\Desktop\UNI-Stuff\Visual computing\GIt Version\VisualOpenGLEngine\cmake-build-debug\libs\glm-master\test\core" && "C:\Users\testy\Desktop\UNI-Stuff\OOAD\CLion 2024.2.2\bin\cmake\win\x64\bin\cmake.exe" --regenerate-during-build -S"C:\Users\testy\Desktop\UNI-Stuff\Visual computing\GIt Version\VisualOpenGLEngine" -B"C:\Users\testy\Desktop\UNI-Stuff\Visual computing\GIt Version\VisualOpenGLEngine\cmake-build-debug""
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
@@ -655,7 +655,7 @@ build libs/glm-master/test/core/list_install_components: phony
 # Utility command for install
 
 build libs/glm-master/test/core/CMakeFiles/install.util: CUSTOM_COMMAND libs/glm-master/test/core/all
-  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D "C:\Users\testy\Desktop\UNI-Stuff\Visual computing\OpenGL_Praktikum_Linux_MacOS_fix_cmake_3.5\OpenGL_Praktikum\cmake-build-debug\libs\glm-master\test\core" && "C:\Users\testy\Desktop\UNI-Stuff\OOAD\CLion 2024.2.2\bin\cmake\win\x64\bin\cmake.exe" -P cmake_install.cmake"
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D "C:\Users\testy\Desktop\UNI-Stuff\Visual computing\GIt Version\VisualOpenGLEngine\cmake-build-debug\libs\glm-master\test\core" && "C:\Users\testy\Desktop\UNI-Stuff\OOAD\CLion 2024.2.2\bin\cmake\win\x64\bin\cmake.exe" -P cmake_install.cmake"
   DESC = Install the project...
   pool = console
   restat = 1
@@ -667,7 +667,7 @@ build libs/glm-master/test/core/install: phony libs/glm-master/test/core/CMakeFi
 # Utility command for install/local
 
 build libs/glm-master/test/core/CMakeFiles/install/local.util: CUSTOM_COMMAND libs/glm-master/test/core/all
-  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D "C:\Users\testy\Desktop\UNI-Stuff\Visual computing\OpenGL_Praktikum_Linux_MacOS_fix_cmake_3.5\OpenGL_Praktikum\cmake-build-debug\libs\glm-master\test\core" && "C:\Users\testy\Desktop\UNI-Stuff\OOAD\CLion 2024.2.2\bin\cmake\win\x64\bin\cmake.exe" -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake"
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D "C:\Users\testy\Desktop\UNI-Stuff\Visual computing\GIt Version\VisualOpenGLEngine\cmake-build-debug\libs\glm-master\test\core" && "C:\Users\testy\Desktop\UNI-Stuff\OOAD\CLion 2024.2.2\bin\cmake\win\x64\bin\cmake.exe" -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake"
   DESC = Installing only the local directory...
   pool = console
   restat = 1
@@ -679,7 +679,7 @@ build libs/glm-master/test/core/install/local: phony libs/glm-master/test/core/C
 # Utility command for install/strip
 
 build libs/glm-master/test/core/CMakeFiles/install/strip.util: CUSTOM_COMMAND libs/glm-master/test/core/all
-  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D "C:\Users\testy\Desktop\UNI-Stuff\Visual computing\OpenGL_Praktikum_Linux_MacOS_fix_cmake_3.5\OpenGL_Praktikum\cmake-build-debug\libs\glm-master\test\core" && "C:\Users\testy\Desktop\UNI-Stuff\OOAD\CLion 2024.2.2\bin\cmake\win\x64\bin\cmake.exe" -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake"
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D "C:\Users\testy\Desktop\UNI-Stuff\Visual computing\GIt Version\VisualOpenGLEngine\cmake-build-debug\libs\glm-master\test\core" && "C:\Users\testy\Desktop\UNI-Stuff\OOAD\CLion 2024.2.2\bin\cmake\win\x64\bin\cmake.exe" -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake"
   DESC = Installing the project stripped...
   pool = console
   restat = 1
@@ -688,7 +688,7 @@ build libs/glm-master/test/core/install/strip: phony libs/glm-master/test/core/C
 
 # =============================================================================
 # Write statements declared in CMakeLists.txt:
-# C:/Users/testy/Desktop/UNI-Stuff/Visual computing/OpenGL_Praktikum_Linux_MacOS_fix_cmake_3.5/OpenGL_Praktikum/libs/glm-master/test/CMakeLists.txt
+# C:/Users/testy/Desktop/UNI-Stuff/Visual computing/GIt Version/VisualOpenGLEngine/libs/glm-master/test/CMakeLists.txt
 # =============================================================================
 
 
@@ -696,7 +696,7 @@ build libs/glm-master/test/core/install/strip: phony libs/glm-master/test/core/C
 # Utility command for edit_cache
 
 build libs/glm-master/test/ext/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
-  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D "C:\Users\testy\Desktop\UNI-Stuff\Visual computing\OpenGL_Praktikum_Linux_MacOS_fix_cmake_3.5\OpenGL_Praktikum\cmake-build-debug\libs\glm-master\test\ext" && "C:\Users\testy\Desktop\UNI-Stuff\OOAD\CLion 2024.2.2\bin\cmake\win\x64\bin\cmake.exe" -E echo "No interactive CMake dialog available.""
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D "C:\Users\testy\Desktop\UNI-Stuff\Visual computing\GIt Version\VisualOpenGLEngine\cmake-build-debug\libs\glm-master\test\ext" && "C:\Users\testy\Desktop\UNI-Stuff\OOAD\CLion 2024.2.2\bin\cmake\win\x64\bin\cmake.exe" -E echo "No interactive CMake dialog available.""
   DESC = No interactive CMake dialog available...
   restat = 1
 
@@ -707,7 +707,7 @@ build libs/glm-master/test/ext/edit_cache: phony libs/glm-master/test/ext/CMakeF
 # Utility command for rebuild_cache
 
 build libs/glm-master/test/ext/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D "C:\Users\testy\Desktop\UNI-Stuff\Visual computing\OpenGL_Praktikum_Linux_MacOS_fix_cmake_3.5\OpenGL_Praktikum\cmake-build-debug\libs\glm-master\test\ext" && "C:\Users\testy\Desktop\UNI-Stuff\OOAD\CLion 2024.2.2\bin\cmake\win\x64\bin\cmake.exe" --regenerate-during-build -S"C:\Users\testy\Desktop\UNI-Stuff\Visual computing\OpenGL_Praktikum_Linux_MacOS_fix_cmake_3.5\OpenGL_Praktikum" -B"C:\Users\testy\Desktop\UNI-Stuff\Visual computing\OpenGL_Praktikum_Linux_MacOS_fix_cmake_3.5\OpenGL_Praktikum\cmake-build-debug""
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D "C:\Users\testy\Desktop\UNI-Stuff\Visual computing\GIt Version\VisualOpenGLEngine\cmake-build-debug\libs\glm-master\test\ext" && "C:\Users\testy\Desktop\UNI-Stuff\OOAD\CLion 2024.2.2\bin\cmake\win\x64\bin\cmake.exe" --regenerate-during-build -S"C:\Users\testy\Desktop\UNI-Stuff\Visual computing\GIt Version\VisualOpenGLEngine" -B"C:\Users\testy\Desktop\UNI-Stuff\Visual computing\GIt Version\VisualOpenGLEngine\cmake-build-debug""
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
@@ -725,7 +725,7 @@ build libs/glm-master/test/ext/list_install_components: phony
 # Utility command for install
 
 build libs/glm-master/test/ext/CMakeFiles/install.util: CUSTOM_COMMAND libs/glm-master/test/ext/all
-  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D "C:\Users\testy\Desktop\UNI-Stuff\Visual computing\OpenGL_Praktikum_Linux_MacOS_fix_cmake_3.5\OpenGL_Praktikum\cmake-build-debug\libs\glm-master\test\ext" && "C:\Users\testy\Desktop\UNI-Stuff\OOAD\CLion 2024.2.2\bin\cmake\win\x64\bin\cmake.exe" -P cmake_install.cmake"
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D "C:\Users\testy\Desktop\UNI-Stuff\Visual computing\GIt Version\VisualOpenGLEngine\cmake-build-debug\libs\glm-master\test\ext" && "C:\Users\testy\Desktop\UNI-Stuff\OOAD\CLion 2024.2.2\bin\cmake\win\x64\bin\cmake.exe" -P cmake_install.cmake"
   DESC = Install the project...
   pool = console
   restat = 1
@@ -737,7 +737,7 @@ build libs/glm-master/test/ext/install: phony libs/glm-master/test/ext/CMakeFile
 # Utility command for install/local
 
 build libs/glm-master/test/ext/CMakeFiles/install/local.util: CUSTOM_COMMAND libs/glm-master/test/ext/all
-  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D "C:\Users\testy\Desktop\UNI-Stuff\Visual computing\OpenGL_Praktikum_Linux_MacOS_fix_cmake_3.5\OpenGL_Praktikum\cmake-build-debug\libs\glm-master\test\ext" && "C:\Users\testy\Desktop\UNI-Stuff\OOAD\CLion 2024.2.2\bin\cmake\win\x64\bin\cmake.exe" -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake"
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D "C:\Users\testy\Desktop\UNI-Stuff\Visual computing\GIt Version\VisualOpenGLEngine\cmake-build-debug\libs\glm-master\test\ext" && "C:\Users\testy\Desktop\UNI-Stuff\OOAD\CLion 2024.2.2\bin\cmake\win\x64\bin\cmake.exe" -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake"
   DESC = Installing only the local directory...
   pool = console
   restat = 1
@@ -749,7 +749,7 @@ build libs/glm-master/test/ext/install/local: phony libs/glm-master/test/ext/CMa
 # Utility command for install/strip
 
 build libs/glm-master/test/ext/CMakeFiles/install/strip.util: CUSTOM_COMMAND libs/glm-master/test/ext/all
-  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D "C:\Users\testy\Desktop\UNI-Stuff\Visual computing\OpenGL_Praktikum_Linux_MacOS_fix_cmake_3.5\OpenGL_Praktikum\cmake-build-debug\libs\glm-master\test\ext" && "C:\Users\testy\Desktop\UNI-Stuff\OOAD\CLion 2024.2.2\bin\cmake\win\x64\bin\cmake.exe" -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake"
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D "C:\Users\testy\Desktop\UNI-Stuff\Visual computing\GIt Version\VisualOpenGLEngine\cmake-build-debug\libs\glm-master\test\ext" && "C:\Users\testy\Desktop\UNI-Stuff\OOAD\CLion 2024.2.2\bin\cmake\win\x64\bin\cmake.exe" -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake"
   DESC = Installing the project stripped...
   pool = console
   restat = 1
@@ -758,7 +758,7 @@ build libs/glm-master/test/ext/install/strip: phony libs/glm-master/test/ext/CMa
 
 # =============================================================================
 # Write statements declared in CMakeLists.txt:
-# C:/Users/testy/Desktop/UNI-Stuff/Visual computing/OpenGL_Praktikum_Linux_MacOS_fix_cmake_3.5/OpenGL_Praktikum/libs/glm-master/test/CMakeLists.txt
+# C:/Users/testy/Desktop/UNI-Stuff/Visual computing/GIt Version/VisualOpenGLEngine/libs/glm-master/test/CMakeLists.txt
 # =============================================================================
 
 
@@ -766,7 +766,7 @@ build libs/glm-master/test/ext/install/strip: phony libs/glm-master/test/ext/CMa
 # Utility command for edit_cache
 
 build libs/glm-master/test/gtc/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
-  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D "C:\Users\testy\Desktop\UNI-Stuff\Visual computing\OpenGL_Praktikum_Linux_MacOS_fix_cmake_3.5\OpenGL_Praktikum\cmake-build-debug\libs\glm-master\test\gtc" && "C:\Users\testy\Desktop\UNI-Stuff\OOAD\CLion 2024.2.2\bin\cmake\win\x64\bin\cmake.exe" -E echo "No interactive CMake dialog available.""
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D "C:\Users\testy\Desktop\UNI-Stuff\Visual computing\GIt Version\VisualOpenGLEngine\cmake-build-debug\libs\glm-master\test\gtc" && "C:\Users\testy\Desktop\UNI-Stuff\OOAD\CLion 2024.2.2\bin\cmake\win\x64\bin\cmake.exe" -E echo "No interactive CMake dialog available.""
   DESC = No interactive CMake dialog available...
   restat = 1
 
@@ -777,7 +777,7 @@ build libs/glm-master/test/gtc/edit_cache: phony libs/glm-master/test/gtc/CMakeF
 # Utility command for rebuild_cache
 
 build libs/glm-master/test/gtc/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D "C:\Users\testy\Desktop\UNI-Stuff\Visual computing\OpenGL_Praktikum_Linux_MacOS_fix_cmake_3.5\OpenGL_Praktikum\cmake-build-debug\libs\glm-master\test\gtc" && "C:\Users\testy\Desktop\UNI-Stuff\OOAD\CLion 2024.2.2\bin\cmake\win\x64\bin\cmake.exe" --regenerate-during-build -S"C:\Users\testy\Desktop\UNI-Stuff\Visual computing\OpenGL_Praktikum_Linux_MacOS_fix_cmake_3.5\OpenGL_Praktikum" -B"C:\Users\testy\Desktop\UNI-Stuff\Visual computing\OpenGL_Praktikum_Linux_MacOS_fix_cmake_3.5\OpenGL_Praktikum\cmake-build-debug""
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D "C:\Users\testy\Desktop\UNI-Stuff\Visual computing\GIt Version\VisualOpenGLEngine\cmake-build-debug\libs\glm-master\test\gtc" && "C:\Users\testy\Desktop\UNI-Stuff\OOAD\CLion 2024.2.2\bin\cmake\win\x64\bin\cmake.exe" --regenerate-during-build -S"C:\Users\testy\Desktop\UNI-Stuff\Visual computing\GIt Version\VisualOpenGLEngine" -B"C:\Users\testy\Desktop\UNI-Stuff\Visual computing\GIt Version\VisualOpenGLEngine\cmake-build-debug""
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
@@ -795,7 +795,7 @@ build libs/glm-master/test/gtc/list_install_components: phony
 # Utility command for install
 
 build libs/glm-master/test/gtc/CMakeFiles/install.util: CUSTOM_COMMAND libs/glm-master/test/gtc/all
-  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D "C:\Users\testy\Desktop\UNI-Stuff\Visual computing\OpenGL_Praktikum_Linux_MacOS_fix_cmake_3.5\OpenGL_Praktikum\cmake-build-debug\libs\glm-master\test\gtc" && "C:\Users\testy\Desktop\UNI-Stuff\OOAD\CLion 2024.2.2\bin\cmake\win\x64\bin\cmake.exe" -P cmake_install.cmake"
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D "C:\Users\testy\Desktop\UNI-Stuff\Visual computing\GIt Version\VisualOpenGLEngine\cmake-build-debug\libs\glm-master\test\gtc" && "C:\Users\testy\Desktop\UNI-Stuff\OOAD\CLion 2024.2.2\bin\cmake\win\x64\bin\cmake.exe" -P cmake_install.cmake"
   DESC = Install the project...
   pool = console
   restat = 1
@@ -807,7 +807,7 @@ build libs/glm-master/test/gtc/install: phony libs/glm-master/test/gtc/CMakeFile
 # Utility command for install/local
 
 build libs/glm-master/test/gtc/CMakeFiles/install/local.util: CUSTOM_COMMAND libs/glm-master/test/gtc/all
-  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D "C:\Users\testy\Desktop\UNI-Stuff\Visual computing\OpenGL_Praktikum_Linux_MacOS_fix_cmake_3.5\OpenGL_Praktikum\cmake-build-debug\libs\glm-master\test\gtc" && "C:\Users\testy\Desktop\UNI-Stuff\OOAD\CLion 2024.2.2\bin\cmake\win\x64\bin\cmake.exe" -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake"
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D "C:\Users\testy\Desktop\UNI-Stuff\Visual computing\GIt Version\VisualOpenGLEngine\cmake-build-debug\libs\glm-master\test\gtc" && "C:\Users\testy\Desktop\UNI-Stuff\OOAD\CLion 2024.2.2\bin\cmake\win\x64\bin\cmake.exe" -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake"
   DESC = Installing only the local directory...
   pool = console
   restat = 1
@@ -819,7 +819,7 @@ build libs/glm-master/test/gtc/install/local: phony libs/glm-master/test/gtc/CMa
 # Utility command for install/strip
 
 build libs/glm-master/test/gtc/CMakeFiles/install/strip.util: CUSTOM_COMMAND libs/glm-master/test/gtc/all
-  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D "C:\Users\testy\Desktop\UNI-Stuff\Visual computing\OpenGL_Praktikum_Linux_MacOS_fix_cmake_3.5\OpenGL_Praktikum\cmake-build-debug\libs\glm-master\test\gtc" && "C:\Users\testy\Desktop\UNI-Stuff\OOAD\CLion 2024.2.2\bin\cmake\win\x64\bin\cmake.exe" -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake"
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D "C:\Users\testy\Desktop\UNI-Stuff\Visual computing\GIt Version\VisualOpenGLEngine\cmake-build-debug\libs\glm-master\test\gtc" && "C:\Users\testy\Desktop\UNI-Stuff\OOAD\CLion 2024.2.2\bin\cmake\win\x64\bin\cmake.exe" -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake"
   DESC = Installing the project stripped...
   pool = console
   restat = 1
@@ -828,7 +828,7 @@ build libs/glm-master/test/gtc/install/strip: phony libs/glm-master/test/gtc/CMa
 
 # =============================================================================
 # Write statements declared in CMakeLists.txt:
-# C:/Users/testy/Desktop/UNI-Stuff/Visual computing/OpenGL_Praktikum_Linux_MacOS_fix_cmake_3.5/OpenGL_Praktikum/libs/glm-master/test/CMakeLists.txt
+# C:/Users/testy/Desktop/UNI-Stuff/Visual computing/GIt Version/VisualOpenGLEngine/libs/glm-master/test/CMakeLists.txt
 # =============================================================================
 
 
@@ -836,7 +836,7 @@ build libs/glm-master/test/gtc/install/strip: phony libs/glm-master/test/gtc/CMa
 # Utility command for edit_cache
 
 build libs/glm-master/test/gtx/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
-  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D "C:\Users\testy\Desktop\UNI-Stuff\Visual computing\OpenGL_Praktikum_Linux_MacOS_fix_cmake_3.5\OpenGL_Praktikum\cmake-build-debug\libs\glm-master\test\gtx" && "C:\Users\testy\Desktop\UNI-Stuff\OOAD\CLion 2024.2.2\bin\cmake\win\x64\bin\cmake.exe" -E echo "No interactive CMake dialog available.""
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D "C:\Users\testy\Desktop\UNI-Stuff\Visual computing\GIt Version\VisualOpenGLEngine\cmake-build-debug\libs\glm-master\test\gtx" && "C:\Users\testy\Desktop\UNI-Stuff\OOAD\CLion 2024.2.2\bin\cmake\win\x64\bin\cmake.exe" -E echo "No interactive CMake dialog available.""
   DESC = No interactive CMake dialog available...
   restat = 1
 
@@ -847,7 +847,7 @@ build libs/glm-master/test/gtx/edit_cache: phony libs/glm-master/test/gtx/CMakeF
 # Utility command for rebuild_cache
 
 build libs/glm-master/test/gtx/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D "C:\Users\testy\Desktop\UNI-Stuff\Visual computing\OpenGL_Praktikum_Linux_MacOS_fix_cmake_3.5\OpenGL_Praktikum\cmake-build-debug\libs\glm-master\test\gtx" && "C:\Users\testy\Desktop\UNI-Stuff\OOAD\CLion 2024.2.2\bin\cmake\win\x64\bin\cmake.exe" --regenerate-during-build -S"C:\Users\testy\Desktop\UNI-Stuff\Visual computing\OpenGL_Praktikum_Linux_MacOS_fix_cmake_3.5\OpenGL_Praktikum" -B"C:\Users\testy\Desktop\UNI-Stuff\Visual computing\OpenGL_Praktikum_Linux_MacOS_fix_cmake_3.5\OpenGL_Praktikum\cmake-build-debug""
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D "C:\Users\testy\Desktop\UNI-Stuff\Visual computing\GIt Version\VisualOpenGLEngine\cmake-build-debug\libs\glm-master\test\gtx" && "C:\Users\testy\Desktop\UNI-Stuff\OOAD\CLion 2024.2.2\bin\cmake\win\x64\bin\cmake.exe" --regenerate-during-build -S"C:\Users\testy\Desktop\UNI-Stuff\Visual computing\GIt Version\VisualOpenGLEngine" -B"C:\Users\testy\Desktop\UNI-Stuff\Visual computing\GIt Version\VisualOpenGLEngine\cmake-build-debug""
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
@@ -865,7 +865,7 @@ build libs/glm-master/test/gtx/list_install_components: phony
 # Utility command for install
 
 build libs/glm-master/test/gtx/CMakeFiles/install.util: CUSTOM_COMMAND libs/glm-master/test/gtx/all
-  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D "C:\Users\testy\Desktop\UNI-Stuff\Visual computing\OpenGL_Praktikum_Linux_MacOS_fix_cmake_3.5\OpenGL_Praktikum\cmake-build-debug\libs\glm-master\test\gtx" && "C:\Users\testy\Desktop\UNI-Stuff\OOAD\CLion 2024.2.2\bin\cmake\win\x64\bin\cmake.exe" -P cmake_install.cmake"
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D "C:\Users\testy\Desktop\UNI-Stuff\Visual computing\GIt Version\VisualOpenGLEngine\cmake-build-debug\libs\glm-master\test\gtx" && "C:\Users\testy\Desktop\UNI-Stuff\OOAD\CLion 2024.2.2\bin\cmake\win\x64\bin\cmake.exe" -P cmake_install.cmake"
   DESC = Install the project...
   pool = console
   restat = 1
@@ -877,7 +877,7 @@ build libs/glm-master/test/gtx/install: phony libs/glm-master/test/gtx/CMakeFile
 # Utility command for install/local
 
 build libs/glm-master/test/gtx/CMakeFiles/install/local.util: CUSTOM_COMMAND libs/glm-master/test/gtx/all
-  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D "C:\Users\testy\Desktop\UNI-Stuff\Visual computing\OpenGL_Praktikum_Linux_MacOS_fix_cmake_3.5\OpenGL_Praktikum\cmake-build-debug\libs\glm-master\test\gtx" && "C:\Users\testy\Desktop\UNI-Stuff\OOAD\CLion 2024.2.2\bin\cmake\win\x64\bin\cmake.exe" -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake"
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D "C:\Users\testy\Desktop\UNI-Stuff\Visual computing\GIt Version\VisualOpenGLEngine\cmake-build-debug\libs\glm-master\test\gtx" && "C:\Users\testy\Desktop\UNI-Stuff\OOAD\CLion 2024.2.2\bin\cmake\win\x64\bin\cmake.exe" -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake"
   DESC = Installing only the local directory...
   pool = console
   restat = 1
@@ -889,7 +889,7 @@ build libs/glm-master/test/gtx/install/local: phony libs/glm-master/test/gtx/CMa
 # Utility command for install/strip
 
 build libs/glm-master/test/gtx/CMakeFiles/install/strip.util: CUSTOM_COMMAND libs/glm-master/test/gtx/all
-  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D "C:\Users\testy\Desktop\UNI-Stuff\Visual computing\OpenGL_Praktikum_Linux_MacOS_fix_cmake_3.5\OpenGL_Praktikum\cmake-build-debug\libs\glm-master\test\gtx" && "C:\Users\testy\Desktop\UNI-Stuff\OOAD\CLion 2024.2.2\bin\cmake\win\x64\bin\cmake.exe" -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake"
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D "C:\Users\testy\Desktop\UNI-Stuff\Visual computing\GIt Version\VisualOpenGLEngine\cmake-build-debug\libs\glm-master\test\gtx" && "C:\Users\testy\Desktop\UNI-Stuff\OOAD\CLion 2024.2.2\bin\cmake\win\x64\bin\cmake.exe" -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake"
   DESC = Installing the project stripped...
   pool = console
   restat = 1
@@ -898,7 +898,7 @@ build libs/glm-master/test/gtx/install/strip: phony libs/glm-master/test/gtx/CMa
 
 # =============================================================================
 # Write statements declared in CMakeLists.txt:
-# C:/Users/testy/Desktop/UNI-Stuff/Visual computing/OpenGL_Praktikum_Linux_MacOS_fix_cmake_3.5/OpenGL_Praktikum/libs/CMakeLists.txt
+# C:/Users/testy/Desktop/UNI-Stuff/Visual computing/GIt Version/VisualOpenGLEngine/libs/CMakeLists.txt
 # =============================================================================
 
 
@@ -906,7 +906,7 @@ build libs/glm-master/test/gtx/install/strip: phony libs/glm-master/test/gtx/CMa
 # Utility command for edit_cache
 
 build libs/glfw-3.2.1/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
-  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D "C:\Users\testy\Desktop\UNI-Stuff\Visual computing\OpenGL_Praktikum_Linux_MacOS_fix_cmake_3.5\OpenGL_Praktikum\cmake-build-debug\libs\glfw-3.2.1" && "C:\Users\testy\Desktop\UNI-Stuff\OOAD\CLion 2024.2.2\bin\cmake\win\x64\bin\cmake.exe" -E echo "No interactive CMake dialog available.""
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D "C:\Users\testy\Desktop\UNI-Stuff\Visual computing\GIt Version\VisualOpenGLEngine\cmake-build-debug\libs\glfw-3.2.1" && "C:\Users\testy\Desktop\UNI-Stuff\OOAD\CLion 2024.2.2\bin\cmake\win\x64\bin\cmake.exe" -E echo "No interactive CMake dialog available.""
   DESC = No interactive CMake dialog available...
   restat = 1
 
@@ -917,7 +917,7 @@ build libs/glfw-3.2.1/edit_cache: phony libs/glfw-3.2.1/CMakeFiles/edit_cache.ut
 # Utility command for rebuild_cache
 
 build libs/glfw-3.2.1/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D "C:\Users\testy\Desktop\UNI-Stuff\Visual computing\OpenGL_Praktikum_Linux_MacOS_fix_cmake_3.5\OpenGL_Praktikum\cmake-build-debug\libs\glfw-3.2.1" && "C:\Users\testy\Desktop\UNI-Stuff\OOAD\CLion 2024.2.2\bin\cmake\win\x64\bin\cmake.exe" --regenerate-during-build -S"C:\Users\testy\Desktop\UNI-Stuff\Visual computing\OpenGL_Praktikum_Linux_MacOS_fix_cmake_3.5\OpenGL_Praktikum" -B"C:\Users\testy\Desktop\UNI-Stuff\Visual computing\OpenGL_Praktikum_Linux_MacOS_fix_cmake_3.5\OpenGL_Praktikum\cmake-build-debug""
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D "C:\Users\testy\Desktop\UNI-Stuff\Visual computing\GIt Version\VisualOpenGLEngine\cmake-build-debug\libs\glfw-3.2.1" && "C:\Users\testy\Desktop\UNI-Stuff\OOAD\CLion 2024.2.2\bin\cmake\win\x64\bin\cmake.exe" --regenerate-during-build -S"C:\Users\testy\Desktop\UNI-Stuff\Visual computing\GIt Version\VisualOpenGLEngine" -B"C:\Users\testy\Desktop\UNI-Stuff\Visual computing\GIt Version\VisualOpenGLEngine\cmake-build-debug""
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
@@ -935,7 +935,7 @@ build libs/glfw-3.2.1/list_install_components: phony
 # Utility command for install
 
 build libs/glfw-3.2.1/CMakeFiles/install.util: CUSTOM_COMMAND libs/glfw-3.2.1/all
-  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D "C:\Users\testy\Desktop\UNI-Stuff\Visual computing\OpenGL_Praktikum_Linux_MacOS_fix_cmake_3.5\OpenGL_Praktikum\cmake-build-debug\libs\glfw-3.2.1" && "C:\Users\testy\Desktop\UNI-Stuff\OOAD\CLion 2024.2.2\bin\cmake\win\x64\bin\cmake.exe" -P cmake_install.cmake"
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D "C:\Users\testy\Desktop\UNI-Stuff\Visual computing\GIt Version\VisualOpenGLEngine\cmake-build-debug\libs\glfw-3.2.1" && "C:\Users\testy\Desktop\UNI-Stuff\OOAD\CLion 2024.2.2\bin\cmake\win\x64\bin\cmake.exe" -P cmake_install.cmake"
   DESC = Install the project...
   pool = console
   restat = 1
@@ -947,7 +947,7 @@ build libs/glfw-3.2.1/install: phony libs/glfw-3.2.1/CMakeFiles/install.util
 # Utility command for install/local
 
 build libs/glfw-3.2.1/CMakeFiles/install/local.util: CUSTOM_COMMAND libs/glfw-3.2.1/all
-  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D "C:\Users\testy\Desktop\UNI-Stuff\Visual computing\OpenGL_Praktikum_Linux_MacOS_fix_cmake_3.5\OpenGL_Praktikum\cmake-build-debug\libs\glfw-3.2.1" && "C:\Users\testy\Desktop\UNI-Stuff\OOAD\CLion 2024.2.2\bin\cmake\win\x64\bin\cmake.exe" -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake"
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D "C:\Users\testy\Desktop\UNI-Stuff\Visual computing\GIt Version\VisualOpenGLEngine\cmake-build-debug\libs\glfw-3.2.1" && "C:\Users\testy\Desktop\UNI-Stuff\OOAD\CLion 2024.2.2\bin\cmake\win\x64\bin\cmake.exe" -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake"
   DESC = Installing only the local directory...
   pool = console
   restat = 1
@@ -959,7 +959,7 @@ build libs/glfw-3.2.1/install/local: phony libs/glfw-3.2.1/CMakeFiles/install/lo
 # Utility command for install/strip
 
 build libs/glfw-3.2.1/CMakeFiles/install/strip.util: CUSTOM_COMMAND libs/glfw-3.2.1/all
-  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D "C:\Users\testy\Desktop\UNI-Stuff\Visual computing\OpenGL_Praktikum_Linux_MacOS_fix_cmake_3.5\OpenGL_Praktikum\cmake-build-debug\libs\glfw-3.2.1" && "C:\Users\testy\Desktop\UNI-Stuff\OOAD\CLion 2024.2.2\bin\cmake\win\x64\bin\cmake.exe" -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake"
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D "C:\Users\testy\Desktop\UNI-Stuff\Visual computing\GIt Version\VisualOpenGLEngine\cmake-build-debug\libs\glfw-3.2.1" && "C:\Users\testy\Desktop\UNI-Stuff\OOAD\CLion 2024.2.2\bin\cmake\win\x64\bin\cmake.exe" -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake"
   DESC = Installing the project stripped...
   pool = console
   restat = 1
@@ -968,7 +968,7 @@ build libs/glfw-3.2.1/install/strip: phony libs/glfw-3.2.1/CMakeFiles/install/st
 
 # =============================================================================
 # Write statements declared in CMakeLists.txt:
-# C:/Users/testy/Desktop/UNI-Stuff/Visual computing/OpenGL_Praktikum_Linux_MacOS_fix_cmake_3.5/OpenGL_Praktikum/libs/glfw-3.2.1/CMakeLists.txt
+# C:/Users/testy/Desktop/UNI-Stuff/Visual computing/GIt Version/VisualOpenGLEngine/libs/glfw-3.2.1/CMakeLists.txt
 # =============================================================================
 
 # =============================================================================
@@ -980,115 +980,115 @@ build libs/glfw-3.2.1/install/strip: phony libs/glfw-3.2.1/CMakeFiles/install/st
 
 build cmake_object_order_depends_target_glfw: phony || .
 
-build libs/glfw-3.2.1/src/CMakeFiles/glfw.dir/context.c.obj: C_COMPILER__glfw_unscanned_Debug C$:/Users/testy/Desktop/UNI-Stuff/Visual$ computing/OpenGL_Praktikum_Linux_MacOS_fix_cmake_3.5/OpenGL_Praktikum/libs/glfw-3.2.1/src/context.c || cmake_object_order_depends_target_glfw
+build libs/glfw-3.2.1/src/CMakeFiles/glfw.dir/context.c.obj: C_COMPILER__glfw_unscanned_Debug C$:/Users/testy/Desktop/UNI-Stuff/Visual$ computing/GIt$ Version/VisualOpenGLEngine/libs/glfw-3.2.1/src/context.c || cmake_object_order_depends_target_glfw
   DEFINES = -DUNICODE -DWINVER=0x0501 -D_GLFW_USE_CONFIG_H
   DEP_FILE = libs\glfw-3.2.1\src\CMakeFiles\glfw.dir\context.c.obj.d
   FLAGS = -g -fdiagnostics-color=always -Wall
-  INCLUDES = -I"C:/Users/testy/Desktop/UNI-Stuff/Visual computing/OpenGL_Praktikum_Linux_MacOS_fix_cmake_3.5/OpenGL_Praktikum/libs/glfw-3.2.1/include" -I"C:/Users/testy/Desktop/UNI-Stuff/Visual computing/OpenGL_Praktikum_Linux_MacOS_fix_cmake_3.5/OpenGL_Praktikum/libs/glfw-3.2.1/src" -I"C:/Users/testy/Desktop/UNI-Stuff/Visual computing/OpenGL_Praktikum_Linux_MacOS_fix_cmake_3.5/OpenGL_Praktikum/cmake-build-debug/libs/glfw-3.2.1/src"
+  INCLUDES = -I"C:/Users/testy/Desktop/UNI-Stuff/Visual computing/GIt Version/VisualOpenGLEngine/libs/glfw-3.2.1/include" -I"C:/Users/testy/Desktop/UNI-Stuff/Visual computing/GIt Version/VisualOpenGLEngine/libs/glfw-3.2.1/src" -I"C:/Users/testy/Desktop/UNI-Stuff/Visual computing/GIt Version/VisualOpenGLEngine/cmake-build-debug/libs/glfw-3.2.1/src"
   OBJECT_DIR = libs\glfw-3.2.1\src\CMakeFiles\glfw.dir
   OBJECT_FILE_DIR = libs\glfw-3.2.1\src\CMakeFiles\glfw.dir
 
-build libs/glfw-3.2.1/src/CMakeFiles/glfw.dir/init.c.obj: C_COMPILER__glfw_unscanned_Debug C$:/Users/testy/Desktop/UNI-Stuff/Visual$ computing/OpenGL_Praktikum_Linux_MacOS_fix_cmake_3.5/OpenGL_Praktikum/libs/glfw-3.2.1/src/init.c || cmake_object_order_depends_target_glfw
+build libs/glfw-3.2.1/src/CMakeFiles/glfw.dir/init.c.obj: C_COMPILER__glfw_unscanned_Debug C$:/Users/testy/Desktop/UNI-Stuff/Visual$ computing/GIt$ Version/VisualOpenGLEngine/libs/glfw-3.2.1/src/init.c || cmake_object_order_depends_target_glfw
   DEFINES = -DUNICODE -DWINVER=0x0501 -D_GLFW_USE_CONFIG_H
   DEP_FILE = libs\glfw-3.2.1\src\CMakeFiles\glfw.dir\init.c.obj.d
   FLAGS = -g -fdiagnostics-color=always -Wall
-  INCLUDES = -I"C:/Users/testy/Desktop/UNI-Stuff/Visual computing/OpenGL_Praktikum_Linux_MacOS_fix_cmake_3.5/OpenGL_Praktikum/libs/glfw-3.2.1/include" -I"C:/Users/testy/Desktop/UNI-Stuff/Visual computing/OpenGL_Praktikum_Linux_MacOS_fix_cmake_3.5/OpenGL_Praktikum/libs/glfw-3.2.1/src" -I"C:/Users/testy/Desktop/UNI-Stuff/Visual computing/OpenGL_Praktikum_Linux_MacOS_fix_cmake_3.5/OpenGL_Praktikum/cmake-build-debug/libs/glfw-3.2.1/src"
+  INCLUDES = -I"C:/Users/testy/Desktop/UNI-Stuff/Visual computing/GIt Version/VisualOpenGLEngine/libs/glfw-3.2.1/include" -I"C:/Users/testy/Desktop/UNI-Stuff/Visual computing/GIt Version/VisualOpenGLEngine/libs/glfw-3.2.1/src" -I"C:/Users/testy/Desktop/UNI-Stuff/Visual computing/GIt Version/VisualOpenGLEngine/cmake-build-debug/libs/glfw-3.2.1/src"
   OBJECT_DIR = libs\glfw-3.2.1\src\CMakeFiles\glfw.dir
   OBJECT_FILE_DIR = libs\glfw-3.2.1\src\CMakeFiles\glfw.dir
 
-build libs/glfw-3.2.1/src/CMakeFiles/glfw.dir/input.c.obj: C_COMPILER__glfw_unscanned_Debug C$:/Users/testy/Desktop/UNI-Stuff/Visual$ computing/OpenGL_Praktikum_Linux_MacOS_fix_cmake_3.5/OpenGL_Praktikum/libs/glfw-3.2.1/src/input.c || cmake_object_order_depends_target_glfw
+build libs/glfw-3.2.1/src/CMakeFiles/glfw.dir/input.c.obj: C_COMPILER__glfw_unscanned_Debug C$:/Users/testy/Desktop/UNI-Stuff/Visual$ computing/GIt$ Version/VisualOpenGLEngine/libs/glfw-3.2.1/src/input.c || cmake_object_order_depends_target_glfw
   DEFINES = -DUNICODE -DWINVER=0x0501 -D_GLFW_USE_CONFIG_H
   DEP_FILE = libs\glfw-3.2.1\src\CMakeFiles\glfw.dir\input.c.obj.d
   FLAGS = -g -fdiagnostics-color=always -Wall
-  INCLUDES = -I"C:/Users/testy/Desktop/UNI-Stuff/Visual computing/OpenGL_Praktikum_Linux_MacOS_fix_cmake_3.5/OpenGL_Praktikum/libs/glfw-3.2.1/include" -I"C:/Users/testy/Desktop/UNI-Stuff/Visual computing/OpenGL_Praktikum_Linux_MacOS_fix_cmake_3.5/OpenGL_Praktikum/libs/glfw-3.2.1/src" -I"C:/Users/testy/Desktop/UNI-Stuff/Visual computing/OpenGL_Praktikum_Linux_MacOS_fix_cmake_3.5/OpenGL_Praktikum/cmake-build-debug/libs/glfw-3.2.1/src"
+  INCLUDES = -I"C:/Users/testy/Desktop/UNI-Stuff/Visual computing/GIt Version/VisualOpenGLEngine/libs/glfw-3.2.1/include" -I"C:/Users/testy/Desktop/UNI-Stuff/Visual computing/GIt Version/VisualOpenGLEngine/libs/glfw-3.2.1/src" -I"C:/Users/testy/Desktop/UNI-Stuff/Visual computing/GIt Version/VisualOpenGLEngine/cmake-build-debug/libs/glfw-3.2.1/src"
   OBJECT_DIR = libs\glfw-3.2.1\src\CMakeFiles\glfw.dir
   OBJECT_FILE_DIR = libs\glfw-3.2.1\src\CMakeFiles\glfw.dir
 
-build libs/glfw-3.2.1/src/CMakeFiles/glfw.dir/monitor.c.obj: C_COMPILER__glfw_unscanned_Debug C$:/Users/testy/Desktop/UNI-Stuff/Visual$ computing/OpenGL_Praktikum_Linux_MacOS_fix_cmake_3.5/OpenGL_Praktikum/libs/glfw-3.2.1/src/monitor.c || cmake_object_order_depends_target_glfw
+build libs/glfw-3.2.1/src/CMakeFiles/glfw.dir/monitor.c.obj: C_COMPILER__glfw_unscanned_Debug C$:/Users/testy/Desktop/UNI-Stuff/Visual$ computing/GIt$ Version/VisualOpenGLEngine/libs/glfw-3.2.1/src/monitor.c || cmake_object_order_depends_target_glfw
   DEFINES = -DUNICODE -DWINVER=0x0501 -D_GLFW_USE_CONFIG_H
   DEP_FILE = libs\glfw-3.2.1\src\CMakeFiles\glfw.dir\monitor.c.obj.d
   FLAGS = -g -fdiagnostics-color=always -Wall
-  INCLUDES = -I"C:/Users/testy/Desktop/UNI-Stuff/Visual computing/OpenGL_Praktikum_Linux_MacOS_fix_cmake_3.5/OpenGL_Praktikum/libs/glfw-3.2.1/include" -I"C:/Users/testy/Desktop/UNI-Stuff/Visual computing/OpenGL_Praktikum_Linux_MacOS_fix_cmake_3.5/OpenGL_Praktikum/libs/glfw-3.2.1/src" -I"C:/Users/testy/Desktop/UNI-Stuff/Visual computing/OpenGL_Praktikum_Linux_MacOS_fix_cmake_3.5/OpenGL_Praktikum/cmake-build-debug/libs/glfw-3.2.1/src"
+  INCLUDES = -I"C:/Users/testy/Desktop/UNI-Stuff/Visual computing/GIt Version/VisualOpenGLEngine/libs/glfw-3.2.1/include" -I"C:/Users/testy/Desktop/UNI-Stuff/Visual computing/GIt Version/VisualOpenGLEngine/libs/glfw-3.2.1/src" -I"C:/Users/testy/Desktop/UNI-Stuff/Visual computing/GIt Version/VisualOpenGLEngine/cmake-build-debug/libs/glfw-3.2.1/src"
   OBJECT_DIR = libs\glfw-3.2.1\src\CMakeFiles\glfw.dir
   OBJECT_FILE_DIR = libs\glfw-3.2.1\src\CMakeFiles\glfw.dir
 
-build libs/glfw-3.2.1/src/CMakeFiles/glfw.dir/vulkan.c.obj: C_COMPILER__glfw_unscanned_Debug C$:/Users/testy/Desktop/UNI-Stuff/Visual$ computing/OpenGL_Praktikum_Linux_MacOS_fix_cmake_3.5/OpenGL_Praktikum/libs/glfw-3.2.1/src/vulkan.c || cmake_object_order_depends_target_glfw
+build libs/glfw-3.2.1/src/CMakeFiles/glfw.dir/vulkan.c.obj: C_COMPILER__glfw_unscanned_Debug C$:/Users/testy/Desktop/UNI-Stuff/Visual$ computing/GIt$ Version/VisualOpenGLEngine/libs/glfw-3.2.1/src/vulkan.c || cmake_object_order_depends_target_glfw
   DEFINES = -DUNICODE -DWINVER=0x0501 -D_GLFW_USE_CONFIG_H
   DEP_FILE = libs\glfw-3.2.1\src\CMakeFiles\glfw.dir\vulkan.c.obj.d
   FLAGS = -g -fdiagnostics-color=always -Wall
-  INCLUDES = -I"C:/Users/testy/Desktop/UNI-Stuff/Visual computing/OpenGL_Praktikum_Linux_MacOS_fix_cmake_3.5/OpenGL_Praktikum/libs/glfw-3.2.1/include" -I"C:/Users/testy/Desktop/UNI-Stuff/Visual computing/OpenGL_Praktikum_Linux_MacOS_fix_cmake_3.5/OpenGL_Praktikum/libs/glfw-3.2.1/src" -I"C:/Users/testy/Desktop/UNI-Stuff/Visual computing/OpenGL_Praktikum_Linux_MacOS_fix_cmake_3.5/OpenGL_Praktikum/cmake-build-debug/libs/glfw-3.2.1/src"
+  INCLUDES = -I"C:/Users/testy/Desktop/UNI-Stuff/Visual computing/GIt Version/VisualOpenGLEngine/libs/glfw-3.2.1/include" -I"C:/Users/testy/Desktop/UNI-Stuff/Visual computing/GIt Version/VisualOpenGLEngine/libs/glfw-3.2.1/src" -I"C:/Users/testy/Desktop/UNI-Stuff/Visual computing/GIt Version/VisualOpenGLEngine/cmake-build-debug/libs/glfw-3.2.1/src"
   OBJECT_DIR = libs\glfw-3.2.1\src\CMakeFiles\glfw.dir
   OBJECT_FILE_DIR = libs\glfw-3.2.1\src\CMakeFiles\glfw.dir
 
-build libs/glfw-3.2.1/src/CMakeFiles/glfw.dir/window.c.obj: C_COMPILER__glfw_unscanned_Debug C$:/Users/testy/Desktop/UNI-Stuff/Visual$ computing/OpenGL_Praktikum_Linux_MacOS_fix_cmake_3.5/OpenGL_Praktikum/libs/glfw-3.2.1/src/window.c || cmake_object_order_depends_target_glfw
+build libs/glfw-3.2.1/src/CMakeFiles/glfw.dir/window.c.obj: C_COMPILER__glfw_unscanned_Debug C$:/Users/testy/Desktop/UNI-Stuff/Visual$ computing/GIt$ Version/VisualOpenGLEngine/libs/glfw-3.2.1/src/window.c || cmake_object_order_depends_target_glfw
   DEFINES = -DUNICODE -DWINVER=0x0501 -D_GLFW_USE_CONFIG_H
   DEP_FILE = libs\glfw-3.2.1\src\CMakeFiles\glfw.dir\window.c.obj.d
   FLAGS = -g -fdiagnostics-color=always -Wall
-  INCLUDES = -I"C:/Users/testy/Desktop/UNI-Stuff/Visual computing/OpenGL_Praktikum_Linux_MacOS_fix_cmake_3.5/OpenGL_Praktikum/libs/glfw-3.2.1/include" -I"C:/Users/testy/Desktop/UNI-Stuff/Visual computing/OpenGL_Praktikum_Linux_MacOS_fix_cmake_3.5/OpenGL_Praktikum/libs/glfw-3.2.1/src" -I"C:/Users/testy/Desktop/UNI-Stuff/Visual computing/OpenGL_Praktikum_Linux_MacOS_fix_cmake_3.5/OpenGL_Praktikum/cmake-build-debug/libs/glfw-3.2.1/src"
+  INCLUDES = -I"C:/Users/testy/Desktop/UNI-Stuff/Visual computing/GIt Version/VisualOpenGLEngine/libs/glfw-3.2.1/include" -I"C:/Users/testy/Desktop/UNI-Stuff/Visual computing/GIt Version/VisualOpenGLEngine/libs/glfw-3.2.1/src" -I"C:/Users/testy/Desktop/UNI-Stuff/Visual computing/GIt Version/VisualOpenGLEngine/cmake-build-debug/libs/glfw-3.2.1/src"
   OBJECT_DIR = libs\glfw-3.2.1\src\CMakeFiles\glfw.dir
   OBJECT_FILE_DIR = libs\glfw-3.2.1\src\CMakeFiles\glfw.dir
 
-build libs/glfw-3.2.1/src/CMakeFiles/glfw.dir/win32_init.c.obj: C_COMPILER__glfw_unscanned_Debug C$:/Users/testy/Desktop/UNI-Stuff/Visual$ computing/OpenGL_Praktikum_Linux_MacOS_fix_cmake_3.5/OpenGL_Praktikum/libs/glfw-3.2.1/src/win32_init.c || cmake_object_order_depends_target_glfw
+build libs/glfw-3.2.1/src/CMakeFiles/glfw.dir/win32_init.c.obj: C_COMPILER__glfw_unscanned_Debug C$:/Users/testy/Desktop/UNI-Stuff/Visual$ computing/GIt$ Version/VisualOpenGLEngine/libs/glfw-3.2.1/src/win32_init.c || cmake_object_order_depends_target_glfw
   DEFINES = -DUNICODE -DWINVER=0x0501 -D_GLFW_USE_CONFIG_H
   DEP_FILE = libs\glfw-3.2.1\src\CMakeFiles\glfw.dir\win32_init.c.obj.d
   FLAGS = -g -fdiagnostics-color=always -Wall
-  INCLUDES = -I"C:/Users/testy/Desktop/UNI-Stuff/Visual computing/OpenGL_Praktikum_Linux_MacOS_fix_cmake_3.5/OpenGL_Praktikum/libs/glfw-3.2.1/include" -I"C:/Users/testy/Desktop/UNI-Stuff/Visual computing/OpenGL_Praktikum_Linux_MacOS_fix_cmake_3.5/OpenGL_Praktikum/libs/glfw-3.2.1/src" -I"C:/Users/testy/Desktop/UNI-Stuff/Visual computing/OpenGL_Praktikum_Linux_MacOS_fix_cmake_3.5/OpenGL_Praktikum/cmake-build-debug/libs/glfw-3.2.1/src"
+  INCLUDES = -I"C:/Users/testy/Desktop/UNI-Stuff/Visual computing/GIt Version/VisualOpenGLEngine/libs/glfw-3.2.1/include" -I"C:/Users/testy/Desktop/UNI-Stuff/Visual computing/GIt Version/VisualOpenGLEngine/libs/glfw-3.2.1/src" -I"C:/Users/testy/Desktop/UNI-Stuff/Visual computing/GIt Version/VisualOpenGLEngine/cmake-build-debug/libs/glfw-3.2.1/src"
   OBJECT_DIR = libs\glfw-3.2.1\src\CMakeFiles\glfw.dir
   OBJECT_FILE_DIR = libs\glfw-3.2.1\src\CMakeFiles\glfw.dir
 
-build libs/glfw-3.2.1/src/CMakeFiles/glfw.dir/win32_joystick.c.obj: C_COMPILER__glfw_unscanned_Debug C$:/Users/testy/Desktop/UNI-Stuff/Visual$ computing/OpenGL_Praktikum_Linux_MacOS_fix_cmake_3.5/OpenGL_Praktikum/libs/glfw-3.2.1/src/win32_joystick.c || cmake_object_order_depends_target_glfw
+build libs/glfw-3.2.1/src/CMakeFiles/glfw.dir/win32_joystick.c.obj: C_COMPILER__glfw_unscanned_Debug C$:/Users/testy/Desktop/UNI-Stuff/Visual$ computing/GIt$ Version/VisualOpenGLEngine/libs/glfw-3.2.1/src/win32_joystick.c || cmake_object_order_depends_target_glfw
   DEFINES = -DUNICODE -DWINVER=0x0501 -D_GLFW_USE_CONFIG_H
   DEP_FILE = libs\glfw-3.2.1\src\CMakeFiles\glfw.dir\win32_joystick.c.obj.d
   FLAGS = -g -fdiagnostics-color=always -Wall
-  INCLUDES = -I"C:/Users/testy/Desktop/UNI-Stuff/Visual computing/OpenGL_Praktikum_Linux_MacOS_fix_cmake_3.5/OpenGL_Praktikum/libs/glfw-3.2.1/include" -I"C:/Users/testy/Desktop/UNI-Stuff/Visual computing/OpenGL_Praktikum_Linux_MacOS_fix_cmake_3.5/OpenGL_Praktikum/libs/glfw-3.2.1/src" -I"C:/Users/testy/Desktop/UNI-Stuff/Visual computing/OpenGL_Praktikum_Linux_MacOS_fix_cmake_3.5/OpenGL_Praktikum/cmake-build-debug/libs/glfw-3.2.1/src"
+  INCLUDES = -I"C:/Users/testy/Desktop/UNI-Stuff/Visual computing/GIt Version/VisualOpenGLEngine/libs/glfw-3.2.1/include" -I"C:/Users/testy/Desktop/UNI-Stuff/Visual computing/GIt Version/VisualOpenGLEngine/libs/glfw-3.2.1/src" -I"C:/Users/testy/Desktop/UNI-Stuff/Visual computing/GIt Version/VisualOpenGLEngine/cmake-build-debug/libs/glfw-3.2.1/src"
   OBJECT_DIR = libs\glfw-3.2.1\src\CMakeFiles\glfw.dir
   OBJECT_FILE_DIR = libs\glfw-3.2.1\src\CMakeFiles\glfw.dir
 
-build libs/glfw-3.2.1/src/CMakeFiles/glfw.dir/win32_monitor.c.obj: C_COMPILER__glfw_unscanned_Debug C$:/Users/testy/Desktop/UNI-Stuff/Visual$ computing/OpenGL_Praktikum_Linux_MacOS_fix_cmake_3.5/OpenGL_Praktikum/libs/glfw-3.2.1/src/win32_monitor.c || cmake_object_order_depends_target_glfw
+build libs/glfw-3.2.1/src/CMakeFiles/glfw.dir/win32_monitor.c.obj: C_COMPILER__glfw_unscanned_Debug C$:/Users/testy/Desktop/UNI-Stuff/Visual$ computing/GIt$ Version/VisualOpenGLEngine/libs/glfw-3.2.1/src/win32_monitor.c || cmake_object_order_depends_target_glfw
   DEFINES = -DUNICODE -DWINVER=0x0501 -D_GLFW_USE_CONFIG_H
   DEP_FILE = libs\glfw-3.2.1\src\CMakeFiles\glfw.dir\win32_monitor.c.obj.d
   FLAGS = -g -fdiagnostics-color=always -Wall
-  INCLUDES = -I"C:/Users/testy/Desktop/UNI-Stuff/Visual computing/OpenGL_Praktikum_Linux_MacOS_fix_cmake_3.5/OpenGL_Praktikum/libs/glfw-3.2.1/include" -I"C:/Users/testy/Desktop/UNI-Stuff/Visual computing/OpenGL_Praktikum_Linux_MacOS_fix_cmake_3.5/OpenGL_Praktikum/libs/glfw-3.2.1/src" -I"C:/Users/testy/Desktop/UNI-Stuff/Visual computing/OpenGL_Praktikum_Linux_MacOS_fix_cmake_3.5/OpenGL_Praktikum/cmake-build-debug/libs/glfw-3.2.1/src"
+  INCLUDES = -I"C:/Users/testy/Desktop/UNI-Stuff/Visual computing/GIt Version/VisualOpenGLEngine/libs/glfw-3.2.1/include" -I"C:/Users/testy/Desktop/UNI-Stuff/Visual computing/GIt Version/VisualOpenGLEngine/libs/glfw-3.2.1/src" -I"C:/Users/testy/Desktop/UNI-Stuff/Visual computing/GIt Version/VisualOpenGLEngine/cmake-build-debug/libs/glfw-3.2.1/src"
   OBJECT_DIR = libs\glfw-3.2.1\src\CMakeFiles\glfw.dir
   OBJECT_FILE_DIR = libs\glfw-3.2.1\src\CMakeFiles\glfw.dir
 
-build libs/glfw-3.2.1/src/CMakeFiles/glfw.dir/win32_time.c.obj: C_COMPILER__glfw_unscanned_Debug C$:/Users/testy/Desktop/UNI-Stuff/Visual$ computing/OpenGL_Praktikum_Linux_MacOS_fix_cmake_3.5/OpenGL_Praktikum/libs/glfw-3.2.1/src/win32_time.c || cmake_object_order_depends_target_glfw
+build libs/glfw-3.2.1/src/CMakeFiles/glfw.dir/win32_time.c.obj: C_COMPILER__glfw_unscanned_Debug C$:/Users/testy/Desktop/UNI-Stuff/Visual$ computing/GIt$ Version/VisualOpenGLEngine/libs/glfw-3.2.1/src/win32_time.c || cmake_object_order_depends_target_glfw
   DEFINES = -DUNICODE -DWINVER=0x0501 -D_GLFW_USE_CONFIG_H
   DEP_FILE = libs\glfw-3.2.1\src\CMakeFiles\glfw.dir\win32_time.c.obj.d
   FLAGS = -g -fdiagnostics-color=always -Wall
-  INCLUDES = -I"C:/Users/testy/Desktop/UNI-Stuff/Visual computing/OpenGL_Praktikum_Linux_MacOS_fix_cmake_3.5/OpenGL_Praktikum/libs/glfw-3.2.1/include" -I"C:/Users/testy/Desktop/UNI-Stuff/Visual computing/OpenGL_Praktikum_Linux_MacOS_fix_cmake_3.5/OpenGL_Praktikum/libs/glfw-3.2.1/src" -I"C:/Users/testy/Desktop/UNI-Stuff/Visual computing/OpenGL_Praktikum_Linux_MacOS_fix_cmake_3.5/OpenGL_Praktikum/cmake-build-debug/libs/glfw-3.2.1/src"
+  INCLUDES = -I"C:/Users/testy/Desktop/UNI-Stuff/Visual computing/GIt Version/VisualOpenGLEngine/libs/glfw-3.2.1/include" -I"C:/Users/testy/Desktop/UNI-Stuff/Visual computing/GIt Version/VisualOpenGLEngine/libs/glfw-3.2.1/src" -I"C:/Users/testy/Desktop/UNI-Stuff/Visual computing/GIt Version/VisualOpenGLEngine/cmake-build-debug/libs/glfw-3.2.1/src"
   OBJECT_DIR = libs\glfw-3.2.1\src\CMakeFiles\glfw.dir
   OBJECT_FILE_DIR = libs\glfw-3.2.1\src\CMakeFiles\glfw.dir
 
-build libs/glfw-3.2.1/src/CMakeFiles/glfw.dir/win32_tls.c.obj: C_COMPILER__glfw_unscanned_Debug C$:/Users/testy/Desktop/UNI-Stuff/Visual$ computing/OpenGL_Praktikum_Linux_MacOS_fix_cmake_3.5/OpenGL_Praktikum/libs/glfw-3.2.1/src/win32_tls.c || cmake_object_order_depends_target_glfw
+build libs/glfw-3.2.1/src/CMakeFiles/glfw.dir/win32_tls.c.obj: C_COMPILER__glfw_unscanned_Debug C$:/Users/testy/Desktop/UNI-Stuff/Visual$ computing/GIt$ Version/VisualOpenGLEngine/libs/glfw-3.2.1/src/win32_tls.c || cmake_object_order_depends_target_glfw
   DEFINES = -DUNICODE -DWINVER=0x0501 -D_GLFW_USE_CONFIG_H
   DEP_FILE = libs\glfw-3.2.1\src\CMakeFiles\glfw.dir\win32_tls.c.obj.d
   FLAGS = -g -fdiagnostics-color=always -Wall
-  INCLUDES = -I"C:/Users/testy/Desktop/UNI-Stuff/Visual computing/OpenGL_Praktikum_Linux_MacOS_fix_cmake_3.5/OpenGL_Praktikum/libs/glfw-3.2.1/include" -I"C:/Users/testy/Desktop/UNI-Stuff/Visual computing/OpenGL_Praktikum_Linux_MacOS_fix_cmake_3.5/OpenGL_Praktikum/libs/glfw-3.2.1/src" -I"C:/Users/testy/Desktop/UNI-Stuff/Visual computing/OpenGL_Praktikum_Linux_MacOS_fix_cmake_3.5/OpenGL_Praktikum/cmake-build-debug/libs/glfw-3.2.1/src"
+  INCLUDES = -I"C:/Users/testy/Desktop/UNI-Stuff/Visual computing/GIt Version/VisualOpenGLEngine/libs/glfw-3.2.1/include" -I"C:/Users/testy/Desktop/UNI-Stuff/Visual computing/GIt Version/VisualOpenGLEngine/libs/glfw-3.2.1/src" -I"C:/Users/testy/Desktop/UNI-Stuff/Visual computing/GIt Version/VisualOpenGLEngine/cmake-build-debug/libs/glfw-3.2.1/src"
   OBJECT_DIR = libs\glfw-3.2.1\src\CMakeFiles\glfw.dir
   OBJECT_FILE_DIR = libs\glfw-3.2.1\src\CMakeFiles\glfw.dir
 
-build libs/glfw-3.2.1/src/CMakeFiles/glfw.dir/win32_window.c.obj: C_COMPILER__glfw_unscanned_Debug C$:/Users/testy/Desktop/UNI-Stuff/Visual$ computing/OpenGL_Praktikum_Linux_MacOS_fix_cmake_3.5/OpenGL_Praktikum/libs/glfw-3.2.1/src/win32_window.c || cmake_object_order_depends_target_glfw
+build libs/glfw-3.2.1/src/CMakeFiles/glfw.dir/win32_window.c.obj: C_COMPILER__glfw_unscanned_Debug C$:/Users/testy/Desktop/UNI-Stuff/Visual$ computing/GIt$ Version/VisualOpenGLEngine/libs/glfw-3.2.1/src/win32_window.c || cmake_object_order_depends_target_glfw
   DEFINES = -DUNICODE -DWINVER=0x0501 -D_GLFW_USE_CONFIG_H
   DEP_FILE = libs\glfw-3.2.1\src\CMakeFiles\glfw.dir\win32_window.c.obj.d
   FLAGS = -g -fdiagnostics-color=always -Wall
-  INCLUDES = -I"C:/Users/testy/Desktop/UNI-Stuff/Visual computing/OpenGL_Praktikum_Linux_MacOS_fix_cmake_3.5/OpenGL_Praktikum/libs/glfw-3.2.1/include" -I"C:/Users/testy/Desktop/UNI-Stuff/Visual computing/OpenGL_Praktikum_Linux_MacOS_fix_cmake_3.5/OpenGL_Praktikum/libs/glfw-3.2.1/src" -I"C:/Users/testy/Desktop/UNI-Stuff/Visual computing/OpenGL_Praktikum_Linux_MacOS_fix_cmake_3.5/OpenGL_Praktikum/cmake-build-debug/libs/glfw-3.2.1/src"
+  INCLUDES = -I"C:/Users/testy/Desktop/UNI-Stuff/Visual computing/GIt Version/VisualOpenGLEngine/libs/glfw-3.2.1/include" -I"C:/Users/testy/Desktop/UNI-Stuff/Visual computing/GIt Version/VisualOpenGLEngine/libs/glfw-3.2.1/src" -I"C:/Users/testy/Desktop/UNI-Stuff/Visual computing/GIt Version/VisualOpenGLEngine/cmake-build-debug/libs/glfw-3.2.1/src"
   OBJECT_DIR = libs\glfw-3.2.1\src\CMakeFiles\glfw.dir
   OBJECT_FILE_DIR = libs\glfw-3.2.1\src\CMakeFiles\glfw.dir
 
-build libs/glfw-3.2.1/src/CMakeFiles/glfw.dir/wgl_context.c.obj: C_COMPILER__glfw_unscanned_Debug C$:/Users/testy/Desktop/UNI-Stuff/Visual$ computing/OpenGL_Praktikum_Linux_MacOS_fix_cmake_3.5/OpenGL_Praktikum/libs/glfw-3.2.1/src/wgl_context.c || cmake_object_order_depends_target_glfw
+build libs/glfw-3.2.1/src/CMakeFiles/glfw.dir/wgl_context.c.obj: C_COMPILER__glfw_unscanned_Debug C$:/Users/testy/Desktop/UNI-Stuff/Visual$ computing/GIt$ Version/VisualOpenGLEngine/libs/glfw-3.2.1/src/wgl_context.c || cmake_object_order_depends_target_glfw
   DEFINES = -DUNICODE -DWINVER=0x0501 -D_GLFW_USE_CONFIG_H
   DEP_FILE = libs\glfw-3.2.1\src\CMakeFiles\glfw.dir\wgl_context.c.obj.d
   FLAGS = -g -fdiagnostics-color=always -Wall
-  INCLUDES = -I"C:/Users/testy/Desktop/UNI-Stuff/Visual computing/OpenGL_Praktikum_Linux_MacOS_fix_cmake_3.5/OpenGL_Praktikum/libs/glfw-3.2.1/include" -I"C:/Users/testy/Desktop/UNI-Stuff/Visual computing/OpenGL_Praktikum_Linux_MacOS_fix_cmake_3.5/OpenGL_Praktikum/libs/glfw-3.2.1/src" -I"C:/Users/testy/Desktop/UNI-Stuff/Visual computing/OpenGL_Praktikum_Linux_MacOS_fix_cmake_3.5/OpenGL_Praktikum/cmake-build-debug/libs/glfw-3.2.1/src"
+  INCLUDES = -I"C:/Users/testy/Desktop/UNI-Stuff/Visual computing/GIt Version/VisualOpenGLEngine/libs/glfw-3.2.1/include" -I"C:/Users/testy/Desktop/UNI-Stuff/Visual computing/GIt Version/VisualOpenGLEngine/libs/glfw-3.2.1/src" -I"C:/Users/testy/Desktop/UNI-Stuff/Visual computing/GIt Version/VisualOpenGLEngine/cmake-build-debug/libs/glfw-3.2.1/src"
   OBJECT_DIR = libs\glfw-3.2.1\src\CMakeFiles\glfw.dir
   OBJECT_FILE_DIR = libs\glfw-3.2.1\src\CMakeFiles\glfw.dir
 
-build libs/glfw-3.2.1/src/CMakeFiles/glfw.dir/egl_context.c.obj: C_COMPILER__glfw_unscanned_Debug C$:/Users/testy/Desktop/UNI-Stuff/Visual$ computing/OpenGL_Praktikum_Linux_MacOS_fix_cmake_3.5/OpenGL_Praktikum/libs/glfw-3.2.1/src/egl_context.c || cmake_object_order_depends_target_glfw
+build libs/glfw-3.2.1/src/CMakeFiles/glfw.dir/egl_context.c.obj: C_COMPILER__glfw_unscanned_Debug C$:/Users/testy/Desktop/UNI-Stuff/Visual$ computing/GIt$ Version/VisualOpenGLEngine/libs/glfw-3.2.1/src/egl_context.c || cmake_object_order_depends_target_glfw
   DEFINES = -DUNICODE -DWINVER=0x0501 -D_GLFW_USE_CONFIG_H
   DEP_FILE = libs\glfw-3.2.1\src\CMakeFiles\glfw.dir\egl_context.c.obj.d
   FLAGS = -g -fdiagnostics-color=always -Wall
-  INCLUDES = -I"C:/Users/testy/Desktop/UNI-Stuff/Visual computing/OpenGL_Praktikum_Linux_MacOS_fix_cmake_3.5/OpenGL_Praktikum/libs/glfw-3.2.1/include" -I"C:/Users/testy/Desktop/UNI-Stuff/Visual computing/OpenGL_Praktikum_Linux_MacOS_fix_cmake_3.5/OpenGL_Praktikum/libs/glfw-3.2.1/src" -I"C:/Users/testy/Desktop/UNI-Stuff/Visual computing/OpenGL_Praktikum_Linux_MacOS_fix_cmake_3.5/OpenGL_Praktikum/cmake-build-debug/libs/glfw-3.2.1/src"
+  INCLUDES = -I"C:/Users/testy/Desktop/UNI-Stuff/Visual computing/GIt Version/VisualOpenGLEngine/libs/glfw-3.2.1/include" -I"C:/Users/testy/Desktop/UNI-Stuff/Visual computing/GIt Version/VisualOpenGLEngine/libs/glfw-3.2.1/src" -I"C:/Users/testy/Desktop/UNI-Stuff/Visual computing/GIt Version/VisualOpenGLEngine/cmake-build-debug/libs/glfw-3.2.1/src"
   OBJECT_DIR = libs\glfw-3.2.1\src\CMakeFiles\glfw.dir
   OBJECT_FILE_DIR = libs\glfw-3.2.1\src\CMakeFiles\glfw.dir
 
@@ -1113,7 +1113,7 @@ build libs/glfw-3.2.1/src/libglfw3.a: C_STATIC_LIBRARY_LINKER__glfw_Debug libs/g
 # Utility command for edit_cache
 
 build libs/glfw-3.2.1/src/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
-  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D "C:\Users\testy\Desktop\UNI-Stuff\Visual computing\OpenGL_Praktikum_Linux_MacOS_fix_cmake_3.5\OpenGL_Praktikum\cmake-build-debug\libs\glfw-3.2.1\src" && "C:\Users\testy\Desktop\UNI-Stuff\OOAD\CLion 2024.2.2\bin\cmake\win\x64\bin\cmake.exe" -E echo "No interactive CMake dialog available.""
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D "C:\Users\testy\Desktop\UNI-Stuff\Visual computing\GIt Version\VisualOpenGLEngine\cmake-build-debug\libs\glfw-3.2.1\src" && "C:\Users\testy\Desktop\UNI-Stuff\OOAD\CLion 2024.2.2\bin\cmake\win\x64\bin\cmake.exe" -E echo "No interactive CMake dialog available.""
   DESC = No interactive CMake dialog available...
   restat = 1
 
@@ -1124,7 +1124,7 @@ build libs/glfw-3.2.1/src/edit_cache: phony libs/glfw-3.2.1/src/CMakeFiles/edit_
 # Utility command for rebuild_cache
 
 build libs/glfw-3.2.1/src/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D "C:\Users\testy\Desktop\UNI-Stuff\Visual computing\OpenGL_Praktikum_Linux_MacOS_fix_cmake_3.5\OpenGL_Praktikum\cmake-build-debug\libs\glfw-3.2.1\src" && "C:\Users\testy\Desktop\UNI-Stuff\OOAD\CLion 2024.2.2\bin\cmake\win\x64\bin\cmake.exe" --regenerate-during-build -S"C:\Users\testy\Desktop\UNI-Stuff\Visual computing\OpenGL_Praktikum_Linux_MacOS_fix_cmake_3.5\OpenGL_Praktikum" -B"C:\Users\testy\Desktop\UNI-Stuff\Visual computing\OpenGL_Praktikum_Linux_MacOS_fix_cmake_3.5\OpenGL_Praktikum\cmake-build-debug""
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D "C:\Users\testy\Desktop\UNI-Stuff\Visual computing\GIt Version\VisualOpenGLEngine\cmake-build-debug\libs\glfw-3.2.1\src" && "C:\Users\testy\Desktop\UNI-Stuff\OOAD\CLion 2024.2.2\bin\cmake\win\x64\bin\cmake.exe" --regenerate-during-build -S"C:\Users\testy\Desktop\UNI-Stuff\Visual computing\GIt Version\VisualOpenGLEngine" -B"C:\Users\testy\Desktop\UNI-Stuff\Visual computing\GIt Version\VisualOpenGLEngine\cmake-build-debug""
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
@@ -1142,7 +1142,7 @@ build libs/glfw-3.2.1/src/list_install_components: phony
 # Utility command for install
 
 build libs/glfw-3.2.1/src/CMakeFiles/install.util: CUSTOM_COMMAND libs/glfw-3.2.1/src/all
-  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D "C:\Users\testy\Desktop\UNI-Stuff\Visual computing\OpenGL_Praktikum_Linux_MacOS_fix_cmake_3.5\OpenGL_Praktikum\cmake-build-debug\libs\glfw-3.2.1\src" && "C:\Users\testy\Desktop\UNI-Stuff\OOAD\CLion 2024.2.2\bin\cmake\win\x64\bin\cmake.exe" -P cmake_install.cmake"
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D "C:\Users\testy\Desktop\UNI-Stuff\Visual computing\GIt Version\VisualOpenGLEngine\cmake-build-debug\libs\glfw-3.2.1\src" && "C:\Users\testy\Desktop\UNI-Stuff\OOAD\CLion 2024.2.2\bin\cmake\win\x64\bin\cmake.exe" -P cmake_install.cmake"
   DESC = Install the project...
   pool = console
   restat = 1
@@ -1154,7 +1154,7 @@ build libs/glfw-3.2.1/src/install: phony libs/glfw-3.2.1/src/CMakeFiles/install.
 # Utility command for install/local
 
 build libs/glfw-3.2.1/src/CMakeFiles/install/local.util: CUSTOM_COMMAND libs/glfw-3.2.1/src/all
-  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D "C:\Users\testy\Desktop\UNI-Stuff\Visual computing\OpenGL_Praktikum_Linux_MacOS_fix_cmake_3.5\OpenGL_Praktikum\cmake-build-debug\libs\glfw-3.2.1\src" && "C:\Users\testy\Desktop\UNI-Stuff\OOAD\CLion 2024.2.2\bin\cmake\win\x64\bin\cmake.exe" -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake"
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D "C:\Users\testy\Desktop\UNI-Stuff\Visual computing\GIt Version\VisualOpenGLEngine\cmake-build-debug\libs\glfw-3.2.1\src" && "C:\Users\testy\Desktop\UNI-Stuff\OOAD\CLion 2024.2.2\bin\cmake\win\x64\bin\cmake.exe" -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake"
   DESC = Installing only the local directory...
   pool = console
   restat = 1
@@ -1166,7 +1166,7 @@ build libs/glfw-3.2.1/src/install/local: phony libs/glfw-3.2.1/src/CMakeFiles/in
 # Utility command for install/strip
 
 build libs/glfw-3.2.1/src/CMakeFiles/install/strip.util: CUSTOM_COMMAND libs/glfw-3.2.1/src/all
-  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D "C:\Users\testy\Desktop\UNI-Stuff\Visual computing\OpenGL_Praktikum_Linux_MacOS_fix_cmake_3.5\OpenGL_Praktikum\cmake-build-debug\libs\glfw-3.2.1\src" && "C:\Users\testy\Desktop\UNI-Stuff\OOAD\CLion 2024.2.2\bin\cmake\win\x64\bin\cmake.exe" -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake"
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D "C:\Users\testy\Desktop\UNI-Stuff\Visual computing\GIt Version\VisualOpenGLEngine\cmake-build-debug\libs\glfw-3.2.1\src" && "C:\Users\testy\Desktop\UNI-Stuff\OOAD\CLion 2024.2.2\bin\cmake\win\x64\bin\cmake.exe" -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake"
   DESC = Installing the project stripped...
   pool = console
   restat = 1
@@ -1175,7 +1175,7 @@ build libs/glfw-3.2.1/src/install/strip: phony libs/glfw-3.2.1/src/CMakeFiles/in
 
 # =============================================================================
 # Write statements declared in CMakeLists.txt:
-# C:/Users/testy/Desktop/UNI-Stuff/Visual computing/OpenGL_Praktikum_Linux_MacOS_fix_cmake_3.5/OpenGL_Praktikum/libs/CMakeLists.txt
+# C:/Users/testy/Desktop/UNI-Stuff/Visual computing/GIt Version/VisualOpenGLEngine/libs/CMakeLists.txt
 # =============================================================================
 
 # =============================================================================
@@ -1187,18 +1187,18 @@ build libs/glfw-3.2.1/src/install/strip: phony libs/glfw-3.2.1/src/CMakeFiles/in
 
 build cmake_object_order_depends_target_glew: phony || .
 
-build libs/glew-2.1.0/build/cmake/CMakeFiles/glew.dir/__/__/src/glew.c.obj: C_COMPILER__glew_unscanned_Debug C$:/Users/testy/Desktop/UNI-Stuff/Visual$ computing/OpenGL_Praktikum_Linux_MacOS_fix_cmake_3.5/OpenGL_Praktikum/libs/glew-2.1.0/src/glew.c || cmake_object_order_depends_target_glew
+build libs/glew-2.1.0/build/cmake/CMakeFiles/glew.dir/__/__/src/glew.c.obj: C_COMPILER__glew_unscanned_Debug C$:/Users/testy/Desktop/UNI-Stuff/Visual$ computing/GIt$ Version/VisualOpenGLEngine/libs/glew-2.1.0/src/glew.c || cmake_object_order_depends_target_glew
   DEFINES = -DGLEW_BUILD -DGLEW_NO_GLU -Dglew_EXPORTS
   DEP_FILE = libs\glew-2.1.0\build\cmake\CMakeFiles\glew.dir\__\__\src\glew.c.obj.d
   FLAGS = -g -fdiagnostics-color=always -fno-builtin -fno-stack-protector
-  INCLUDES = -I"C:/Users/testy/Desktop/UNI-Stuff/Visual computing/OpenGL_Praktikum_Linux_MacOS_fix_cmake_3.5/OpenGL_Praktikum/libs/glew-2.1.0/build/cmake/../../include"
+  INCLUDES = -I"C:/Users/testy/Desktop/UNI-Stuff/Visual computing/GIt Version/VisualOpenGLEngine/libs/glew-2.1.0/build/cmake/../../include"
   OBJECT_DIR = libs\glew-2.1.0\build\cmake\CMakeFiles\glew.dir
   OBJECT_FILE_DIR = libs\glew-2.1.0\build\cmake\CMakeFiles\glew.dir\__\__\src
 
-build libs/glew-2.1.0/build/cmake/CMakeFiles/glew.dir/__/glew.rc.obj: RC_COMPILER__glew_unscanned_Debug C$:/Users/testy/Desktop/UNI-Stuff/Visual$ computing/OpenGL_Praktikum_Linux_MacOS_fix_cmake_3.5/OpenGL_Praktikum/libs/glew-2.1.0/build/glew.rc || cmake_object_order_depends_target_glew
+build libs/glew-2.1.0/build/cmake/CMakeFiles/glew.dir/__/glew.rc.obj: RC_COMPILER__glew_unscanned_Debug C$:/Users/testy/Desktop/UNI-Stuff/Visual$ computing/GIt$ Version/VisualOpenGLEngine/libs/glew-2.1.0/build/glew.rc || cmake_object_order_depends_target_glew
   DEFINES = -DGLEW_BUILD -DGLEW_NO_GLU -Dglew_EXPORTS
   DEP_FILE = libs\glew-2.1.0\build\cmake\CMakeFiles\glew.dir\__\glew.rc.obj.d
-  INCLUDES = -I "C:/Users/testy/Desktop/UNI-Stuff/Visual computing/OpenGL_Praktikum_Linux_MacOS_fix_cmake_3.5/OpenGL_Praktikum/libs/glew-2.1.0/build/cmake/../../include"
+  INCLUDES = -I "C:/Users/testy/Desktop/UNI-Stuff/Visual computing/GIt Version/VisualOpenGLEngine/libs/glew-2.1.0/build/cmake/../../include"
   OBJECT_DIR = libs\glew-2.1.0\build\cmake\CMakeFiles\glew.dir
   OBJECT_FILE_DIR = libs\glew-2.1.0\build\cmake\CMakeFiles\glew.dir\__
 
@@ -1230,18 +1230,18 @@ build bin/glew32d.dll lib/libglew32d.dll.a: C_SHARED_LIBRARY_LINKER__glew_Debug 
 
 build cmake_object_order_depends_target_glew_s: phony || .
 
-build libs/glew-2.1.0/build/cmake/CMakeFiles/glew_s.dir/__/__/src/glew.c.obj: C_COMPILER__glew_s_unscanned_Debug C$:/Users/testy/Desktop/UNI-Stuff/Visual$ computing/OpenGL_Praktikum_Linux_MacOS_fix_cmake_3.5/OpenGL_Praktikum/libs/glew-2.1.0/src/glew.c || cmake_object_order_depends_target_glew_s
+build libs/glew-2.1.0/build/cmake/CMakeFiles/glew_s.dir/__/__/src/glew.c.obj: C_COMPILER__glew_s_unscanned_Debug C$:/Users/testy/Desktop/UNI-Stuff/Visual$ computing/GIt$ Version/VisualOpenGLEngine/libs/glew-2.1.0/src/glew.c || cmake_object_order_depends_target_glew_s
   DEFINES = -DGLEW_NO_GLU -DGLEW_STATIC
   DEP_FILE = libs\glew-2.1.0\build\cmake\CMakeFiles\glew_s.dir\__\__\src\glew.c.obj.d
   FLAGS = -g -fdiagnostics-color=always -fno-builtin -fno-stack-protector
-  INCLUDES = -I"C:/Users/testy/Desktop/UNI-Stuff/Visual computing/OpenGL_Praktikum_Linux_MacOS_fix_cmake_3.5/OpenGL_Praktikum/libs/glew-2.1.0/build/cmake/../../include"
+  INCLUDES = -I"C:/Users/testy/Desktop/UNI-Stuff/Visual computing/GIt Version/VisualOpenGLEngine/libs/glew-2.1.0/build/cmake/../../include"
   OBJECT_DIR = libs\glew-2.1.0\build\cmake\CMakeFiles\glew_s.dir
   OBJECT_FILE_DIR = libs\glew-2.1.0\build\cmake\CMakeFiles\glew_s.dir\__\__\src
 
-build libs/glew-2.1.0/build/cmake/CMakeFiles/glew_s.dir/__/glew.rc.obj: RC_COMPILER__glew_s_unscanned_Debug C$:/Users/testy/Desktop/UNI-Stuff/Visual$ computing/OpenGL_Praktikum_Linux_MacOS_fix_cmake_3.5/OpenGL_Praktikum/libs/glew-2.1.0/build/glew.rc || cmake_object_order_depends_target_glew_s
+build libs/glew-2.1.0/build/cmake/CMakeFiles/glew_s.dir/__/glew.rc.obj: RC_COMPILER__glew_s_unscanned_Debug C$:/Users/testy/Desktop/UNI-Stuff/Visual$ computing/GIt$ Version/VisualOpenGLEngine/libs/glew-2.1.0/build/glew.rc || cmake_object_order_depends_target_glew_s
   DEFINES = -DGLEW_NO_GLU -DGLEW_STATIC
   DEP_FILE = libs\glew-2.1.0\build\cmake\CMakeFiles\glew_s.dir\__\glew.rc.obj.d
-  INCLUDES = -I "C:/Users/testy/Desktop/UNI-Stuff/Visual computing/OpenGL_Praktikum_Linux_MacOS_fix_cmake_3.5/OpenGL_Praktikum/libs/glew-2.1.0/build/cmake/../../include"
+  INCLUDES = -I "C:/Users/testy/Desktop/UNI-Stuff/Visual computing/GIt Version/VisualOpenGLEngine/libs/glew-2.1.0/build/cmake/../../include"
   OBJECT_DIR = libs\glew-2.1.0\build\cmake\CMakeFiles\glew_s.dir
   OBJECT_FILE_DIR = libs\glew-2.1.0\build\cmake\CMakeFiles\glew_s.dir\__
 
@@ -1266,7 +1266,7 @@ build lib/libglew32d.a: C_STATIC_LIBRARY_LINKER__glew_s_Debug libs/glew-2.1.0/bu
 # Utility command for edit_cache
 
 build libs/glew-2.1.0/build/cmake/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
-  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D "C:\Users\testy\Desktop\UNI-Stuff\Visual computing\OpenGL_Praktikum_Linux_MacOS_fix_cmake_3.5\OpenGL_Praktikum\cmake-build-debug\libs\glew-2.1.0\build\cmake" && "C:\Users\testy\Desktop\UNI-Stuff\OOAD\CLion 2024.2.2\bin\cmake\win\x64\bin\cmake.exe" -E echo "No interactive CMake dialog available.""
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D "C:\Users\testy\Desktop\UNI-Stuff\Visual computing\GIt Version\VisualOpenGLEngine\cmake-build-debug\libs\glew-2.1.0\build\cmake" && "C:\Users\testy\Desktop\UNI-Stuff\OOAD\CLion 2024.2.2\bin\cmake\win\x64\bin\cmake.exe" -E echo "No interactive CMake dialog available.""
   DESC = No interactive CMake dialog available...
   restat = 1
 
@@ -1277,7 +1277,7 @@ build libs/glew-2.1.0/build/cmake/edit_cache: phony libs/glew-2.1.0/build/cmake/
 # Utility command for rebuild_cache
 
 build libs/glew-2.1.0/build/cmake/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D "C:\Users\testy\Desktop\UNI-Stuff\Visual computing\OpenGL_Praktikum_Linux_MacOS_fix_cmake_3.5\OpenGL_Praktikum\cmake-build-debug\libs\glew-2.1.0\build\cmake" && "C:\Users\testy\Desktop\UNI-Stuff\OOAD\CLion 2024.2.2\bin\cmake\win\x64\bin\cmake.exe" --regenerate-during-build -S"C:\Users\testy\Desktop\UNI-Stuff\Visual computing\OpenGL_Praktikum_Linux_MacOS_fix_cmake_3.5\OpenGL_Praktikum" -B"C:\Users\testy\Desktop\UNI-Stuff\Visual computing\OpenGL_Praktikum_Linux_MacOS_fix_cmake_3.5\OpenGL_Praktikum\cmake-build-debug""
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D "C:\Users\testy\Desktop\UNI-Stuff\Visual computing\GIt Version\VisualOpenGLEngine\cmake-build-debug\libs\glew-2.1.0\build\cmake" && "C:\Users\testy\Desktop\UNI-Stuff\OOAD\CLion 2024.2.2\bin\cmake\win\x64\bin\cmake.exe" --regenerate-during-build -S"C:\Users\testy\Desktop\UNI-Stuff\Visual computing\GIt Version\VisualOpenGLEngine" -B"C:\Users\testy\Desktop\UNI-Stuff\Visual computing\GIt Version\VisualOpenGLEngine\cmake-build-debug""
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
@@ -1295,7 +1295,7 @@ build libs/glew-2.1.0/build/cmake/list_install_components: phony
 # Utility command for install
 
 build libs/glew-2.1.0/build/cmake/CMakeFiles/install.util: CUSTOM_COMMAND libs/glew-2.1.0/build/cmake/all
-  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D "C:\Users\testy\Desktop\UNI-Stuff\Visual computing\OpenGL_Praktikum_Linux_MacOS_fix_cmake_3.5\OpenGL_Praktikum\cmake-build-debug\libs\glew-2.1.0\build\cmake" && "C:\Users\testy\Desktop\UNI-Stuff\OOAD\CLion 2024.2.2\bin\cmake\win\x64\bin\cmake.exe" -P cmake_install.cmake"
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D "C:\Users\testy\Desktop\UNI-Stuff\Visual computing\GIt Version\VisualOpenGLEngine\cmake-build-debug\libs\glew-2.1.0\build\cmake" && "C:\Users\testy\Desktop\UNI-Stuff\OOAD\CLion 2024.2.2\bin\cmake\win\x64\bin\cmake.exe" -P cmake_install.cmake"
   DESC = Install the project...
   pool = console
   restat = 1
@@ -1307,7 +1307,7 @@ build libs/glew-2.1.0/build/cmake/install: phony libs/glew-2.1.0/build/cmake/CMa
 # Utility command for install/local
 
 build libs/glew-2.1.0/build/cmake/CMakeFiles/install/local.util: CUSTOM_COMMAND libs/glew-2.1.0/build/cmake/all
-  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D "C:\Users\testy\Desktop\UNI-Stuff\Visual computing\OpenGL_Praktikum_Linux_MacOS_fix_cmake_3.5\OpenGL_Praktikum\cmake-build-debug\libs\glew-2.1.0\build\cmake" && "C:\Users\testy\Desktop\UNI-Stuff\OOAD\CLion 2024.2.2\bin\cmake\win\x64\bin\cmake.exe" -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake"
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D "C:\Users\testy\Desktop\UNI-Stuff\Visual computing\GIt Version\VisualOpenGLEngine\cmake-build-debug\libs\glew-2.1.0\build\cmake" && "C:\Users\testy\Desktop\UNI-Stuff\OOAD\CLion 2024.2.2\bin\cmake\win\x64\bin\cmake.exe" -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake"
   DESC = Installing only the local directory...
   pool = console
   restat = 1
@@ -1319,7 +1319,7 @@ build libs/glew-2.1.0/build/cmake/install/local: phony libs/glew-2.1.0/build/cma
 # Utility command for install/strip
 
 build libs/glew-2.1.0/build/cmake/CMakeFiles/install/strip.util: CUSTOM_COMMAND libs/glew-2.1.0/build/cmake/all
-  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D "C:\Users\testy\Desktop\UNI-Stuff\Visual computing\OpenGL_Praktikum_Linux_MacOS_fix_cmake_3.5\OpenGL_Praktikum\cmake-build-debug\libs\glew-2.1.0\build\cmake" && "C:\Users\testy\Desktop\UNI-Stuff\OOAD\CLion 2024.2.2\bin\cmake\win\x64\bin\cmake.exe" -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake"
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D "C:\Users\testy\Desktop\UNI-Stuff\Visual computing\GIt Version\VisualOpenGLEngine\cmake-build-debug\libs\glew-2.1.0\build\cmake" && "C:\Users\testy\Desktop\UNI-Stuff\OOAD\CLion 2024.2.2\bin\cmake\win\x64\bin\cmake.exe" -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake"
   DESC = Installing the project stripped...
   pool = console
   restat = 1
@@ -1328,7 +1328,7 @@ build libs/glew-2.1.0/build/cmake/install/strip: phony libs/glew-2.1.0/build/cma
 
 # =============================================================================
 # Write statements declared in CMakeLists.txt:
-# C:/Users/testy/Desktop/UNI-Stuff/Visual computing/OpenGL_Praktikum_Linux_MacOS_fix_cmake_3.5/OpenGL_Praktikum/libs/CMakeLists.txt
+# C:/Users/testy/Desktop/UNI-Stuff/Visual computing/GIt Version/VisualOpenGLEngine/libs/CMakeLists.txt
 # =============================================================================
 
 # =============================================================================
@@ -1340,13 +1340,13 @@ build libs/glew-2.1.0/build/cmake/install/strip: phony libs/glew-2.1.0/build/cma
 
 build cmake_object_order_depends_target_stb: phony || .
 
-build libs/stb/CMakeFiles/stb.dir/stb_image.c.obj: C_COMPILER__stb_unscanned_Debug C$:/Users/testy/Desktop/UNI-Stuff/Visual$ computing/OpenGL_Praktikum_Linux_MacOS_fix_cmake_3.5/OpenGL_Praktikum/libs/stb/stb_image.c || cmake_object_order_depends_target_stb
+build libs/stb/CMakeFiles/stb.dir/stb_image.c.obj: C_COMPILER__stb_unscanned_Debug C$:/Users/testy/Desktop/UNI-Stuff/Visual$ computing/GIt$ Version/VisualOpenGLEngine/libs/stb/stb_image.c || cmake_object_order_depends_target_stb
   DEP_FILE = libs\stb\CMakeFiles\stb.dir\stb_image.c.obj.d
   FLAGS = -g -fdiagnostics-color=always
   OBJECT_DIR = libs\stb\CMakeFiles\stb.dir
   OBJECT_FILE_DIR = libs\stb\CMakeFiles\stb.dir
 
-build libs/stb/CMakeFiles/stb.dir/stb_image_write.c.obj: C_COMPILER__stb_unscanned_Debug C$:/Users/testy/Desktop/UNI-Stuff/Visual$ computing/OpenGL_Praktikum_Linux_MacOS_fix_cmake_3.5/OpenGL_Praktikum/libs/stb/stb_image_write.c || cmake_object_order_depends_target_stb
+build libs/stb/CMakeFiles/stb.dir/stb_image_write.c.obj: C_COMPILER__stb_unscanned_Debug C$:/Users/testy/Desktop/UNI-Stuff/Visual$ computing/GIt$ Version/VisualOpenGLEngine/libs/stb/stb_image_write.c || cmake_object_order_depends_target_stb
   DEP_FILE = libs\stb\CMakeFiles\stb.dir\stb_image_write.c.obj.d
   FLAGS = -g -fdiagnostics-color=always
   OBJECT_DIR = libs\stb\CMakeFiles\stb.dir
@@ -1373,7 +1373,7 @@ build libs/stb/libstb.a: C_STATIC_LIBRARY_LINKER__stb_Debug libs/stb/CMakeFiles/
 # Utility command for edit_cache
 
 build libs/stb/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
-  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D "C:\Users\testy\Desktop\UNI-Stuff\Visual computing\OpenGL_Praktikum_Linux_MacOS_fix_cmake_3.5\OpenGL_Praktikum\cmake-build-debug\libs\stb" && "C:\Users\testy\Desktop\UNI-Stuff\OOAD\CLion 2024.2.2\bin\cmake\win\x64\bin\cmake.exe" -E echo "No interactive CMake dialog available.""
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D "C:\Users\testy\Desktop\UNI-Stuff\Visual computing\GIt Version\VisualOpenGLEngine\cmake-build-debug\libs\stb" && "C:\Users\testy\Desktop\UNI-Stuff\OOAD\CLion 2024.2.2\bin\cmake\win\x64\bin\cmake.exe" -E echo "No interactive CMake dialog available.""
   DESC = No interactive CMake dialog available...
   restat = 1
 
@@ -1384,7 +1384,7 @@ build libs/stb/edit_cache: phony libs/stb/CMakeFiles/edit_cache.util
 # Utility command for rebuild_cache
 
 build libs/stb/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D "C:\Users\testy\Desktop\UNI-Stuff\Visual computing\OpenGL_Praktikum_Linux_MacOS_fix_cmake_3.5\OpenGL_Praktikum\cmake-build-debug\libs\stb" && "C:\Users\testy\Desktop\UNI-Stuff\OOAD\CLion 2024.2.2\bin\cmake\win\x64\bin\cmake.exe" --regenerate-during-build -S"C:\Users\testy\Desktop\UNI-Stuff\Visual computing\OpenGL_Praktikum_Linux_MacOS_fix_cmake_3.5\OpenGL_Praktikum" -B"C:\Users\testy\Desktop\UNI-Stuff\Visual computing\OpenGL_Praktikum_Linux_MacOS_fix_cmake_3.5\OpenGL_Praktikum\cmake-build-debug""
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D "C:\Users\testy\Desktop\UNI-Stuff\Visual computing\GIt Version\VisualOpenGLEngine\cmake-build-debug\libs\stb" && "C:\Users\testy\Desktop\UNI-Stuff\OOAD\CLion 2024.2.2\bin\cmake\win\x64\bin\cmake.exe" --regenerate-during-build -S"C:\Users\testy\Desktop\UNI-Stuff\Visual computing\GIt Version\VisualOpenGLEngine" -B"C:\Users\testy\Desktop\UNI-Stuff\Visual computing\GIt Version\VisualOpenGLEngine\cmake-build-debug""
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
@@ -1402,7 +1402,7 @@ build libs/stb/list_install_components: phony
 # Utility command for install
 
 build libs/stb/CMakeFiles/install.util: CUSTOM_COMMAND libs/stb/all
-  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D "C:\Users\testy\Desktop\UNI-Stuff\Visual computing\OpenGL_Praktikum_Linux_MacOS_fix_cmake_3.5\OpenGL_Praktikum\cmake-build-debug\libs\stb" && "C:\Users\testy\Desktop\UNI-Stuff\OOAD\CLion 2024.2.2\bin\cmake\win\x64\bin\cmake.exe" -P cmake_install.cmake"
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D "C:\Users\testy\Desktop\UNI-Stuff\Visual computing\GIt Version\VisualOpenGLEngine\cmake-build-debug\libs\stb" && "C:\Users\testy\Desktop\UNI-Stuff\OOAD\CLion 2024.2.2\bin\cmake\win\x64\bin\cmake.exe" -P cmake_install.cmake"
   DESC = Install the project...
   pool = console
   restat = 1
@@ -1414,7 +1414,7 @@ build libs/stb/install: phony libs/stb/CMakeFiles/install.util
 # Utility command for install/local
 
 build libs/stb/CMakeFiles/install/local.util: CUSTOM_COMMAND libs/stb/all
-  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D "C:\Users\testy\Desktop\UNI-Stuff\Visual computing\OpenGL_Praktikum_Linux_MacOS_fix_cmake_3.5\OpenGL_Praktikum\cmake-build-debug\libs\stb" && "C:\Users\testy\Desktop\UNI-Stuff\OOAD\CLion 2024.2.2\bin\cmake\win\x64\bin\cmake.exe" -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake"
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D "C:\Users\testy\Desktop\UNI-Stuff\Visual computing\GIt Version\VisualOpenGLEngine\cmake-build-debug\libs\stb" && "C:\Users\testy\Desktop\UNI-Stuff\OOAD\CLion 2024.2.2\bin\cmake\win\x64\bin\cmake.exe" -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake"
   DESC = Installing only the local directory...
   pool = console
   restat = 1
@@ -1426,7 +1426,7 @@ build libs/stb/install/local: phony libs/stb/CMakeFiles/install/local.util
 # Utility command for install/strip
 
 build libs/stb/CMakeFiles/install/strip.util: CUSTOM_COMMAND libs/stb/all
-  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D "C:\Users\testy\Desktop\UNI-Stuff\Visual computing\OpenGL_Praktikum_Linux_MacOS_fix_cmake_3.5\OpenGL_Praktikum\cmake-build-debug\libs\stb" && "C:\Users\testy\Desktop\UNI-Stuff\OOAD\CLion 2024.2.2\bin\cmake\win\x64\bin\cmake.exe" -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake"
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D "C:\Users\testy\Desktop\UNI-Stuff\Visual computing\GIt Version\VisualOpenGLEngine\cmake-build-debug\libs\stb" && "C:\Users\testy\Desktop\UNI-Stuff\OOAD\CLion 2024.2.2\bin\cmake\win\x64\bin\cmake.exe" -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake"
   DESC = Installing the project stripped...
   pool = console
   restat = 1
@@ -1466,98 +1466,98 @@ build uninstall: phony libs/glm-master/uninstall
 # =============================================================================
 
 #############################################
-# Folder: C:/Users/testy/Desktop/UNI-Stuff/Visual computing/OpenGL_Praktikum_Linux_MacOS_fix_cmake_3.5/OpenGL_Praktikum/cmake-build-debug
+# Folder: C:/Users/testy/Desktop/UNI-Stuff/Visual computing/GIt Version/VisualOpenGLEngine/cmake-build-debug
 
 build all: phony OpenGL_Praktikum.exe libs/all
 
 # =============================================================================
 
 #############################################
-# Folder: C:/Users/testy/Desktop/UNI-Stuff/Visual computing/OpenGL_Praktikum_Linux_MacOS_fix_cmake_3.5/OpenGL_Praktikum/cmake-build-debug/libs
+# Folder: C:/Users/testy/Desktop/UNI-Stuff/Visual computing/GIt Version/VisualOpenGLEngine/cmake-build-debug/libs
 
 build libs/all: phony libs/glm-master/all libs/glfw-3.2.1/all libs/glew-2.1.0/build/cmake/all libs/stb/all
 
 # =============================================================================
 
 #############################################
-# Folder: C:/Users/testy/Desktop/UNI-Stuff/Visual computing/OpenGL_Praktikum_Linux_MacOS_fix_cmake_3.5/OpenGL_Praktikum/cmake-build-debug/libs/glew-2.1.0/build/cmake
+# Folder: C:/Users/testy/Desktop/UNI-Stuff/Visual computing/GIt Version/VisualOpenGLEngine/cmake-build-debug/libs/glew-2.1.0/build/cmake
 
 build libs/glew-2.1.0/build/cmake/all: phony bin/glew32d.dll lib/libglew32d.a
 
 # =============================================================================
 
 #############################################
-# Folder: C:/Users/testy/Desktop/UNI-Stuff/Visual computing/OpenGL_Praktikum_Linux_MacOS_fix_cmake_3.5/OpenGL_Praktikum/cmake-build-debug/libs/glfw-3.2.1
+# Folder: C:/Users/testy/Desktop/UNI-Stuff/Visual computing/GIt Version/VisualOpenGLEngine/cmake-build-debug/libs/glfw-3.2.1
 
 build libs/glfw-3.2.1/all: phony libs/glfw-3.2.1/src/all
 
 # =============================================================================
 
 #############################################
-# Folder: C:/Users/testy/Desktop/UNI-Stuff/Visual computing/OpenGL_Praktikum_Linux_MacOS_fix_cmake_3.5/OpenGL_Praktikum/cmake-build-debug/libs/glfw-3.2.1/src
+# Folder: C:/Users/testy/Desktop/UNI-Stuff/Visual computing/GIt Version/VisualOpenGLEngine/cmake-build-debug/libs/glfw-3.2.1/src
 
 build libs/glfw-3.2.1/src/all: phony libs/glfw-3.2.1/src/libglfw3.a
 
 # =============================================================================
 
 #############################################
-# Folder: C:/Users/testy/Desktop/UNI-Stuff/Visual computing/OpenGL_Praktikum_Linux_MacOS_fix_cmake_3.5/OpenGL_Praktikum/cmake-build-debug/libs/glm-master
+# Folder: C:/Users/testy/Desktop/UNI-Stuff/Visual computing/GIt Version/VisualOpenGLEngine/cmake-build-debug/libs/glm-master
 
 build libs/glm-master/all: phony libs/glm-master/glm/all libs/glm-master/test/all
 
 # =============================================================================
 
 #############################################
-# Folder: C:/Users/testy/Desktop/UNI-Stuff/Visual computing/OpenGL_Praktikum_Linux_MacOS_fix_cmake_3.5/OpenGL_Praktikum/cmake-build-debug/libs/glm-master/glm
+# Folder: C:/Users/testy/Desktop/UNI-Stuff/Visual computing/GIt Version/VisualOpenGLEngine/cmake-build-debug/libs/glm-master/glm
 
 build libs/glm-master/glm/all: phony libs/glm-master/glm/glm_dummy.exe
 
 # =============================================================================
 
 #############################################
-# Folder: C:/Users/testy/Desktop/UNI-Stuff/Visual computing/OpenGL_Praktikum_Linux_MacOS_fix_cmake_3.5/OpenGL_Praktikum/cmake-build-debug/libs/glm-master/test
+# Folder: C:/Users/testy/Desktop/UNI-Stuff/Visual computing/GIt Version/VisualOpenGLEngine/cmake-build-debug/libs/glm-master/test
 
 build libs/glm-master/test/all: phony libs/glm-master/test/bug/all libs/glm-master/test/core/all libs/glm-master/test/ext/all libs/glm-master/test/gtc/all libs/glm-master/test/gtx/all
 
 # =============================================================================
 
 #############################################
-# Folder: C:/Users/testy/Desktop/UNI-Stuff/Visual computing/OpenGL_Praktikum_Linux_MacOS_fix_cmake_3.5/OpenGL_Praktikum/cmake-build-debug/libs/glm-master/test/bug
+# Folder: C:/Users/testy/Desktop/UNI-Stuff/Visual computing/GIt Version/VisualOpenGLEngine/cmake-build-debug/libs/glm-master/test/bug
 
 build libs/glm-master/test/bug/all: phony
 
 # =============================================================================
 
 #############################################
-# Folder: C:/Users/testy/Desktop/UNI-Stuff/Visual computing/OpenGL_Praktikum_Linux_MacOS_fix_cmake_3.5/OpenGL_Praktikum/cmake-build-debug/libs/glm-master/test/core
+# Folder: C:/Users/testy/Desktop/UNI-Stuff/Visual computing/GIt Version/VisualOpenGLEngine/cmake-build-debug/libs/glm-master/test/core
 
 build libs/glm-master/test/core/all: phony
 
 # =============================================================================
 
 #############################################
-# Folder: C:/Users/testy/Desktop/UNI-Stuff/Visual computing/OpenGL_Praktikum_Linux_MacOS_fix_cmake_3.5/OpenGL_Praktikum/cmake-build-debug/libs/glm-master/test/ext
+# Folder: C:/Users/testy/Desktop/UNI-Stuff/Visual computing/GIt Version/VisualOpenGLEngine/cmake-build-debug/libs/glm-master/test/ext
 
 build libs/glm-master/test/ext/all: phony
 
 # =============================================================================
 
 #############################################
-# Folder: C:/Users/testy/Desktop/UNI-Stuff/Visual computing/OpenGL_Praktikum_Linux_MacOS_fix_cmake_3.5/OpenGL_Praktikum/cmake-build-debug/libs/glm-master/test/gtc
+# Folder: C:/Users/testy/Desktop/UNI-Stuff/Visual computing/GIt Version/VisualOpenGLEngine/cmake-build-debug/libs/glm-master/test/gtc
 
 build libs/glm-master/test/gtc/all: phony
 
 # =============================================================================
 
 #############################################
-# Folder: C:/Users/testy/Desktop/UNI-Stuff/Visual computing/OpenGL_Praktikum_Linux_MacOS_fix_cmake_3.5/OpenGL_Praktikum/cmake-build-debug/libs/glm-master/test/gtx
+# Folder: C:/Users/testy/Desktop/UNI-Stuff/Visual computing/GIt Version/VisualOpenGLEngine/cmake-build-debug/libs/glm-master/test/gtx
 
 build libs/glm-master/test/gtx/all: phony
 
 # =============================================================================
 
 #############################################
-# Folder: C:/Users/testy/Desktop/UNI-Stuff/Visual computing/OpenGL_Praktikum_Linux_MacOS_fix_cmake_3.5/OpenGL_Praktikum/cmake-build-debug/libs/stb
+# Folder: C:/Users/testy/Desktop/UNI-Stuff/Visual computing/GIt Version/VisualOpenGLEngine/cmake-build-debug/libs/stb
 
 build libs/stb/all: phony libs/stb/libstb.a
 
@@ -1568,14 +1568,14 @@ build libs/stb/all: phony libs/stb/libstb.a
 #############################################
 # Re-run CMake if any of its inputs changed.
 
-build build.ninja: RERUN_CMAKE | C$:/Users/testy/Desktop/UNI-Stuff/OOAD/CLion$ 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/BasicConfigVersion-AnyNewerVersion.cmake.in C$:/Users/testy/Desktop/UNI-Stuff/OOAD/CLion$ 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/BasicConfigVersion-SameMajorVersion.cmake.in C$:/Users/testy/Desktop/UNI-Stuff/OOAD/CLion$ 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeCInformation.cmake C$:/Users/testy/Desktop/UNI-Stuff/OOAD/CLion$ 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeCXXInformation.cmake C$:/Users/testy/Desktop/UNI-Stuff/OOAD/CLion$ 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeCheckCompilerFlagCommonPatterns.cmake C$:/Users/testy/Desktop/UNI-Stuff/OOAD/CLion$ 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeCommonLanguageInclude.cmake C$:/Users/testy/Desktop/UNI-Stuff/OOAD/CLion$ 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeGenericSystem.cmake C$:/Users/testy/Desktop/UNI-Stuff/OOAD/CLion$ 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeInitializeConfigs.cmake C$:/Users/testy/Desktop/UNI-Stuff/OOAD/CLion$ 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeLanguageInformation.cmake C$:/Users/testy/Desktop/UNI-Stuff/OOAD/CLion$ 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakePackageConfigHelpers.cmake C$:/Users/testy/Desktop/UNI-Stuff/OOAD/CLion$ 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeRCInformation.cmake C$:/Users/testy/Desktop/UNI-Stuff/OOAD/CLion$ 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeSystemSpecificInformation.cmake C$:/Users/testy/Desktop/UNI-Stuff/OOAD/CLion$ 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeSystemSpecificInitialize.cmake C$:/Users/testy/Desktop/UNI-Stuff/OOAD/CLion$ 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/CheckCCompilerFlag.cmake C$:/Users/testy/Desktop/UNI-Stuff/OOAD/CLion$ 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/CheckCSourceCompiles.cmake C$:/Users/testy/Desktop/UNI-Stuff/OOAD/CLion$ 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/CheckIncludeFile.cmake C$:/Users/testy/Desktop/UNI-Stuff/OOAD/CLion$ 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/CheckLibraryExists.cmake C$:/Users/testy/Desktop/UNI-Stuff/OOAD/CLion$ 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/CMakeCommonCompilerMacros.cmake C$:/Users/testy/Desktop/UNI-Stuff/OOAD/CLion$ 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/GNU-C.cmake C$:/Users/testy/Desktop/UNI-Stuff/OOAD/CLion$ 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/GNU-CXX.cmake C$:/Users/testy/Desktop/UNI-Stuff/OOAD/CLion$ 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/GNU.cmake C$:/Users/testy/Desktop/UNI-Stuff/OOAD/CLion$ 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/FindOpenGL.cmake C$:/Users/testy/Desktop/UNI-Stuff/OOAD/CLion$ 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/FindPackageHandleStandardArgs.cmake C$:/Users/testy/Desktop/UNI-Stuff/OOAD/CLion$ 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/FindPackageMessage.cmake C$:/Users/testy/Desktop/UNI-Stuff/OOAD/CLion$ 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/FindThreads.cmake C$:/Users/testy/Desktop/UNI-Stuff/OOAD/CLion$ 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/GNUInstallDirs.cmake C$:/Users/testy/Desktop/UNI-Stuff/OOAD/CLion$ 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/Internal/CheckCompilerFlag.cmake C$:/Users/testy/Desktop/UNI-Stuff/OOAD/CLion$ 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/Internal/CheckFlagCommonConfig.cmake C$:/Users/testy/Desktop/UNI-Stuff/OOAD/CLion$ 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/Internal/CheckSourceCompiles.cmake C$:/Users/testy/Desktop/UNI-Stuff/OOAD/CLion$ 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/Windows-GNU-C-ABI.cmake C$:/Users/testy/Desktop/UNI-Stuff/OOAD/CLion$ 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/Windows-GNU-C.cmake C$:/Users/testy/Desktop/UNI-Stuff/OOAD/CLion$ 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/Windows-GNU-CXX-ABI.cmake C$:/Users/testy/Desktop/UNI-Stuff/OOAD/CLion$ 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/Windows-GNU-CXX.cmake C$:/Users/testy/Desktop/UNI-Stuff/OOAD/CLion$ 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/Windows-GNU.cmake C$:/Users/testy/Desktop/UNI-Stuff/OOAD/CLion$ 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/Windows-Initialize.cmake C$:/Users/testy/Desktop/UNI-Stuff/OOAD/CLion$ 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/Windows-windres.cmake C$:/Users/testy/Desktop/UNI-Stuff/OOAD/CLion$ 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/Windows.cmake C$:/Users/testy/Desktop/UNI-Stuff/OOAD/CLion$ 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/WindowsPaths.cmake C$:/Users/testy/Desktop/UNI-Stuff/OOAD/CLion$ 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/WriteBasicConfigVersionFile.cmake C$:/Users/testy/Desktop/UNI-Stuff/Visual$ computing/OpenGL_Praktikum_Linux_MacOS_fix_cmake_3.5/OpenGL_Praktikum/CMakeLists.txt C$:/Users/testy/Desktop/UNI-Stuff/Visual$ computing/OpenGL_Praktikum_Linux_MacOS_fix_cmake_3.5/OpenGL_Praktikum/libs/CMakeLists.txt C$:/Users/testy/Desktop/UNI-Stuff/Visual$ computing/OpenGL_Praktikum_Linux_MacOS_fix_cmake_3.5/OpenGL_Praktikum/libs/glew-2.1.0/build/cmake/CMakeLists.txt C$:/Users/testy/Desktop/UNI-Stuff/Visual$ computing/OpenGL_Praktikum_Linux_MacOS_fix_cmake_3.5/OpenGL_Praktikum/libs/glew-2.1.0/glew.pc.in C$:/Users/testy/Desktop/UNI-Stuff/Visual$ computing/OpenGL_Praktikum_Linux_MacOS_fix_cmake_3.5/OpenGL_Praktikum/libs/glfw-3.2.1/CMakeLists.txt C$:/Users/testy/Desktop/UNI-Stuff/Visual$ computing/OpenGL_Praktikum_Linux_MacOS_fix_cmake_3.5/OpenGL_Praktikum/libs/glfw-3.2.1/CMake/modules/FindVulkan.cmake C$:/Users/testy/Desktop/UNI-Stuff/Visual$ computing/OpenGL_Praktikum_Linux_MacOS_fix_cmake_3.5/OpenGL_Praktikum/libs/glfw-3.2.1/src/CMakeLists.txt C$:/Users/testy/Desktop/UNI-Stuff/Visual$ computing/OpenGL_Praktikum_Linux_MacOS_fix_cmake_3.5/OpenGL_Praktikum/libs/glfw-3.2.1/src/glfw3.pc.in C$:/Users/testy/Desktop/UNI-Stuff/Visual$ computing/OpenGL_Praktikum_Linux_MacOS_fix_cmake_3.5/OpenGL_Praktikum/libs/glfw-3.2.1/src/glfw3Config.cmake.in C$:/Users/testy/Desktop/UNI-Stuff/Visual$ computing/OpenGL_Praktikum_Linux_MacOS_fix_cmake_3.5/OpenGL_Praktikum/libs/glfw-3.2.1/src/glfw_config.h.in C$:/Users/testy/Desktop/UNI-Stuff/Visual$ computing/OpenGL_Praktikum_Linux_MacOS_fix_cmake_3.5/OpenGL_Praktikum/libs/glm-master/CMakeLists.txt C$:/Users/testy/Desktop/UNI-Stuff/Visual$ computing/OpenGL_Praktikum_Linux_MacOS_fix_cmake_3.5/OpenGL_Praktikum/libs/glm-master/cmake/glm.pc.in C$:/Users/testy/Desktop/UNI-Stuff/Visual$ computing/OpenGL_Praktikum_Linux_MacOS_fix_cmake_3.5/OpenGL_Praktikum/libs/glm-master/cmake/glmBuildConfig.cmake.in C$:/Users/testy/Desktop/UNI-Stuff/Visual$ computing/OpenGL_Praktikum_Linux_MacOS_fix_cmake_3.5/OpenGL_Praktikum/libs/glm-master/cmake/glmConfig.cmake.in C$:/Users/testy/Desktop/UNI-Stuff/Visual$ computing/OpenGL_Praktikum_Linux_MacOS_fix_cmake_3.5/OpenGL_Praktikum/libs/glm-master/cmake_uninstall.cmake.in C$:/Users/testy/Desktop/UNI-Stuff/Visual$ computing/OpenGL_Praktikum_Linux_MacOS_fix_cmake_3.5/OpenGL_Praktikum/libs/glm-master/glm/CMakeLists.txt C$:/Users/testy/Desktop/UNI-Stuff/Visual$ computing/OpenGL_Praktikum_Linux_MacOS_fix_cmake_3.5/OpenGL_Praktikum/libs/glm-master/test/CMakeLists.txt C$:/Users/testy/Desktop/UNI-Stuff/Visual$ computing/OpenGL_Praktikum_Linux_MacOS_fix_cmake_3.5/OpenGL_Praktikum/libs/glm-master/test/bug/CMakeLists.txt C$:/Users/testy/Desktop/UNI-Stuff/Visual$ computing/OpenGL_Praktikum_Linux_MacOS_fix_cmake_3.5/OpenGL_Praktikum/libs/glm-master/test/core/CMakeLists.txt C$:/Users/testy/Desktop/UNI-Stuff/Visual$ computing/OpenGL_Praktikum_Linux_MacOS_fix_cmake_3.5/OpenGL_Praktikum/libs/glm-master/test/ext/CMakeLists.txt C$:/Users/testy/Desktop/UNI-Stuff/Visual$ computing/OpenGL_Praktikum_Linux_MacOS_fix_cmake_3.5/OpenGL_Praktikum/libs/glm-master/test/gtc/CMakeLists.txt C$:/Users/testy/Desktop/UNI-Stuff/Visual$ computing/OpenGL_Praktikum_Linux_MacOS_fix_cmake_3.5/OpenGL_Praktikum/libs/glm-master/test/gtx/CMakeLists.txt C$:/Users/testy/Desktop/UNI-Stuff/Visual$ computing/OpenGL_Praktikum_Linux_MacOS_fix_cmake_3.5/OpenGL_Praktikum/libs/stb/CMakeLists.txt CMakeCache.txt CMakeFiles/3.29.6/CMakeCCompiler.cmake CMakeFiles/3.29.6/CMakeCXXCompiler.cmake CMakeFiles/3.29.6/CMakeRCCompiler.cmake CMakeFiles/3.29.6/CMakeSystem.cmake
+build build.ninja: RERUN_CMAKE | C$:/Users/testy/Desktop/UNI-Stuff/OOAD/CLion$ 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/BasicConfigVersion-AnyNewerVersion.cmake.in C$:/Users/testy/Desktop/UNI-Stuff/OOAD/CLion$ 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/BasicConfigVersion-SameMajorVersion.cmake.in C$:/Users/testy/Desktop/UNI-Stuff/OOAD/CLion$ 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeCInformation.cmake C$:/Users/testy/Desktop/UNI-Stuff/OOAD/CLion$ 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeCXXInformation.cmake C$:/Users/testy/Desktop/UNI-Stuff/OOAD/CLion$ 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeCheckCompilerFlagCommonPatterns.cmake C$:/Users/testy/Desktop/UNI-Stuff/OOAD/CLion$ 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeCommonLanguageInclude.cmake C$:/Users/testy/Desktop/UNI-Stuff/OOAD/CLion$ 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeGenericSystem.cmake C$:/Users/testy/Desktop/UNI-Stuff/OOAD/CLion$ 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeInitializeConfigs.cmake C$:/Users/testy/Desktop/UNI-Stuff/OOAD/CLion$ 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeLanguageInformation.cmake C$:/Users/testy/Desktop/UNI-Stuff/OOAD/CLion$ 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakePackageConfigHelpers.cmake C$:/Users/testy/Desktop/UNI-Stuff/OOAD/CLion$ 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeRCInformation.cmake C$:/Users/testy/Desktop/UNI-Stuff/OOAD/CLion$ 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeSystemSpecificInformation.cmake C$:/Users/testy/Desktop/UNI-Stuff/OOAD/CLion$ 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeSystemSpecificInitialize.cmake C$:/Users/testy/Desktop/UNI-Stuff/OOAD/CLion$ 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/CheckCCompilerFlag.cmake C$:/Users/testy/Desktop/UNI-Stuff/OOAD/CLion$ 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/CheckCSourceCompiles.cmake C$:/Users/testy/Desktop/UNI-Stuff/OOAD/CLion$ 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/CheckIncludeFile.cmake C$:/Users/testy/Desktop/UNI-Stuff/OOAD/CLion$ 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/CheckLibraryExists.cmake C$:/Users/testy/Desktop/UNI-Stuff/OOAD/CLion$ 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/CMakeCommonCompilerMacros.cmake C$:/Users/testy/Desktop/UNI-Stuff/OOAD/CLion$ 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/GNU-C.cmake C$:/Users/testy/Desktop/UNI-Stuff/OOAD/CLion$ 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/GNU-CXX.cmake C$:/Users/testy/Desktop/UNI-Stuff/OOAD/CLion$ 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/GNU.cmake C$:/Users/testy/Desktop/UNI-Stuff/OOAD/CLion$ 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/FindOpenGL.cmake C$:/Users/testy/Desktop/UNI-Stuff/OOAD/CLion$ 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/FindPackageHandleStandardArgs.cmake C$:/Users/testy/Desktop/UNI-Stuff/OOAD/CLion$ 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/FindPackageMessage.cmake C$:/Users/testy/Desktop/UNI-Stuff/OOAD/CLion$ 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/FindThreads.cmake C$:/Users/testy/Desktop/UNI-Stuff/OOAD/CLion$ 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/GNUInstallDirs.cmake C$:/Users/testy/Desktop/UNI-Stuff/OOAD/CLion$ 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/Internal/CheckCompilerFlag.cmake C$:/Users/testy/Desktop/UNI-Stuff/OOAD/CLion$ 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/Internal/CheckFlagCommonConfig.cmake C$:/Users/testy/Desktop/UNI-Stuff/OOAD/CLion$ 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/Internal/CheckSourceCompiles.cmake C$:/Users/testy/Desktop/UNI-Stuff/OOAD/CLion$ 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/Windows-GNU-C-ABI.cmake C$:/Users/testy/Desktop/UNI-Stuff/OOAD/CLion$ 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/Windows-GNU-C.cmake C$:/Users/testy/Desktop/UNI-Stuff/OOAD/CLion$ 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/Windows-GNU-CXX-ABI.cmake C$:/Users/testy/Desktop/UNI-Stuff/OOAD/CLion$ 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/Windows-GNU-CXX.cmake C$:/Users/testy/Desktop/UNI-Stuff/OOAD/CLion$ 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/Windows-GNU.cmake C$:/Users/testy/Desktop/UNI-Stuff/OOAD/CLion$ 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/Windows-Initialize.cmake C$:/Users/testy/Desktop/UNI-Stuff/OOAD/CLion$ 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/Windows-windres.cmake C$:/Users/testy/Desktop/UNI-Stuff/OOAD/CLion$ 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/Windows.cmake C$:/Users/testy/Desktop/UNI-Stuff/OOAD/CLion$ 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/WindowsPaths.cmake C$:/Users/testy/Desktop/UNI-Stuff/OOAD/CLion$ 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/WriteBasicConfigVersionFile.cmake C$:/Users/testy/Desktop/UNI-Stuff/Visual$ computing/GIt$ Version/VisualOpenGLEngine/CMakeLists.txt C$:/Users/testy/Desktop/UNI-Stuff/Visual$ computing/GIt$ Version/VisualOpenGLEngine/libs/CMakeLists.txt C$:/Users/testy/Desktop/UNI-Stuff/Visual$ computing/GIt$ Version/VisualOpenGLEngine/libs/glew-2.1.0/build/cmake/CMakeLists.txt C$:/Users/testy/Desktop/UNI-Stuff/Visual$ computing/GIt$ Version/VisualOpenGLEngine/libs/glew-2.1.0/glew.pc.in C$:/Users/testy/Desktop/UNI-Stuff/Visual$ computing/GIt$ Version/VisualOpenGLEngine/libs/glfw-3.2.1/CMakeLists.txt C$:/Users/testy/Desktop/UNI-Stuff/Visual$ computing/GIt$ Version/VisualOpenGLEngine/libs/glfw-3.2.1/CMake/modules/FindVulkan.cmake C$:/Users/testy/Desktop/UNI-Stuff/Visual$ computing/GIt$ Version/VisualOpenGLEngine/libs/glfw-3.2.1/src/CMakeLists.txt C$:/Users/testy/Desktop/UNI-Stuff/Visual$ computing/GIt$ Version/VisualOpenGLEngine/libs/glfw-3.2.1/src/glfw3.pc.in C$:/Users/testy/Desktop/UNI-Stuff/Visual$ computing/GIt$ Version/VisualOpenGLEngine/libs/glfw-3.2.1/src/glfw3Config.cmake.in C$:/Users/testy/Desktop/UNI-Stuff/Visual$ computing/GIt$ Version/VisualOpenGLEngine/libs/glfw-3.2.1/src/glfw_config.h.in C$:/Users/testy/Desktop/UNI-Stuff/Visual$ computing/GIt$ Version/VisualOpenGLEngine/libs/glm-master/CMakeLists.txt C$:/Users/testy/Desktop/UNI-Stuff/Visual$ computing/GIt$ Version/VisualOpenGLEngine/libs/glm-master/cmake/glm.pc.in C$:/Users/testy/Desktop/UNI-Stuff/Visual$ computing/GIt$ Version/VisualOpenGLEngine/libs/glm-master/cmake/glmBuildConfig.cmake.in C$:/Users/testy/Desktop/UNI-Stuff/Visual$ computing/GIt$ Version/VisualOpenGLEngine/libs/glm-master/cmake/glmConfig.cmake.in C$:/Users/testy/Desktop/UNI-Stuff/Visual$ computing/GIt$ Version/VisualOpenGLEngine/libs/glm-master/cmake_uninstall.cmake.in C$:/Users/testy/Desktop/UNI-Stuff/Visual$ computing/GIt$ Version/VisualOpenGLEngine/libs/glm-master/glm/CMakeLists.txt C$:/Users/testy/Desktop/UNI-Stuff/Visual$ computing/GIt$ Version/VisualOpenGLEngine/libs/glm-master/test/CMakeLists.txt C$:/Users/testy/Desktop/UNI-Stuff/Visual$ computing/GIt$ Version/VisualOpenGLEngine/libs/glm-master/test/bug/CMakeLists.txt C$:/Users/testy/Desktop/UNI-Stuff/Visual$ computing/GIt$ Version/VisualOpenGLEngine/libs/glm-master/test/core/CMakeLists.txt C$:/Users/testy/Desktop/UNI-Stuff/Visual$ computing/GIt$ Version/VisualOpenGLEngine/libs/glm-master/test/ext/CMakeLists.txt C$:/Users/testy/Desktop/UNI-Stuff/Visual$ computing/GIt$ Version/VisualOpenGLEngine/libs/glm-master/test/gtc/CMakeLists.txt C$:/Users/testy/Desktop/UNI-Stuff/Visual$ computing/GIt$ Version/VisualOpenGLEngine/libs/glm-master/test/gtx/CMakeLists.txt C$:/Users/testy/Desktop/UNI-Stuff/Visual$ computing/GIt$ Version/VisualOpenGLEngine/libs/stb/CMakeLists.txt CMakeCache.txt CMakeFiles/3.29.6/CMakeCCompiler.cmake CMakeFiles/3.29.6/CMakeCXXCompiler.cmake CMakeFiles/3.29.6/CMakeRCCompiler.cmake CMakeFiles/3.29.6/CMakeSystem.cmake
   pool = console
 
 
 #############################################
 # A missing CMake input file is not an error.
 
-build C$:/Users/testy/Desktop/UNI-Stuff/OOAD/CLion$ 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/BasicConfigVersion-AnyNewerVersion.cmake.in C$:/Users/testy/Desktop/UNI-Stuff/OOAD/CLion$ 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/BasicConfigVersion-SameMajorVersion.cmake.in C$:/Users/testy/Desktop/UNI-Stuff/OOAD/CLion$ 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeCInformation.cmake C$:/Users/testy/Desktop/UNI-Stuff/OOAD/CLion$ 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeCXXInformation.cmake C$:/Users/testy/Desktop/UNI-Stuff/OOAD/CLion$ 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeCheckCompilerFlagCommonPatterns.cmake C$:/Users/testy/Desktop/UNI-Stuff/OOAD/CLion$ 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeCommonLanguageInclude.cmake C$:/Users/testy/Desktop/UNI-Stuff/OOAD/CLion$ 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeGenericSystem.cmake C$:/Users/testy/Desktop/UNI-Stuff/OOAD/CLion$ 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeInitializeConfigs.cmake C$:/Users/testy/Desktop/UNI-Stuff/OOAD/CLion$ 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeLanguageInformation.cmake C$:/Users/testy/Desktop/UNI-Stuff/OOAD/CLion$ 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakePackageConfigHelpers.cmake C$:/Users/testy/Desktop/UNI-Stuff/OOAD/CLion$ 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeRCInformation.cmake C$:/Users/testy/Desktop/UNI-Stuff/OOAD/CLion$ 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeSystemSpecificInformation.cmake C$:/Users/testy/Desktop/UNI-Stuff/OOAD/CLion$ 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeSystemSpecificInitialize.cmake C$:/Users/testy/Desktop/UNI-Stuff/OOAD/CLion$ 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/CheckCCompilerFlag.cmake C$:/Users/testy/Desktop/UNI-Stuff/OOAD/CLion$ 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/CheckCSourceCompiles.cmake C$:/Users/testy/Desktop/UNI-Stuff/OOAD/CLion$ 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/CheckIncludeFile.cmake C$:/Users/testy/Desktop/UNI-Stuff/OOAD/CLion$ 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/CheckLibraryExists.cmake C$:/Users/testy/Desktop/UNI-Stuff/OOAD/CLion$ 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/CMakeCommonCompilerMacros.cmake C$:/Users/testy/Desktop/UNI-Stuff/OOAD/CLion$ 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/GNU-C.cmake C$:/Users/testy/Desktop/UNI-Stuff/OOAD/CLion$ 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/GNU-CXX.cmake C$:/Users/testy/Desktop/UNI-Stuff/OOAD/CLion$ 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/GNU.cmake C$:/Users/testy/Desktop/UNI-Stuff/OOAD/CLion$ 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/FindOpenGL.cmake C$:/Users/testy/Desktop/UNI-Stuff/OOAD/CLion$ 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/FindPackageHandleStandardArgs.cmake C$:/Users/testy/Desktop/UNI-Stuff/OOAD/CLion$ 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/FindPackageMessage.cmake C$:/Users/testy/Desktop/UNI-Stuff/OOAD/CLion$ 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/FindThreads.cmake C$:/Users/testy/Desktop/UNI-Stuff/OOAD/CLion$ 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/GNUInstallDirs.cmake C$:/Users/testy/Desktop/UNI-Stuff/OOAD/CLion$ 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/Internal/CheckCompilerFlag.cmake C$:/Users/testy/Desktop/UNI-Stuff/OOAD/CLion$ 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/Internal/CheckFlagCommonConfig.cmake C$:/Users/testy/Desktop/UNI-Stuff/OOAD/CLion$ 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/Internal/CheckSourceCompiles.cmake C$:/Users/testy/Desktop/UNI-Stuff/OOAD/CLion$ 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/Windows-GNU-C-ABI.cmake C$:/Users/testy/Desktop/UNI-Stuff/OOAD/CLion$ 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/Windows-GNU-C.cmake C$:/Users/testy/Desktop/UNI-Stuff/OOAD/CLion$ 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/Windows-GNU-CXX-ABI.cmake C$:/Users/testy/Desktop/UNI-Stuff/OOAD/CLion$ 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/Windows-GNU-CXX.cmake C$:/Users/testy/Desktop/UNI-Stuff/OOAD/CLion$ 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/Windows-GNU.cmake C$:/Users/testy/Desktop/UNI-Stuff/OOAD/CLion$ 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/Windows-Initialize.cmake C$:/Users/testy/Desktop/UNI-Stuff/OOAD/CLion$ 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/Windows-windres.cmake C$:/Users/testy/Desktop/UNI-Stuff/OOAD/CLion$ 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/Windows.cmake C$:/Users/testy/Desktop/UNI-Stuff/OOAD/CLion$ 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/WindowsPaths.cmake C$:/Users/testy/Desktop/UNI-Stuff/OOAD/CLion$ 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/WriteBasicConfigVersionFile.cmake C$:/Users/testy/Desktop/UNI-Stuff/Visual$ computing/OpenGL_Praktikum_Linux_MacOS_fix_cmake_3.5/OpenGL_Praktikum/CMakeLists.txt C$:/Users/testy/Desktop/UNI-Stuff/Visual$ computing/OpenGL_Praktikum_Linux_MacOS_fix_cmake_3.5/OpenGL_Praktikum/libs/CMakeLists.txt C$:/Users/testy/Desktop/UNI-Stuff/Visual$ computing/OpenGL_Praktikum_Linux_MacOS_fix_cmake_3.5/OpenGL_Praktikum/libs/glew-2.1.0/build/cmake/CMakeLists.txt C$:/Users/testy/Desktop/UNI-Stuff/Visual$ computing/OpenGL_Praktikum_Linux_MacOS_fix_cmake_3.5/OpenGL_Praktikum/libs/glew-2.1.0/glew.pc.in C$:/Users/testy/Desktop/UNI-Stuff/Visual$ computing/OpenGL_Praktikum_Linux_MacOS_fix_cmake_3.5/OpenGL_Praktikum/libs/glfw-3.2.1/CMakeLists.txt C$:/Users/testy/Desktop/UNI-Stuff/Visual$ computing/OpenGL_Praktikum_Linux_MacOS_fix_cmake_3.5/OpenGL_Praktikum/libs/glfw-3.2.1/CMake/modules/FindVulkan.cmake C$:/Users/testy/Desktop/UNI-Stuff/Visual$ computing/OpenGL_Praktikum_Linux_MacOS_fix_cmake_3.5/OpenGL_Praktikum/libs/glfw-3.2.1/src/CMakeLists.txt C$:/Users/testy/Desktop/UNI-Stuff/Visual$ computing/OpenGL_Praktikum_Linux_MacOS_fix_cmake_3.5/OpenGL_Praktikum/libs/glfw-3.2.1/src/glfw3.pc.in C$:/Users/testy/Desktop/UNI-Stuff/Visual$ computing/OpenGL_Praktikum_Linux_MacOS_fix_cmake_3.5/OpenGL_Praktikum/libs/glfw-3.2.1/src/glfw3Config.cmake.in C$:/Users/testy/Desktop/UNI-Stuff/Visual$ computing/OpenGL_Praktikum_Linux_MacOS_fix_cmake_3.5/OpenGL_Praktikum/libs/glfw-3.2.1/src/glfw_config.h.in C$:/Users/testy/Desktop/UNI-Stuff/Visual$ computing/OpenGL_Praktikum_Linux_MacOS_fix_cmake_3.5/OpenGL_Praktikum/libs/glm-master/CMakeLists.txt C$:/Users/testy/Desktop/UNI-Stuff/Visual$ computing/OpenGL_Praktikum_Linux_MacOS_fix_cmake_3.5/OpenGL_Praktikum/libs/glm-master/cmake/glm.pc.in C$:/Users/testy/Desktop/UNI-Stuff/Visual$ computing/OpenGL_Praktikum_Linux_MacOS_fix_cmake_3.5/OpenGL_Praktikum/libs/glm-master/cmake/glmBuildConfig.cmake.in C$:/Users/testy/Desktop/UNI-Stuff/Visual$ computing/OpenGL_Praktikum_Linux_MacOS_fix_cmake_3.5/OpenGL_Praktikum/libs/glm-master/cmake/glmConfig.cmake.in C$:/Users/testy/Desktop/UNI-Stuff/Visual$ computing/OpenGL_Praktikum_Linux_MacOS_fix_cmake_3.5/OpenGL_Praktikum/libs/glm-master/cmake_uninstall.cmake.in C$:/Users/testy/Desktop/UNI-Stuff/Visual$ computing/OpenGL_Praktikum_Linux_MacOS_fix_cmake_3.5/OpenGL_Praktikum/libs/glm-master/glm/CMakeLists.txt C$:/Users/testy/Desktop/UNI-Stuff/Visual$ computing/OpenGL_Praktikum_Linux_MacOS_fix_cmake_3.5/OpenGL_Praktikum/libs/glm-master/test/CMakeLists.txt C$:/Users/testy/Desktop/UNI-Stuff/Visual$ computing/OpenGL_Praktikum_Linux_MacOS_fix_cmake_3.5/OpenGL_Praktikum/libs/glm-master/test/bug/CMakeLists.txt C$:/Users/testy/Desktop/UNI-Stuff/Visual$ computing/OpenGL_Praktikum_Linux_MacOS_fix_cmake_3.5/OpenGL_Praktikum/libs/glm-master/test/core/CMakeLists.txt C$:/Users/testy/Desktop/UNI-Stuff/Visual$ computing/OpenGL_Praktikum_Linux_MacOS_fix_cmake_3.5/OpenGL_Praktikum/libs/glm-master/test/ext/CMakeLists.txt C$:/Users/testy/Desktop/UNI-Stuff/Visual$ computing/OpenGL_Praktikum_Linux_MacOS_fix_cmake_3.5/OpenGL_Praktikum/libs/glm-master/test/gtc/CMakeLists.txt C$:/Users/testy/Desktop/UNI-Stuff/Visual$ computing/OpenGL_Praktikum_Linux_MacOS_fix_cmake_3.5/OpenGL_Praktikum/libs/glm-master/test/gtx/CMakeLists.txt C$:/Users/testy/Desktop/UNI-Stuff/Visual$ computing/OpenGL_Praktikum_Linux_MacOS_fix_cmake_3.5/OpenGL_Praktikum/libs/stb/CMakeLists.txt CMakeCache.txt CMakeFiles/3.29.6/CMakeCCompiler.cmake CMakeFiles/3.29.6/CMakeCXXCompiler.cmake CMakeFiles/3.29.6/CMakeRCCompiler.cmake CMakeFiles/3.29.6/CMakeSystem.cmake: phony
+build C$:/Users/testy/Desktop/UNI-Stuff/OOAD/CLion$ 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/BasicConfigVersion-AnyNewerVersion.cmake.in C$:/Users/testy/Desktop/UNI-Stuff/OOAD/CLion$ 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/BasicConfigVersion-SameMajorVersion.cmake.in C$:/Users/testy/Desktop/UNI-Stuff/OOAD/CLion$ 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeCInformation.cmake C$:/Users/testy/Desktop/UNI-Stuff/OOAD/CLion$ 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeCXXInformation.cmake C$:/Users/testy/Desktop/UNI-Stuff/OOAD/CLion$ 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeCheckCompilerFlagCommonPatterns.cmake C$:/Users/testy/Desktop/UNI-Stuff/OOAD/CLion$ 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeCommonLanguageInclude.cmake C$:/Users/testy/Desktop/UNI-Stuff/OOAD/CLion$ 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeGenericSystem.cmake C$:/Users/testy/Desktop/UNI-Stuff/OOAD/CLion$ 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeInitializeConfigs.cmake C$:/Users/testy/Desktop/UNI-Stuff/OOAD/CLion$ 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeLanguageInformation.cmake C$:/Users/testy/Desktop/UNI-Stuff/OOAD/CLion$ 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakePackageConfigHelpers.cmake C$:/Users/testy/Desktop/UNI-Stuff/OOAD/CLion$ 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeRCInformation.cmake C$:/Users/testy/Desktop/UNI-Stuff/OOAD/CLion$ 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeSystemSpecificInformation.cmake C$:/Users/testy/Desktop/UNI-Stuff/OOAD/CLion$ 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeSystemSpecificInitialize.cmake C$:/Users/testy/Desktop/UNI-Stuff/OOAD/CLion$ 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/CheckCCompilerFlag.cmake C$:/Users/testy/Desktop/UNI-Stuff/OOAD/CLion$ 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/CheckCSourceCompiles.cmake C$:/Users/testy/Desktop/UNI-Stuff/OOAD/CLion$ 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/CheckIncludeFile.cmake C$:/Users/testy/Desktop/UNI-Stuff/OOAD/CLion$ 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/CheckLibraryExists.cmake C$:/Users/testy/Desktop/UNI-Stuff/OOAD/CLion$ 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/CMakeCommonCompilerMacros.cmake C$:/Users/testy/Desktop/UNI-Stuff/OOAD/CLion$ 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/GNU-C.cmake C$:/Users/testy/Desktop/UNI-Stuff/OOAD/CLion$ 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/GNU-CXX.cmake C$:/Users/testy/Desktop/UNI-Stuff/OOAD/CLion$ 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/GNU.cmake C$:/Users/testy/Desktop/UNI-Stuff/OOAD/CLion$ 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/FindOpenGL.cmake C$:/Users/testy/Desktop/UNI-Stuff/OOAD/CLion$ 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/FindPackageHandleStandardArgs.cmake C$:/Users/testy/Desktop/UNI-Stuff/OOAD/CLion$ 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/FindPackageMessage.cmake C$:/Users/testy/Desktop/UNI-Stuff/OOAD/CLion$ 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/FindThreads.cmake C$:/Users/testy/Desktop/UNI-Stuff/OOAD/CLion$ 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/GNUInstallDirs.cmake C$:/Users/testy/Desktop/UNI-Stuff/OOAD/CLion$ 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/Internal/CheckCompilerFlag.cmake C$:/Users/testy/Desktop/UNI-Stuff/OOAD/CLion$ 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/Internal/CheckFlagCommonConfig.cmake C$:/Users/testy/Desktop/UNI-Stuff/OOAD/CLion$ 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/Internal/CheckSourceCompiles.cmake C$:/Users/testy/Desktop/UNI-Stuff/OOAD/CLion$ 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/Windows-GNU-C-ABI.cmake C$:/Users/testy/Desktop/UNI-Stuff/OOAD/CLion$ 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/Windows-GNU-C.cmake C$:/Users/testy/Desktop/UNI-Stuff/OOAD/CLion$ 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/Windows-GNU-CXX-ABI.cmake C$:/Users/testy/Desktop/UNI-Stuff/OOAD/CLion$ 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/Windows-GNU-CXX.cmake C$:/Users/testy/Desktop/UNI-Stuff/OOAD/CLion$ 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/Windows-GNU.cmake C$:/Users/testy/Desktop/UNI-Stuff/OOAD/CLion$ 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/Windows-Initialize.cmake C$:/Users/testy/Desktop/UNI-Stuff/OOAD/CLion$ 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/Windows-windres.cmake C$:/Users/testy/Desktop/UNI-Stuff/OOAD/CLion$ 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/Windows.cmake C$:/Users/testy/Desktop/UNI-Stuff/OOAD/CLion$ 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/WindowsPaths.cmake C$:/Users/testy/Desktop/UNI-Stuff/OOAD/CLion$ 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/WriteBasicConfigVersionFile.cmake C$:/Users/testy/Desktop/UNI-Stuff/Visual$ computing/GIt$ Version/VisualOpenGLEngine/CMakeLists.txt C$:/Users/testy/Desktop/UNI-Stuff/Visual$ computing/GIt$ Version/VisualOpenGLEngine/libs/CMakeLists.txt C$:/Users/testy/Desktop/UNI-Stuff/Visual$ computing/GIt$ Version/VisualOpenGLEngine/libs/glew-2.1.0/build/cmake/CMakeLists.txt C$:/Users/testy/Desktop/UNI-Stuff/Visual$ computing/GIt$ Version/VisualOpenGLEngine/libs/glew-2.1.0/glew.pc.in C$:/Users/testy/Desktop/UNI-Stuff/Visual$ computing/GIt$ Version/VisualOpenGLEngine/libs/glfw-3.2.1/CMakeLists.txt C$:/Users/testy/Desktop/UNI-Stuff/Visual$ computing/GIt$ Version/VisualOpenGLEngine/libs/glfw-3.2.1/CMake/modules/FindVulkan.cmake C$:/Users/testy/Desktop/UNI-Stuff/Visual$ computing/GIt$ Version/VisualOpenGLEngine/libs/glfw-3.2.1/src/CMakeLists.txt C$:/Users/testy/Desktop/UNI-Stuff/Visual$ computing/GIt$ Version/VisualOpenGLEngine/libs/glfw-3.2.1/src/glfw3.pc.in C$:/Users/testy/Desktop/UNI-Stuff/Visual$ computing/GIt$ Version/VisualOpenGLEngine/libs/glfw-3.2.1/src/glfw3Config.cmake.in C$:/Users/testy/Desktop/UNI-Stuff/Visual$ computing/GIt$ Version/VisualOpenGLEngine/libs/glfw-3.2.1/src/glfw_config.h.in C$:/Users/testy/Desktop/UNI-Stuff/Visual$ computing/GIt$ Version/VisualOpenGLEngine/libs/glm-master/CMakeLists.txt C$:/Users/testy/Desktop/UNI-Stuff/Visual$ computing/GIt$ Version/VisualOpenGLEngine/libs/glm-master/cmake/glm.pc.in C$:/Users/testy/Desktop/UNI-Stuff/Visual$ computing/GIt$ Version/VisualOpenGLEngine/libs/glm-master/cmake/glmBuildConfig.cmake.in C$:/Users/testy/Desktop/UNI-Stuff/Visual$ computing/GIt$ Version/VisualOpenGLEngine/libs/glm-master/cmake/glmConfig.cmake.in C$:/Users/testy/Desktop/UNI-Stuff/Visual$ computing/GIt$ Version/VisualOpenGLEngine/libs/glm-master/cmake_uninstall.cmake.in C$:/Users/testy/Desktop/UNI-Stuff/Visual$ computing/GIt$ Version/VisualOpenGLEngine/libs/glm-master/glm/CMakeLists.txt C$:/Users/testy/Desktop/UNI-Stuff/Visual$ computing/GIt$ Version/VisualOpenGLEngine/libs/glm-master/test/CMakeLists.txt C$:/Users/testy/Desktop/UNI-Stuff/Visual$ computing/GIt$ Version/VisualOpenGLEngine/libs/glm-master/test/bug/CMakeLists.txt C$:/Users/testy/Desktop/UNI-Stuff/Visual$ computing/GIt$ Version/VisualOpenGLEngine/libs/glm-master/test/core/CMakeLists.txt C$:/Users/testy/Desktop/UNI-Stuff/Visual$ computing/GIt$ Version/VisualOpenGLEngine/libs/glm-master/test/ext/CMakeLists.txt C$:/Users/testy/Desktop/UNI-Stuff/Visual$ computing/GIt$ Version/VisualOpenGLEngine/libs/glm-master/test/gtc/CMakeLists.txt C$:/Users/testy/Desktop/UNI-Stuff/Visual$ computing/GIt$ Version/VisualOpenGLEngine/libs/glm-master/test/gtx/CMakeLists.txt C$:/Users/testy/Desktop/UNI-Stuff/Visual$ computing/GIt$ Version/VisualOpenGLEngine/libs/stb/CMakeLists.txt CMakeCache.txt CMakeFiles/3.29.6/CMakeCCompiler.cmake CMakeFiles/3.29.6/CMakeCXXCompiler.cmake CMakeFiles/3.29.6/CMakeRCCompiler.cmake CMakeFiles/3.29.6/CMakeSystem.cmake: phony
 
 
 #############################################

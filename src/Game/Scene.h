@@ -29,6 +29,9 @@ private:
 	AssetManager m_assets;
     ShaderProgram* m_shader;
     GLuint vaoID, vboID, ibo;
+	glm::vec2 cameraPos;
+	float cameraSpeed = 0.01f;
+	Transform cubeTransform;
 
 };
 

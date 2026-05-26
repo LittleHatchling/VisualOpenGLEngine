@@ -1,5 +1,9 @@
 #include "Scene.h"
 #include <AssetManager.h>
+#include "Cube.h"
+#include "Framework/SceneElements/Transform.h"
+#include <glm/gtc/constants.hpp>
+#include <glm/gtc/matrix_transform.hpp>
 
 Scene::Scene(OpenGLWindow * window) :
 	m_window(window)
@@ -19,89 +23,7 @@ bool Scene::init()
 		m_shader = m_assets.getShaderProgram("shader");
         m_shader->use();
 
-		float vertices[] = {
-			// x, y, r, g, b
 
-			// I (left side)
-			-0.9,  0.5, 1,0,0,
-			-0.8,  0.5, 1,0,0,
-			-0.8, -0.5, 1,0,0,
-			-0.9, -0.5, 1,0,0,
-
-			// Q (square)
-			-0.6,  0.5, 0,1,0,
-			-0.4,  0.5, 0,1,0,
-			-0.4, -0.5, 0,1,0,
-			-0.6, -0.5, 0,1,0,
-
-			// Q tail
-			-0.45, -0.5, 0,1,0,
-			-0.35, -0.7, 0,1,0,
-			-0.4, -0.5, 0,1,0,
-
-			// B vertical
-			-0.2,  0.5, 0,0,1,
-			-0.1,  0.5, 0,0,1,
-			-0.1, -0.5, 0,0,1,
-			-0.2, -0.5, 0,0,1,
-
-			// B top box
-			-0.1,  0.5, 0,0,1,
-			 0.05, 0.5, 0,0,1,
-			 0.05, 0.1, 0,0,1,
-			-0.1,  0.1, 0,0,1,
-
-			// B bottom box
-			-0.1,  0.0, 0,0,1,
-			0.05, 0.0, 0,0,1,
-			0.05, -0.5, 0,0,1,
-			-0.1, -0.5, 0,0,1,
-
-			// A left side
-			 0.1, -0.5, 1,1,0,
-			 0.2,  0.5, 1,1,0,
-			 0.3, -0.5, 1,1,0,
-
-			// L
-			 0.6,  0.5, 1,0,1,
-			 0.7,  0.5, 1,0,1,
-			 0.7, -0.5, 1,0,1,
-			 0.6, -0.5, 1,0,1,
-
-			 0.6, -0.5, 1,0,1,
-			 0.9, -0.5, 1,0,1,
-			 0.9, -0.4, 1,0,1,
-			 0.6, -0.4, 1,0,1,
-		};
-
-		int indices[] = {
-			// I
-			0,2,1, 0,3,2,
-
-			// Q square
-			4,6,5, 4,7,6,
-
-			// Q tail
-			8,9,10,
-
-			// B vertical
-			11,13,12, 11,14,13,
-
-			// B top box
-			15,17,16, 15,18,17,
-
-			// B bottom box
-			19,21,20, 19,22,21,
-
-			// A (triangle)
-			23,25,24,
-
-			// L vertical
-			26,28,27, 26,29,28,
-
-			// L bottom
-			30,32,31, 30,33,32
-		};
 
 		/*
 		 * ************
@@ -112,28 +34,36 @@ bool Scene::init()
 		//intializing the data and sending to the GPU memory
 		glGenBuffers(1, &vboID);
 		glBindBuffer(GL_ARRAY_BUFFER, vboID);
-		glBufferData(GL_ARRAY_BUFFER, sizeof(vertices), vertices, GL_STATIC_DRAW);
+		glBufferData(GL_ARRAY_BUFFER, sizeof(cubeVert), cubeVert, GL_STATIC_DRAW);
 
 		// Now we gonna create the VOA which tells the OGL how to understand that data
 		glGenVertexArrays(1, &vaoID);
 		glBindVertexArray(vaoID);
 
 		//postion attribute
-		glVertexAttribPointer(0, 2, GL_FLOAT, GL_FALSE, 5 * sizeof(float), (void*)0);
+		glVertexAttribPointer(0, 3, GL_FLOAT, GL_FALSE, 6 * sizeof(float), (void*)0);
 		glEnableVertexAttribArray(0);
 
 		//color attribute
-		glVertexAttribPointer(1, 3, GL_FLOAT, GL_FALSE, 5 * sizeof(float), (void*)(2*sizeof(float)));
+		glVertexAttribPointer(1, 3, GL_FLOAT, GL_FALSE, 6 * sizeof(float), (void*)(3*sizeof(float)));
 		glEnableVertexAttribArray(1);
 
-		//ok we finally gonna try to render stuff using indices to make triangles
+		//ok we finally gonna try to render stuff using indices to make triangles, basically just making it ready in memory
+		//uses indices data, sends it to gpu
+		//index buffer, stores which vertices form triangles
 		glGenBuffers(1, &ibo);
 		glBindBuffer(GL_ELEMENT_ARRAY_BUFFER, ibo);
-		glBufferData(GL_ELEMENT_ARRAY_BUFFER, sizeof(indices), indices, GL_STATIC_DRAW);
+		glBufferData(GL_ELEMENT_ARRAY_BUFFER, sizeof(cubeInd), cubeInd, GL_STATIC_DRAW);
 
 		glEnable(GL_CULL_FACE);
 		glFrontFace(GL_CCW);
 		glCullFace(GL_BACK);
+
+		cubeTransform.rotate(glm::vec3(
+			glm::radians(30.0f),
+			glm::radians(40.0),
+			0.0
+		));
 
         std::cout << "Scene initialization done\n";
         return true;
@@ -147,6 +77,7 @@ bool Scene::init()
 void Scene::render(float dt)
 {
 
+
 	/*
     * ************
     * Place your code here!
@@ -154,7 +85,8 @@ void Scene::render(float dt)
     */
 	m_shader->use();
 	glBindVertexArray(vaoID);
-	glDrawElements(GL_TRIANGLES, 48, GL_UNSIGNED_INT, 0);
+	m_shader->setUniform("transformMatrix", cubeTransform.getMatrix(), false);
+	glDrawElements(GL_TRIANGLES, sizeof(cubeInd) / sizeof(int), GL_UNSIGNED_INT, 0);
 
 
 

@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/testy/Desktop/UNI-Stuff/Visual computing/OpenGL_Praktikum_Linux_MacOS_fix_cmake_3.5/OpenGL_Praktikum/libs
+# Install script for directory: C:/Users/testy/Desktop/UNI-Stuff/Visual computing/GIt Version/VisualOpenGLEngine/libs
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -39,10 +39,10 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("C:/Users/testy/Desktop/UNI-Stuff/Visual computing/OpenGL_Praktikum_Linux_MacOS_fix_cmake_3.5/OpenGL_Praktikum/cmake-build-debug/libs/glm-master/cmake_install.cmake")
-  include("C:/Users/testy/Desktop/UNI-Stuff/Visual computing/OpenGL_Praktikum_Linux_MacOS_fix_cmake_3.5/OpenGL_Praktikum/cmake-build-debug/libs/glfw-3.2.1/cmake_install.cmake")
-  include("C:/Users/testy/Desktop/UNI-Stuff/Visual computing/OpenGL_Praktikum_Linux_MacOS_fix_cmake_3.5/OpenGL_Praktikum/cmake-build-debug/libs/glew-2.1.0/build/cmake/cmake_install.cmake")
-  include("C:/Users/testy/Desktop/UNI-Stuff/Visual computing/OpenGL_Praktikum_Linux_MacOS_fix_cmake_3.5/OpenGL_Praktikum/cmake-build-debug/libs/stb/cmake_install.cmake")
+  include("C:/Users/testy/Desktop/UNI-Stuff/Visual computing/GIt Version/VisualOpenGLEngine/cmake-build-debug/libs/glm-master/cmake_install.cmake")
+  include("C:/Users/testy/Desktop/UNI-Stuff/Visual computing/GIt Version/VisualOpenGLEngine/cmake-build-debug/libs/glfw-3.2.1/cmake_install.cmake")
+  include("C:/Users/testy/Desktop/UNI-Stuff/Visual computing/GIt Version/VisualOpenGLEngine/cmake-build-debug/libs/glew-2.1.0/build/cmake/cmake_install.cmake")
+  include("C:/Users/testy/Desktop/UNI-Stuff/Visual computing/GIt Version/VisualOpenGLEngine/cmake-build-debug/libs/stb/cmake_install.cmake")
 
 endif()
 

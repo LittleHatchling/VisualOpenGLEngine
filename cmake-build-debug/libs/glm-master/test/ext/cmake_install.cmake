@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/testy/Desktop/UNI-Stuff/Visual computing/OpenGL_Praktikum_Linux_MacOS_fix_cmake_3.5/OpenGL_Praktikum/libs/glm-master/test/ext
+# Install script for directory: C:/Users/testy/Desktop/UNI-Stuff/Visual computing/GIt Version/VisualOpenGLEngine/libs/glm-master/test/ext
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
