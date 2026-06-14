@@ -15,6 +15,10 @@ void main(){
     vec3 L = normalize(lightDirVS);
     vec3 V = normalize(viewDirVS);
     
+    // Ambient component
+    float ambientStrength = 0.2;
+    vec3 ambientTerm = colorVS * lightColor * ambientStrength;
+    
     // Diffuse component
     float cosA = max(0.0, dot(N, L));
     vec3 diffuseTerm = colorVS * lightColor * cosA;
@@ -25,6 +29,7 @@ void main(){
     float cosBetaShininess = pow(cosBeta, 32.0);  // 32.0 is shininess factor
     vec3 specularTerm = vec3(1.0) * lightColor * cosBetaShininess;  // white specular highlights
     
-    color = vec4(diffuseTerm + specularTerm, 1.0);
+    // Combine all three components
+    color = vec4(ambientTerm + diffuseTerm + specularTerm, 1.0);
 }
 
