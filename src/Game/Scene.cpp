@@ -1,6 +1,6 @@
 #include "Scene.h"
 #include <AssetManager.h>
-#include "Cube.h"
+#include "cubeWithNormals.h"
 #include "Framework/SceneElements/Transform.h"
 
 #include <glm/gtc/constants.hpp>
@@ -37,20 +37,22 @@ bool Scene::init()
         // -------------------------
         glGenBuffers(1, &vboID);
         glBindBuffer(GL_ARRAY_BUFFER, vboID);
-        glBufferData(GL_ARRAY_BUFFER, sizeof(cubeVert), cubeVert, GL_STATIC_DRAW);
+        glBufferData(GL_ARRAY_BUFFER, sizeof(cubeVertWithNormals), cubeVertWithNormals, GL_STATIC_DRAW);
 
         glGenVertexArrays(1, &vaoID);
         glBindVertexArray(vaoID);
 
-        glVertexAttribPointer(0, 3, GL_FLOAT, GL_FALSE, 6 * sizeof(float), (void*)0);
+        // Position attribute
+        glVertexAttribPointer(0, 3, GL_FLOAT, GL_FALSE, 9 * sizeof(float), (void*)0);
         glEnableVertexAttribArray(0);
 
-        glVertexAttribPointer(1, 3, GL_FLOAT, GL_FALSE, 6 * sizeof(float), (void*)(3 * sizeof(float)));
+        // Normal attribute
+        glVertexAttribPointer(1, 3, GL_FLOAT, GL_FALSE, 9 * sizeof(float), (void*)(3 * sizeof(float)));
         glEnableVertexAttribArray(1);
 
-        glGenBuffers(1, &ibo);
-        glBindBuffer(GL_ELEMENT_ARRAY_BUFFER, ibo);
-        glBufferData(GL_ELEMENT_ARRAY_BUFFER, sizeof(cubeInd), cubeInd, GL_STATIC_DRAW);
+        // Color attribute
+        glVertexAttribPointer(2, 3, GL_FLOAT, GL_FALSE, 9 * sizeof(float), (void*)(6 * sizeof(float)));
+        glEnableVertexAttribArray(2);
 
         // -------------------------
         // RENDER SETTINGS
@@ -141,14 +143,14 @@ void Scene::render(float dt)
     glm::mat4 torsoM = torso.getMatrix() * torsoRotation.getMatrix();
 
     m_shader->setUniform("transformMatrix", torsoM, false);
-    glDrawElements(GL_TRIANGLES, 36, GL_UNSIGNED_INT, 0);
+    glDrawArrays(GL_TRIANGLES, 0, 36);
 
     // -------------------------
     // HEAD
     // -------------------------
     glm::mat4 headM = torsoM * head.getMatrix();
     m_shader->setUniform("transformMatrix", headM, false);
-    glDrawElements(GL_TRIANGLES, 36, GL_UNSIGNED_INT, 0);
+    glDrawArrays(GL_TRIANGLES, 0, 36);
 
     // -------------------------
     // LEFT ARM
@@ -159,7 +161,7 @@ void Scene::render(float dt)
 
     glm::mat4 leftArmM = torsoM * leftArmAnim.getMatrix();
     m_shader->setUniform("transformMatrix", leftArmM, false);
-    glDrawElements(GL_TRIANGLES, 36, GL_UNSIGNED_INT, 0);
+    glDrawArrays(GL_TRIANGLES, 0, 36);
 
     // -------------------------
     // RIGHT ARM
@@ -170,7 +172,7 @@ void Scene::render(float dt)
 
     glm::mat4 rightArmM = torsoM * rightArmAnim.getMatrix();
     m_shader->setUniform("transformMatrix", rightArmM, false);
-    glDrawElements(GL_TRIANGLES, 36, GL_UNSIGNED_INT, 0);
+    glDrawArrays(GL_TRIANGLES, 0, 36);
 
     // -------------------------
     // LEGS
@@ -181,7 +183,7 @@ void Scene::render(float dt)
 
     glm::mat4 leftLegM = torsoM * leftLegAnim.getMatrix();
     m_shader->setUniform("transformMatrix", leftLegM, false);
-    glDrawElements(GL_TRIANGLES, 36, GL_UNSIGNED_INT, 0);
+    glDrawArrays(GL_TRIANGLES, 0, 36);
 
     Transform rightLegAnim = rightLeg;
     rightLegAnim.rotateAroundPoint(glm::vec3(0.0f, 0.45f, 0.0f),
@@ -189,7 +191,7 @@ void Scene::render(float dt)
 
     glm::mat4 rightLegM = torsoM * rightLegAnim.getMatrix();
     m_shader->setUniform("transformMatrix", rightLegM, false);
-    glDrawElements(GL_TRIANGLES, 36, GL_UNSIGNED_INT, 0);
+    glDrawArrays(GL_TRIANGLES, 0, 36);
 }
 
 void Scene::update(float dt)
