@@ -60,8 +60,8 @@ bool Scene::init()
         glCullFace(GL_BACK);
 
         glEnable(GL_DEPTH_TEST);
-        glDepthFunc(GL_GREATER);
-        glClearDepth(0.0);
+        glDepthFunc(GL_LESS);
+        glClearDepth(1.0);
 
         // -------------------------
         // ROBOT BASE POSE
@@ -71,18 +71,23 @@ bool Scene::init()
 
         torso.scale(glm::vec3(s, s * 1.5f, s * 0.5f));
 
+        //head
         head.translate(glm::vec3(0.0f, 0.78f, 0.0f));
         head.scale(glm::vec3(0.7f));
 
+        //left arm
         leftArm.translate(glm::vec3(-0.75f, 0.1f, 0.0f));
         leftArm.scale(glm::vec3(0.3f, 0.8f, zScale));
 
+        //right arm
         rightArm.translate(glm::vec3(0.75f, 0.1f, 0.0f));
         rightArm.scale(glm::vec3(0.4f, 0.8f, zScale));
 
+        //left leg
         leftLeg.translate(glm::vec3(-0.3f, -0.95f, 0.0f));
         leftLeg.scale(glm::vec3(0.4f, 0.9f, zScale));
 
+        //right leg
         rightLeg.translate(glm::vec3(0.3f, -0.95f, 0.0f));
         rightLeg.scale(glm::vec3(0.4f, 0.9f, zScale));
 
@@ -101,6 +106,28 @@ void Scene::render(float dt)
 
     m_shader->use();
     glBindVertexArray(vaoID);
+
+    // -------------------------
+    // PROJECTION MATRIX
+    // -------------------------
+    float fov = glm::radians(45.0f);
+    float aspect = 16.0f / 9.0f;  // Adjust to your window size
+    float near = 0.1f;
+    float far = 100.0f;
+    glm::mat4 projection = glm::perspective(fov, aspect, near, far);
+
+    m_shader->setUniform("projectionMatrix", projection, false);
+
+    // -------------------------
+    // VIEW MATRIX (CAMERA)
+    // -------------------------
+    glm::vec3 cameraPos    = glm::vec3(0.0f, 0.0f, 5.0f);
+    glm::vec3 cameraTarget = glm::vec3(0.0f, 0.0f, 0.0f);
+    glm::vec3 upVector     = glm::vec3(0.0f, 1.0f, 0.0f);
+
+    glm::mat4 view = glm::lookAt(cameraPos, cameraTarget, upVector);
+
+    m_shader->setUniform("viewMatrix", view, false);
 
     float swing = sin(time * 3.0f) * 0.5f;
     float legSwing = sin(time * 3.0f) * 0.6f;
@@ -127,7 +154,8 @@ void Scene::render(float dt)
     // LEFT ARM
     // -------------------------
     Transform leftArmAnim = leftArm;
-    leftArmAnim.rotateAroundPoint(glm::vec3(0.0f, 0.4f, 0.0f), glm::angleAxis(swing, glm::vec3(1.0f, 0.0f, 0.0f)));
+    leftArmAnim.rotateAroundPoint(glm::vec3(0.0f, 0.4f, 0.0f),
+        glm::angleAxis(swing, glm::vec3(1.0f, 0.0f, 0.0f)));
 
     glm::mat4 leftArmM = torsoM * leftArmAnim.getMatrix();
     m_shader->setUniform("transformMatrix", leftArmM, false);
@@ -137,27 +165,27 @@ void Scene::render(float dt)
     // RIGHT ARM
     // -------------------------
     Transform rightArmAnim = rightArm;
-    rightArmAnim.rotateAroundPoint(glm::vec3(0.0f, 0.4f, 0.0f), glm::angleAxis(-swing, glm::vec3(1.0f, 0.0f, 0.0f)));
+    rightArmAnim.rotateAroundPoint(glm::vec3(0.0f, 0.4f, 0.0f),
+        glm::angleAxis(-swing, glm::vec3(1.0f, 0.0f, 0.0f)));
 
     glm::mat4 rightArmM = torsoM * rightArmAnim.getMatrix();
     m_shader->setUniform("transformMatrix", rightArmM, false);
     glDrawElements(GL_TRIANGLES, 36, GL_UNSIGNED_INT, 0);
 
     // -------------------------
-    // LEFT LEG
+    // LEGS
     // -------------------------
     Transform leftLegAnim = leftLeg;
-    leftLegAnim.rotateAroundPoint(glm::vec3(0.0f, 0.45f, 0.0f), glm::angleAxis(-legSwing, glm::vec3(1.0f, 0.0f, 0.0f)));
+    leftLegAnim.rotateAroundPoint(glm::vec3(0.0f, 0.45f, 0.0f),
+        glm::angleAxis(-legSwing, glm::vec3(1.0f, 0.0f, 0.0f)));
 
     glm::mat4 leftLegM = torsoM * leftLegAnim.getMatrix();
     m_shader->setUniform("transformMatrix", leftLegM, false);
     glDrawElements(GL_TRIANGLES, 36, GL_UNSIGNED_INT, 0);
 
-    // -------------------------
-    // RIGHT LEG
-    // -------------------------
     Transform rightLegAnim = rightLeg;
-    rightLegAnim.rotateAroundPoint(glm::vec3(0.0f, 0.45f, 0.0f), glm::angleAxis(legSwing, glm::vec3(1.0f, 0.0f, 0.0f)));
+    rightLegAnim.rotateAroundPoint(glm::vec3(0.0f, 0.45f, 0.0f),
+        glm::angleAxis(legSwing, glm::vec3(1.0f, 0.0f, 0.0f)));
 
     glm::mat4 rightLegM = torsoM * rightLegAnim.getMatrix();
     m_shader->setUniform("transformMatrix", rightLegM, false);

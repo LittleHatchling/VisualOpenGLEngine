@@ -3,6 +3,6 @@
 GLM: GCC - GNU compiler
 -- Could NOT find Vulkan (missing: VULKAN_LIBRARY VULKAN_INCLUDE_DIR) 
 -- Using Win32 for window creation
--- Configuring done (1.2s)
+-- Configuring done (0.6s)
 -- Generating done (0.3s)
 -- Build files have been written to: C:/Users/testy/Desktop/UNI-Stuff/Visual computing/GIt Version/VisualOpenGLEngine/cmake-build-debug
