@@ -5,6 +5,7 @@
 #include <memory>
 #include <AssetManager.h>
 #include "Transform.h"
+#include "CameraController.h"
 
 class Scene
 {
@@ -47,5 +48,8 @@ private:
 	// Light source
 	glm::vec3 lightColor;
 	glm::vec3 lightPosition;
+
+	// Camera controller for FPV mode
+	CameraController m_cameraController;
 
 };

@@ -97,6 +97,14 @@ build CMakeFiles/OpenGL_Praktikum.dir/src/Game/Scene.cpp.obj: CXX_COMPILER__Open
   OBJECT_DIR = CMakeFiles\OpenGL_Praktikum.dir
   OBJECT_FILE_DIR = CMakeFiles\OpenGL_Praktikum.dir\src\Game
 
+build CMakeFiles/OpenGL_Praktikum.dir/src/Game/CameraController.cpp.obj: CXX_COMPILER__OpenGL_Praktikum_unscanned_Debug C$:/Users/testy/Desktop/UNI-Stuff/Visual$ computing/GIt$ Version/VisualOpenGLEngine/src/Game/CameraController.cpp || cmake_object_order_depends_target_OpenGL_Praktikum
+  DEFINES = -DGLEW_STATIC
+  DEP_FILE = CMakeFiles\OpenGL_Praktikum.dir\src\Game\CameraController.cpp.obj.d
+  FLAGS = -g -std=gnu++11 -fdiagnostics-color=always
+  INCLUDES = -I"C:/Users/testy/Desktop/UNI-Stuff/Visual computing/GIt Version/VisualOpenGLEngine/src" -I"C:/Users/testy/Desktop/UNI-Stuff/Visual computing/GIt Version/VisualOpenGLEngine/src/Framework/Assets" -I"C:/Users/testy/Desktop/UNI-Stuff/Visual computing/GIt Version/VisualOpenGLEngine/src/Framework/SceneElements" -I"C:/Users/testy/Desktop/UNI-Stuff/Visual computing/GIt Version/VisualOpenGLEngine/src/Game" -I"C:/Users/testy/Desktop/UNI-Stuff/Visual computing/GIt Version/VisualOpenGLEngine/framework" -I"C:/Users/testy/Desktop/UNI-Stuff/Visual computing/GIt Version/VisualOpenGLEngine/libs/glfw-3.2.1/include" -I"C:/Users/testy/Desktop/UNI-Stuff/Visual computing/GIt Version/VisualOpenGLEngine/libs/glew-2.1.0/include" -I"C:/Users/testy/Desktop/UNI-Stuff/Visual computing/GIt Version/VisualOpenGLEngine/libs/glew-2.1.0/include/GL" -I"C:/Users/testy/Desktop/UNI-Stuff/Visual computing/GIt Version/VisualOpenGLEngine/libs/glm-master" -I"C:/Users/testy/Desktop/UNI-Stuff/Visual computing/GIt Version/VisualOpenGLEngine/libs/stb"
+  OBJECT_DIR = CMakeFiles\OpenGL_Praktikum.dir
+  OBJECT_FILE_DIR = CMakeFiles\OpenGL_Praktikum.dir\src\Game
+
 build CMakeFiles/OpenGL_Praktikum.dir/framework/OpenGLWindow.cpp.obj: CXX_COMPILER__OpenGL_Praktikum_unscanned_Debug C$:/Users/testy/Desktop/UNI-Stuff/Visual$ computing/GIt$ Version/VisualOpenGLEngine/framework/OpenGLWindow.cpp || cmake_object_order_depends_target_OpenGL_Praktikum
   DEFINES = -DGLEW_STATIC
   DEP_FILE = CMakeFiles\OpenGL_Praktikum.dir\framework\OpenGLWindow.cpp.obj.d
@@ -137,7 +145,7 @@ build CMakeFiles/OpenGL_Praktikum.dir/framework/OBJLoader.cpp.obj: CXX_COMPILER_
 #############################################
 # Link the executable OpenGL_Praktikum.exe
 
-build OpenGL_Praktikum.exe: CXX_EXECUTABLE_LINKER__OpenGL_Praktikum_Debug CMakeFiles/OpenGL_Praktikum.dir/src/main.cpp.obj CMakeFiles/OpenGL_Praktikum.dir/src/Framework/Assets/AssetManager.cpp.obj CMakeFiles/OpenGL_Praktikum.dir/src/Framework/Assets/ShaderProgram.cpp.obj CMakeFiles/OpenGL_Praktikum.dir/src/Framework/SceneElements/Transform.cpp.obj CMakeFiles/OpenGL_Praktikum.dir/src/Game/Window.cpp.obj CMakeFiles/OpenGL_Praktikum.dir/src/Game/Scene.cpp.obj CMakeFiles/OpenGL_Praktikum.dir/framework/OpenGLWindow.cpp.obj CMakeFiles/OpenGL_Praktikum.dir/framework/glerror.cpp.obj CMakeFiles/OpenGL_Praktikum.dir/framework/Input.cpp.obj CMakeFiles/OpenGL_Praktikum.dir/framework/OBJLoader.cpp.obj | libs/glfw-3.2.1/src/libglfw3.a lib/libglew32d.a libs/stb/libstb.a || lib/libglew32d.a libs/glfw-3.2.1/src/libglfw3.a libs/stb/libstb.a
+build OpenGL_Praktikum.exe: CXX_EXECUTABLE_LINKER__OpenGL_Praktikum_Debug CMakeFiles/OpenGL_Praktikum.dir/src/main.cpp.obj CMakeFiles/OpenGL_Praktikum.dir/src/Framework/Assets/AssetManager.cpp.obj CMakeFiles/OpenGL_Praktikum.dir/src/Framework/Assets/ShaderProgram.cpp.obj CMakeFiles/OpenGL_Praktikum.dir/src/Framework/SceneElements/Transform.cpp.obj CMakeFiles/OpenGL_Praktikum.dir/src/Game/Window.cpp.obj CMakeFiles/OpenGL_Praktikum.dir/src/Game/Scene.cpp.obj CMakeFiles/OpenGL_Praktikum.dir/src/Game/CameraController.cpp.obj CMakeFiles/OpenGL_Praktikum.dir/framework/OpenGLWindow.cpp.obj CMakeFiles/OpenGL_Praktikum.dir/framework/glerror.cpp.obj CMakeFiles/OpenGL_Praktikum.dir/framework/Input.cpp.obj CMakeFiles/OpenGL_Praktikum.dir/framework/OBJLoader.cpp.obj | libs/glfw-3.2.1/src/libglfw3.a lib/libglew32d.a libs/stb/libstb.a || lib/libglew32d.a libs/glfw-3.2.1/src/libglfw3.a libs/stb/libstb.a
   FLAGS = -g
   LINK_LIBRARIES = libs/glfw-3.2.1/src/libglfw3.a  lib/libglew32d.a  -lopengl32  -lglu32  libs/stb/libstb.a  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\OpenGL_Praktikum.dir

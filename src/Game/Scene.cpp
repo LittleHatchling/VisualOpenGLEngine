@@ -99,6 +99,12 @@ bool Scene::init()
         lightColor = glm::vec3(1.0f, 1.0f, 1.0f);  // White light
         lightPosition = glm::vec3(0.0f, 0.0f, 0.0f);
 
+        // -------------------------
+        // CAMERA CONTROLLER
+        // -------------------------
+        m_cameraController.setWindowDimensions(m_window->getFrameBufferWidth(), m_window->getFrameBufferHeight());
+        m_cameraController.setGLFWWindow(m_window->getGLFWWindow());
+
         std::cout << "Scene initialization done\n";
         return true;
     }
@@ -110,6 +116,9 @@ bool Scene::init()
 
 void Scene::render(float dt)
 {
+    // Update viewport to match current framebuffer size
+    glViewport(0, 0, m_window->getFrameBufferWidth(), m_window->getFrameBufferHeight());
+    
     glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
 
     m_shader->use();
@@ -119,7 +128,9 @@ void Scene::render(float dt)
     // PROJECTION MATRIX
     // -------------------------
     float fov = glm::radians(45.0f);
-    float aspect = 16.0f / 9.0f;  // Adjust to your window size
+    float width = static_cast<float>(m_window->getFrameBufferWidth());
+    float height = static_cast<float>(m_window->getFrameBufferHeight());
+    float aspect = width / height;  // Dynamic aspect ratio based on actual window size
     float near = 0.1f;
     float far = 100.0f;
     glm::mat4 projection = glm::perspective(fov, aspect, near, far);
@@ -129,11 +140,21 @@ void Scene::render(float dt)
     // -------------------------
     // VIEW MATRIX (CAMERA)
     // -------------------------
-    glm::vec3 cameraPos    = glm::vec3(0.0f, 0.0f, 5.0f);
-    glm::vec3 cameraTarget = glm::vec3(0.0f, 0.0f, 0.0f);
-    glm::vec3 upVector     = glm::vec3(0.0f, 1.0f, 0.0f);
-
-    glm::mat4 view = glm::lookAt(cameraPos, cameraTarget, upVector);
+    glm::mat4 view;
+    
+    if (m_cameraController.isFPVEnabled())
+    {
+        // Use FPV camera
+        view = m_cameraController.getViewMatrix();
+    }
+    else
+    {
+        // Use original static camera
+        glm::vec3 cameraPos    = glm::vec3(0.0f, 0.0f, 5.0f);
+        glm::vec3 cameraTarget = glm::vec3(0.0f, 0.0f, 0.0f);
+        glm::vec3 upVector     = glm::vec3(0.0f, 1.0f, 0.0f);
+        view = glm::lookAt(cameraPos, cameraTarget, upVector);
+    }
 
     m_shader->setUniform("viewMatrix", view, false);
 
@@ -226,6 +247,7 @@ void Scene::render(float dt)
 void Scene::update(float dt)
 {
     time += dt;
+    m_cameraController.update(dt);
 
     // IMPORTANT: removed torso.rotate()
     // because it causes long-term transform distortion in scene graphs
@@ -238,12 +260,30 @@ OpenGLWindow * Scene::getWindow()
 
 void Scene::onKey(Key key, Action action, Modifier modifier)
 {
+    // Toggle FPV camera with 'F' key
+    if (key == Key::F && action == Action::Down)
+    {
+        // Ensure window info is current before toggling
+        m_cameraController.setWindowDimensions(m_window->getFrameBufferWidth(), m_window->getFrameBufferHeight());
+        m_cameraController.setGLFWWindow(m_window->getGLFWWindow());
+        m_cameraController.toggleFPV();
+    }
 
+    // Toggle mouse look with 'M' key
+    if (key == Key::M && action == Action::Down)
+    {
+        m_cameraController.toggleMouseLook();
+    }
+
+    // Pass movement keys to camera controller
+    // Important: key is pressed when action is Down OR Repeat, released when action is Up
+    bool pressed = (action != Action::Up);
+    m_cameraController.onKey(static_cast<int>(key), pressed);
 }
 
 void Scene::onMouseMove(MousePosition mouseposition)
 {
-
+    m_cameraController.onMouseMove(mouseposition.X, mouseposition.Y);
 }
 
 void Scene::onMouseButton(MouseButton button, Action action, Modifier modifier)
@@ -258,7 +298,7 @@ void Scene::onMouseScroll(double xscroll, double yscroll)
 
 void Scene::onFrameBufferResize(int width, int height)
 {
-
+    m_cameraController.setWindowDimensions(width, height);
 }
 void Scene::shutdown()
 {

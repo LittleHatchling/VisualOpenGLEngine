@@ -446,6 +446,8 @@ list(APPEND SOURCES "${CMAKE_CURRENT_SOURCE_DIR}/src/Game/Window.h")
 list(APPEND SOURCES "${CMAKE_CURRENT_SOURCE_DIR}/src/Game/Window.cpp")
 list(APPEND SOURCES "${CMAKE_CURRENT_SOURCE_DIR}/src/Game/Scene.h")
 list(APPEND SOURCES "${CMAKE_CURRENT_SOURCE_DIR}/src/Game/Scene.cpp")
+list(APPEND SOURCES "${CMAKE_CURRENT_SOURCE_DIR}/src/Game/CameraController.h")
+list(APPEND SOURCES "${CMAKE_CURRENT_SOURCE_DIR}/src/Game/CameraController.cpp")
 # add that directory to include list:
 list(APPEND INCLUDES "${CMAKE_CURRENT_SOURCE_DIR}/src/Game")
 

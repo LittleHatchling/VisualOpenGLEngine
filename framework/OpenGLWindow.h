@@ -68,6 +68,11 @@ public:
 
 	void setCursorVisible(bool visible);
 
+	GLFWwindow* getGLFWWindow() const
+	{
+		return m_window;
+	}
+
 protected:
 	//window width/height
 	GLint windowWidth;
