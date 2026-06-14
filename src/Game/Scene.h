@@ -44,7 +44,8 @@ private:
 	Transform baseLeftLeg;
 	Transform baseRightLeg;
 
-
+	// Light source
+	glm::vec3 lightColor;
+	glm::vec3 lightPosition;
 
 };
-

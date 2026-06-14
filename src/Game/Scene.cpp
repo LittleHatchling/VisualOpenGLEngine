@@ -93,6 +93,12 @@ bool Scene::init()
         rightLeg.translate(glm::vec3(0.3f, -0.95f, 0.0f));
         rightLeg.scale(glm::vec3(0.4f, 0.9f, zScale));
 
+        // -------------------------
+        // LIGHT SOURCE
+        // -------------------------
+        lightColor = glm::vec3(1.0f, 1.0f, 1.0f);  // White light
+        lightPosition = glm::vec3(0.0f, 0.0f, 0.0f);
+
         std::cout << "Scene initialization done\n";
         return true;
     }
@@ -130,6 +136,19 @@ void Scene::render(float dt)
     glm::mat4 view = glm::lookAt(cameraPos, cameraTarget, upVector);
 
     m_shader->setUniform("viewMatrix", view, false);
+
+    // -------------------------
+    // LIGHT SOURCE - Orbital motion
+    // -------------------------
+    float lightRadius = 3.0f;
+    float lightHeight = 1.5f;
+    lightPosition.x = cos(time * 2.0f) * lightRadius;
+    lightPosition.y = lightHeight;
+    lightPosition.z = sin(time * 2.0f) * lightRadius;
+
+    // Pass light data to shader
+    m_shader->setUniform("lightPosition", lightPosition);
+    m_shader->setUniform("lightColor", lightColor);
 
     float swing = sin(time * 3.0f) * 0.5f;
     float legSwing = sin(time * 3.0f) * 0.6f;
@@ -191,6 +210,16 @@ void Scene::render(float dt)
 
     glm::mat4 rightLegM = torsoM * rightLegAnim.getMatrix();
     m_shader->setUniform("transformMatrix", rightLegM, false);
+    glDrawArrays(GL_TRIANGLES, 0, 36);
+
+    // -------------------------
+    // LIGHT SOURCE VISUALIZATION
+    // -------------------------
+    Transform lightCube;
+    lightCube.translate(lightPosition);
+    lightCube.scale(glm::vec3(0.2f, 0.2f, 0.2f));
+
+    m_shader->setUniform("transformMatrix", lightCube.getMatrix(), false);
     glDrawArrays(GL_TRIANGLES, 0, 36);
 }
 

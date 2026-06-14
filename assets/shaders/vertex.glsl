@@ -10,10 +10,12 @@ out vec3 normalVS;
 uniform mat4 transformMatrix;
 uniform mat4 viewMatrix;
 uniform mat4 projectionMatrix;
+uniform vec3 lightPosition;
+uniform vec3 lightColor;
 
 void main()
 {
     colorVS = colorRGB;
-    normalVS = normal;  // We'll use this for lighting in later tasks
+    normalVS = normal;
     gl_Position = projectionMatrix * viewMatrix * transformMatrix * vec4(pos, 1.0);
 }

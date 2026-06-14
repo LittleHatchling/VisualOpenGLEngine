@@ -1,6 +1,10 @@
 #version 330 core
 
 in vec3 colorVS;
+in vec3 normalVS;
+
+uniform vec3 lightPosition;
+uniform vec3 lightColor;
 
 //fragment shader output
 out vec4 color;
